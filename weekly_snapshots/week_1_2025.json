@@ -1,12 +1,7 @@
 {
-  "metadata": {
-    "season": 2025,
-    "last_updated": "2025-09-05T21:44:11.745331",
-    "total_performances": 310,
-    "weeks_covered": [
-      1
-    ]
-  },
+  "week": 1,
+  "season": 2025,
+  "collected_at": "2025-09-05T21:44:11.729983",
   "performances": [
     {
       "player_id": "00-0023459",

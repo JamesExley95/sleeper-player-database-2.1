@@ -1,0 +1,36 @@
+{
+  "week": 1,
+  "season": 2025,
+  "created_at": "2025-09-05T21:44:12.427573",
+  "total_performances": 310,
+  "top_performers": {
+    "overall": {
+      "name": "S.Barkley",
+      "position": "RB",
+      "team": "",
+      "points": 33.20000076293945
+    }
+  },
+  "position_leaders": {
+    "QB": {
+      "name": "J.Allen",
+      "team": "",
+      "points": 31.18000030517578
+    },
+    "RB": {
+      "name": "S.Barkley",
+      "team": "",
+      "points": 33.20000076293945
+    },
+    "WR": {
+      "name": "J.Reed",
+      "team": "",
+      "points": 33.099998474121094
+    },
+    "TE": {
+      "name": "I.Likely",
+      "team": "",
+      "points": 26.100000381469727
+    }
+  }
+}
