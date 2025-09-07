@@ -1233,7 +1233,7 @@
         "Cardinals' offensive line concerns may limit overall offensive efficiency and Murray's effectiveness",
         "Target competition from Trey McBride and other veterans could cap rookie year volume"
       ],
-      "expert_take": "Harrison possesses all tools to be immediate impact player, but rookie receivers are notoriously inconsistent week-to-week. His talent level and opportunity make him intriguing mid-round target with league-winning upside if he adapts quickly to NFL speed.",
+      "expert_take": "Harrison possesses all the tools to be immediate impact player, but rookie receivers are notoriously inconsistent week-to-week. His talent level and opportunity make him intriguing mid-round target with league-winning upside if he adapts quickly to NFL speed.",
       "confidence_level": "Medium",
       "adp_analysis": "WR15 ranking around pick 38.8 prices in high ceiling vs rookie volatility appropriately",
       "last_updated": "2025-09-06",
@@ -1250,7 +1250,7 @@
   "Garrett Wilson": {
     "draft_analysis": {
       "strengths": [
-        "Elite route-running and separation ability with Justin Fields providing significant QB upgrade",
+        "Elite route-running and separation ability with JustinFields providing significant QB upgrade",
         "Clear WR1 role in Jets offense with minimal competition after Davante Adams' departure",
         "Age 24 entering prime years with proven track record of production despite poor QB play"
       ],
@@ -1351,7 +1351,7 @@
       "floor_games": "Heavy running scripts or if Lockett maintains larger target share"
     }
   },
-    "Rome Odunze": {
+  "Rome Odunze": {
     "draft_analysis": {
       "strengths": [
         "Elite contested catch ability and ball skills with 6'3\" frame providing quarterback-friendly target in red zone",
@@ -1376,6 +1376,7 @@
       "ceiling_games": "When Bears trail and need to throw, plus red zone touchdowns",
       "floor_games": "Bears blowout wins or heavy rushing game scripts"
     }
+  },
   "Tank Dell": {
     "draft_analysis": {
       "strengths": [
@@ -1401,7 +1402,8 @@
       "ceiling_games": "N/A for 2025",
       "floor_games": "N/A for 2025"
     }
- "DeVonta Smith": {
+  },
+  "DeVonta Smith": {
     "draft_analysis": {
       "strengths": [
         "Consistent WR2 production with 22%+ target share in all four NFL seasons and 7+ TDs three straight years",
@@ -1686,6 +1688,7 @@
       "ceiling_games": "Bucs controlling games with heavy ground attack",
       "floor_games": "Committee approach if White regains role or negative game scripts"
     }
+  },
   "Rachaad White": {
     "draft_analysis": {
       "strengths": [
