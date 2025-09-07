@@ -1,4 +1,810 @@
 {
+  "Josh Allen": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite dual-threat production with 30+ passing TDs and 12+ rushing TDs in multiple seasons, providing highest ceiling among QBs",
+        "Improved supporting cast with more weapons and stronger offensive line should boost efficiency metrics",
+        "Clear separation from QB field in fantasy scoring with unique rushing ability rare among elite passers"
+      ],
+      "concerns": [
+        "Age 29 with significant rushing usage raising injury concerns from designed runs and scrambles",
+        "Buffalo's improved defense may reduce need for Allen to carry offense, potentially limiting overall volume",
+        "Early ADP (typically 3rd round) represents significant draft capital investment in volatile QB position"
+      ],
+      "expert_take": "Allen remains the gold standard for fantasy QBs with unmatched ceiling from dual-threat ability. The supporting cast improvements should boost efficiency while maintaining rushing upside. His early ADP is justified for those prioritizing positional advantage and weekly ceiling.",
+      "confidence_level": "High",
+      "adp_analysis": "QB1 ranking around pick 28-31 reflects positional scarcity and elite ceiling",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN analysis", "Bills beat reporters", "Fantasy experts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Durable track record but rushing usage creates injury risk",
+      "matchup_factors": ["Elite vs any defense", "Rushing adds safe floor"],
+      "usage_trends": ["35+ pass attempts", "8-12 rush attempts", "Goal line rushing"],
+      "ceiling_games": "Shootouts requiring heavy passing plus rushing touchdowns",
+      "floor_games": "Blowout wins with reduced passing volume or injury concerns"
+    }
+  },
+  "Lamar Jackson": {
+    "draft_analysis": {
+      "strengths": [
+        "2024 career highs in passing TDs and yards with elite rushing production, proving dual-threat ability remains at peak level",
+        "Ravens' run-heavy offense maximizes his rushing opportunities while improved passing weapons boost aerial attack",
+        "Just 0.8% interception rate in 2024 shows improved decision-making and ball security in prime of career"
+      ],
+      "concerns": [
+        "Age 28 with extensive rushing usage throughout career raises long-term durability questions",
+        "Ravens may reduce his rushing attempts to preserve health, potentially limiting fantasy ceiling",
+        "Early ADP investment in QB position when depth exists at other positions"
+      ],
+      "expert_take": "Jackson posted career-best efficiency in 2024 while maintaining elite rushing production, suggesting he's entering his peak rather than declining. The Ravens' commitment to running game benefits his rushing stats while improved receivers help passing numbers. Elite QB1 with unique ceiling.",
+      "confidence_level": "High",
+      "adp_analysis": "QB2 ranking around pick 29-32 justified by elite dual-threat production and improved efficiency",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN analysis", "Ravens beat reporters", "Fantasy experts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Generally durable but rushing usage creates inherent risk",
+      "matchup_factors": ["Elite vs any defense", "Rushing provides high floor"],
+      "usage_trends": ["30+ pass attempts", "10+ rush attempts", "Goal line rushing"],
+      "ceiling_games": "Shootouts combined with designed rushing TDs",
+      "floor_games": "Blowout wins limiting passing volume or if Ravens reduce rushing usage"
+    }
+  },
+  "Jayden Daniels": {
+    "draft_analysis": {
+      "strengths": [
+        "2024 Offensive Rookie of the Year with 3,568 passing yards, 25 total TDs, and elite rushing production (891 yards)",
+        "Dual-threat ability provides consistent fantasy floor with 14 rushing TDs proving goal-line effectiveness",
+        "Improved Commanders offensive line and weapons including Terry McLaurin create better supporting cast for Year 2"
+      ],
+      "concerns": [
+        "Sophomore slump concerns after historic rookie season, with defenses having full year of film study",
+        "Rib injury late in 2024 raised durability questions given his designed run usage and smaller frame",
+        "Washington's defensive improvements may reduce need for high-volume passing attack in potential blowout wins"
+      ],
+      "expert_take": "Daniels' rushing ability makes him unique among QB options with legitimate dual-threat upside. His accuracy and decision-making showed marked improvement throughout rookie year. The injury concern is real but manageable given his proven toughness and improved protection.",
+      "confidence_level": "High",
+      "adp_analysis": "QB3 ranking around pick 30.6 provides excellent value for proven dual-threat production and upside",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Commanders beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Rib injury from 2024 healed, but rushing usage creates inherent injury risk",
+      "matchup_factors": ["Mobile vs any defense", "Goal line rushing threat"],
+      "usage_trends": ["35+ pass attempts", "8-12 rush attempts", "Red zone rushing"],
+      "ceiling_games": "Competitive games requiring both passing and rushing production",
+      "floor_games": "Blowout wins limiting overall volume or injury concerns affecting mobility"
+    }
+  },
+  "Joe Burrow": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite passing efficiency with improved offensive line and healthy Ja'Marr Chase/Tee Higgins duo entering 2025",
+        "Bengals' poor defense creates consistent need for high-volume passing attack and comeback scenarios",
+        "Wrist injury from 2024 appears fully healed with full participation in offseason activities"
+      ],
+      "concerns": [
+        "Injury history including torn ACL, appendix surgery, and wrist issues raising durability questions",
+        "Age 28 without playoff success creates pressure, potentially leading to conservative approach in meaningless games",
+        "Bengals' improved running game with Chase Brown may reduce overall passing attempts compared to previous seasons"
+      ],
+      "expert_take": "Burrow's talent level and supporting cast create QB1 upside, but injury concerns prevent him from elite tier. His connection with Chase and Higgins provides reliable weekly production, though durability questions make him riskier than other top QB options.",
+      "confidence_level": "Medium",
+      "adp_analysis": "QB4 ranking around pick 30.8 reflects talent vs injury risk, appropriate for high-upside QB2 selection",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Bengals beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Wrist injury healed but history creates ongoing durability concerns",
+      "matchup_factors": ["Elite accuracy vs any defense", "Excels in shootout scenarios"],
+      "usage_trends": ["35+ pass attempts", "Heavy reliance on Chase/Higgins", "Red zone efficiency"],
+      "ceiling_games": "Bengals in high-scoring affairs with full receiving corps healthy",
+      "floor_games": "Injury concerns or if Bengals establish early leads reducing passing volume"
+    }
+  },
+  "Jalen Hurts": {
+    "draft_analysis": {
+      "strengths": [
+        "Proven dual-threat production with 15 rushing TDs in 2024 providing consistent fantasy floor",
+        "Eagles' elite offensive line and improved weapons including A.J. Brown and DeVonta Smith",
+        "Goal-line rushing ability makes him one of few QBs with legitimate rushing TD upside weekly"
+      ],
+      "concerns": [
+        "Concussion history and heavy rushing usage raise durability concerns for long-term health",
+        "Eagles' improved defense and running game may reduce need for high-volume passing attack",
+        "Inconsistent passing accuracy limits ceiling compared to elite pocket passers"
+      ],
+      "expert_take": "Hurts' rushing ability provides unique fantasy ceiling among QB options, with goal-line work creating weekly TD potential. His improved supporting cast should boost passing efficiency, though durability concerns from rushing usage remain legitimate consideration.",
+      "confidence_level": "Medium",
+      "adp_analysis": "QB5 ranking around pick 38.2 reflects appropriate value for dual-threat upside with injury discount",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Eagles beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Concussion history concerning but no current issues, rushing usage creates risk",
+      "matchup_factors": ["Mobile vs any defense", "Goal line rushing threat"],
+      "usage_trends": ["30+ pass attempts", "8-12 rush attempts", "Red zone rushing"],
+      "ceiling_games": "Eagles in competitive games requiring both passing and rushing production",
+      "floor_games": "Injury concerns or blowout wins limiting overall volume"
+    }
+  },
+  "Anthony Richardson": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite rushing upside with 4.3 speed and goal-line designed runs providing weekly ceiling few QBs can match",
+        "Cannon arm strength creates big-play potential with improved Colts receiving corps including Michael Pittman Jr.",
+        "Age 23 with unlimited upside if accuracy and decision-making improve in second season under Shane Steichen"
+      ],
+      "concerns": [
+        "Historically poor accuracy (44.4% completion percentage) and high turnover rate from rookie season",
+        "Injury concerns after missing 13 games in 2024 with concussion and shoulder issues",
+        "Colts may limit designed runs to preserve health, reducing the rushing production that drives his fantasy value"
+      ],
+      "expert_take": "Richardson represents the highest ceiling among QB options if everything clicks, but the floor is dangerously low given accuracy and injury concerns. His rushing ability alone provides weekly upside, though the passing game inconsistency makes him boom-bust weekly.",
+      "confidence_level": "Low",
+      "adp_analysis": "QB6 ranking around pick 42.1 prices in elite ceiling but acknowledges significant risk factors",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Colts beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Shoulder and concussion history creates ongoing durability concerns",
+      "matchup_factors": ["Elite athlete vs any defense", "Accuracy struggles vs good secondaries"],
+      "usage_trends": ["25-30 pass attempts", "8-15 rush attempts", "Goal line designed runs"],
+      "ceiling_games": "Colts in competitive games with Richardson running and connecting on deep balls",
+      "floor_games": "Accuracy struggles or if Colts limit rushing to preserve health"
+    }
+  },
+  "C.J. Stroud": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite rookie season with 4,108 passing yards and 23 TDs showing immediate NFL readiness and accuracy",
+        "Strong connection with Nico Collins and improved Texans offensive line creating efficient passing attack",
+        "Age 23 entering second season with room for growth and no injury concerns entering 2025"
+      ],
+      "concerns": [
+        "Sophomore slump concerns with defenses having full year of film study on his tendencies",
+        "Limited rushing ability caps weekly ceiling compared to dual-threat QB options",
+        "Texans' improved defense may create more conservative game plans reducing passing volume"
+      ],
+      "expert_take": "Stroud's accuracy and decision-making are elite for his age, providing strong weekly floor with pocket passing ability. His lack of rushing limits ceiling compared to mobile QBs, but the connection with Collins and Texans' offensive improvements create reliable production.",
+      "confidence_level": "High",
+      "adp_analysis": "QB7 ranking around pick 45.3 offers solid value for proven pocket passer with growth potential",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Texans beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Excellent health track record with no current concerns",
+      "matchup_factors": ["Elite accuracy vs any coverage", "Limited mobility vs pass rush"],
+      "usage_trends": ["32-38 pass attempts", "Limited rushing", "Red zone passing efficiency"],
+      "ceiling_games": "Texans in shootouts with Stroud airing it out to Collins and other receivers",
+      "floor_games": "Conservative game plans or if Texans control games through defense and running"
+    }
+  },
+  "Caleb Williams": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite arm talent and mobility from USC with clear path to immediate starting role in Chicago",
+        "Strong supporting cast including DJ Moore, Keenan Allen, and Rome Odunze providing multiple receiving options",
+        "Mobility adds rushing upside rare among rookie QBs, with goal-line designed runs expected"
+      ],
+      "concerns": [
+        "Rookie QB facing significant NFL adjustment period and learning curve typical of first-year players",
+        "Bears' historically poor offensive line may limit effectiveness and create injury risk",
+        "Rookie QBs notoriously inconsistent week-to-week, making him volatile fantasy option despite talent"
+      ],
+      "expert_take": "Williams possesses all the tools to be immediate impact player, but rookie QBs are historically volatile fantasy options. His mobility provides weekly upside, though the learning curve and Bears' offensive limitations create significant risk for consistent production.",
+      "confidence_level": "Medium",
+      "adp_analysis": "QB8 ranking around pick 48.7 prices in talent vs rookie uncertainty appropriately",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Bears beat reporters", "NFL Draft analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "No injury concerns entering rookie season",
+      "matchup_factors": ["Strong arm vs any defense", "Mobility vs pass rush"],
+      "usage_trends": ["25-35 pass attempts", "5-8 rush attempts", "Red zone designed runs"],
+      "ceiling_games": "Bears in competitive games with Williams utilizing full skill set",
+      "floor_games": "Rookie growing pains or Bears falling behind early requiring pure passing"
+    }
+  },
+  "Tua Tagovailoa": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite accuracy and quick release with strong connection to Tyreek Hill and Jaylen Waddle in high-volume Miami offense",
+        "Dolphins' pass-heavy approach creates consistent opportunities for 300+ yard games when healthy",
+        "Proven track record of QB1 weeks when fully healthy and in rhythm with receivers"
+      ],
+      "concerns": [
+        "Extensive concussion history including multiple missed games raises serious durability questions for 2025",
+        "Age 27 with significant head trauma history may lead to early retirement considerations",
+        "Miami's offensive line concerns may expose him to additional hits and injury risk"
+      ],
+      "expert_take": "Tua's talent and situation create weekly QB1 upside when healthy, but the concussion history makes him extremely risky fantasy investment. His accuracy and the Dolphins' system provide ceiling, but the injury risk prevents him from reliable weekly consideration.",
+      "confidence_level": "Low",
+      "adp_analysis": "QB9 ranking around pick 52.4 reflects talent vs significant health concerns appropriately",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Dolphins beat reporters", "Medical analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Concussion history creates ongoing serious durability concerns",
+      "matchup_factors": ["Elite accuracy vs any coverage", "Vulnerable to pass rush"],
+      "usage_trends": ["35+ pass attempts when healthy", "Quick release system", "Red zone efficiency"],
+      "ceiling_games": "Dolphins in shootouts with Tua healthy and connecting with speed receivers",
+      "floor_games": "Injury concerns or if Miami falls behind requiring him to take more hits"
+    }
+  },
+  "Kyler Murray": {
+    "draft_analysis": {
+      "strengths": [
+        "Dual-threat ability with rushing upside and improved Cardinals offensive line entering 2025",
+        "Strong connection with rookie Marvin Harrison Jr. and Trey McBride providing reliable receiving options",
+        "Age 27 entering prime years with mobility that creates fantasy ceiling few pocket passers can match"
+      ],
+      "concerns": [
+        "Injury history including knee and hamstring issues that have caused missed games in recent seasons",
+        "Cardinals' poor offense and likely negative game scripts may limit scoring opportunities",
+        "Inconsistent red zone efficiency and decision-making under pressure limit ceiling"
+      ],
+      "expert_take": "Murray's mobility provides weekly upside when healthy, but the Cardinals' offensive limitations and his injury history create significant risk. His connection with McBride and Harrison provides targets, though team context limits overall ceiling.",
+      "confidence_level": "Medium",
+      "adp_analysis": "QB10 ranking around pick 55.8 reflects upside vs team and injury concerns",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Cardinals beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Injury history creates ongoing concerns, requires monitoring",
+      "matchup_factors": ["Mobile vs any defense", "Struggles vs elite pass rush"],
+      "usage_trends": ["28-32 pass attempts", "6-10 rush attempts", "Red zone limitations"],
+      "ceiling_games": "Cardinals in competitive games with Murray utilizing mobility",
+      "floor_games": "Injury concerns or Cardinals blown out early limiting opportunities"
+    }
+  },
+  "Patrick Mahomes": {
+    "draft_analysis": {
+      "strengths": [
+        "Proven elite track record with 3 Super Bowl wins and consistently top-5 fantasy finishes when healthy",
+        "Unmatched arm talent and improvisational ability create weekly ceiling few QBs can match",
+        "Chiefs' explosive offense and Andy Reid's play-calling provide consistent scoring opportunities"
+      ],
+      "concerns": [
+        "Age 29 with increased focus on game management over fantasy production in recent seasons",
+        "Chiefs' improved defense and running game may reduce need for high-volume passing attack",
+        "Limited rushing upside compared to dual-threat QBs limits weekly ceiling in fantasy"
+      ],
+      "expert_take": "Mahomes remains elite real-life QB but fantasy value has declined as Chiefs prioritize efficiency over volume. His ceiling is still among highest at position, though the team's evolution toward more conservative approach caps weekly upside compared to rushing QBs.",
+      "confidence_level": "High",
+      "adp_analysis": "QB6 ranking around pick 35-38 reflects proven talent with reduced fantasy upside",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Chiefs beat reporters", "Fantasy experts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Generally durable with excellent health track record",
+      "matchup_factors": ["Elite vs any defense", "Limited rushing adds floor"],
+      "usage_trends": ["30-35 pass attempts", "Limited rushing", "Red zone efficiency"],
+      "ceiling_games": "Chiefs in shootouts requiring heavy passing volume",
+      "floor_games": "Conservative game plans or Chiefs controlling games early"
+    }
+  },
+  "Bo Nix": {
+    "draft_analysis": {
+      "strengths": [
+        "Clear starting role in Denver with Sean Payton's QB-friendly offensive system",
+        "Age 24 with mature decision-making and accuracy from extensive college experience",
+        "Broncos' improved offensive line and weapons create better environment than previous rookie QBs"
+      ],
+      "concerns": [
+        "Rookie QB facing significant NFL adjustment period despite college experience",
+        "Limited arm strength and mobility cap ceiling compared to other young QB options",
+        "Broncos' defensive focus may lead to conservative offensive approach limiting passing volume"
+      ],
+      "expert_take": "Nix represents safer rookie QB option with high floor but limited ceiling. His accuracy and decision-making should translate well under Payton, though lack of elite physical tools prevents him from having weekly game-breaking potential.",
+      "confidence_level": "Medium",
+      "adp_analysis": "QB12 ranking around pick 55-58 reflects rookie safety with limited upside",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Broncos beat reporters", "NFL Draft analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "No injury concerns entering rookie season",
+      "matchup_factors": ["Accurate vs soft coverage", "Struggles vs elite pass rush"],
+      "usage_trends": ["25-30 pass attempts", "Limited rushing", "System-based efficiency"],
+      "ceiling_games": "Broncos in competitive games with Nix managing efficiently",
+      "floor_games": "Rookie struggles or Denver's defensive-minded approach"
+    }
+  },
+  "Baker Mayfield": {
+    "draft_analysis": {
+      "strengths": [
+        "Proven chemistry with Mike Evans and strong arm talent in Bucs' improved offensive system",
+        "Age 29 entering prime years with better supporting cast than previous stops",
+        "Tampa Bay's pass-heavy approach creates opportunities for consistent QB1 weeks"
+      ],
+      "concerns": [
+        "Historically inconsistent with boom-bust pattern throughout career",
+        "Buccaneers may be more run-heavy with Bucky Irving's emergence limiting passing volume",
+        "Turnover-prone decision-making prevents him from reliable weekly consideration"
+      ],
+      "expert_take": "Mayfield offers weekly ceiling with Evans connection but remains volatile option. His arm talent and improved situation create upside, though inconsistency makes him better suited as QB2 with streaming appeal rather than weekly starter.",
+      "confidence_level": "Low",
+      "adp_analysis": "QB8 ranking around pick 48-51 reflects upside vs consistency concerns",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Buccaneers beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Generally durable with good health track record",
+      "matchup_factors": ["Strong arm vs any defense", "Turnover-prone vs pressure"],
+      "usage_trends": ["28-32 pass attempts", "Limited rushing", "Boom-bust weekly"],
+      "ceiling_games": "Bucs in shootouts with Mayfield connecting deep with Evans",
+      "floor_games": "Turnover issues or Tampa Bay's run-heavy approach"
+    }
+  },
+  "Dak Prescott": {
+    "draft_analysis": {
+      "strengths": [
+        "Proven track record with multiple 4,000+ yard seasons and clear chemistry with CeeDee Lamb",
+        "Cowboys' pass-heavy approach and improved receiving corps create consistent opportunities",
+        "Age 31 still in productive range with excellent accuracy and red zone efficiency"
+      ],
+      "concerns": [
+        "Injury history including ankle and thumb issues that have caused missed games",
+        "Cowboys' 7.5-win total suggests potential negative game scripts limiting offensive efficiency",
+        "Limited rushing upside compared to dual-threat QB options caps weekly ceiling"
+      ],
+      "expert_take": "Prescott offers reliable pocket passing production with strong connection to Lamb and Pickens. His accuracy and Cowboys' passing volume provide solid weekly floor, though lack of rushing limits ceiling compared to mobile QBs. Good QB2 option with occasional QB1 weeks.",
+      "confidence_level": "High",
+      "adp_analysis": "QB10 ranking around pick 52-55 reflects proven production with team concerns",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Cowboys beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Injury history creates some concerns but generally reliable when healthy",
+      "matchup_factors": ["Accurate vs any coverage", "Limited mobility vs pass rush"],
+      "usage_trends": ["32-36 pass attempts", "Limited rushing", "Red zone efficient"],
+      "ceiling_games": "Cowboys in shootouts with Prescott airing it out to receivers",
+      "floor_games": "Injury concerns or Cowboys falling behind early"
+    }
+  },
+  "Brock Purdy": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite efficiency metrics and proven production in 49ers' championship-caliber offensive system",
+        "Strong supporting cast with McCaffrey, Deebo Samuel, and elite offensive line",
+        "Age 25 entering prime years with room for continued growth under Kyle Shanahan"
+      ],
+      "concerns": [
+        "Limited arm strength may prevent him from elite tier compared to stronger-armed QBs",
+        "49ers' run-heavy approach with McCaffrey may limit overall passing attempts",
+        "System QB questions about ability to maintain production if supporting cast changes"
+      ],
+      "expert_take": "Purdy's efficiency and situation create consistent QB1 upside despite arm strength limitations. The 49ers' system maximizes his skills, and his accuracy provides reliable weekly production. Better suited as high-floor QB1 than ceiling play.",
+      "confidence_level": "High",
+      "adp_analysis": "QB11 ranking around pick 54-57 reflects proven efficiency with physical limitations",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "49ers beat reporters", "Fantasy analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Generally healthy with no significant concerns",
+      "matchup_factors": ["Efficient vs any coverage", "Limited deep ball vs elite secondaries"],
+      "usage_trends": ["28-32 pass attempts", "System-based efficiency", "Red zone reliable"],
+      "ceiling_games": "49ers in shootouts with Purdy managing efficiently",
+      "floor_games": "Heavy McCaffrey usage or 49ers controlling games early"
+    }
+  },
+  "Justin Fields": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite rushing ability with 1,100+ rushing yards and 14 rushing TDs providing weekly ceiling",
+        "Jets' improved offensive line and weapons including Garrett Wilson create better environment",
+        "Age 25 entering prime years with dual-threat ability rare among starting QBs"
+      ],
+      "concerns": [
+        "Accuracy issues and slow processing speed limit passing efficiency despite physical tools",
+        "Jets' conservative approach may not maximize his rushing ability to preserve health",
+        "Turnover-prone decision-making prevents reliable weekly production despite ceiling"
+      ],
+      "expert_take": "Fields' rushing ability creates weekly upside few QBs can match, but passing limitations make him volatile option. His physical tools and improved situation with Jets provide optimism, though accuracy concerns prevent him from consistent QB1 status.",
+      "confidence_level": "Medium",
+      "adp_analysis": "QB9 ranking around pick 49-52 reflects rushing upside vs passing concerns",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Jets beat reporters", "Fantasy analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Rushing usage creates injury risk but generally durable",
+      "matchup_factors": ["Elite athlete vs any defense", "Accuracy struggles vs good coverage"],
+      "usage_trends": ["25-30 pass attempts", "8-12 rush attempts", "Goal line designed runs"],
+      "ceiling_games": "Jets in competitive games with Fields utilizing full mobility",
+      "floor_games": "Accuracy struggles or Jets limiting rushing to preserve health"
+    }
+  },
+  "Drake Maye": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite physical tools with strong arm and mobility providing dual-threat potential",
+        "Age 22 with unlimited upside if development continues under Patriots coaching staff",
+        "Clear starting opportunity with minimal competition for quarterback role"
+      ],
+      "concerns": [
+        "Rookie QB with no NFL experience facing significant learning curve and adjustment period",
+        "Patriots' poor offensive line and limited weapons create challenging environment for development",
+        "Team's rebuilding status suggests negative game scripts and limited scoring opportunities"
+      ],
+      "expert_take": "Maye represents highest ceiling among rookie QBs with elite physical tools, but Patriots' poor situation limits immediate fantasy value. His development timeline and team context make him better dynasty asset than 2025 option.",
+      "confidence_level": "Low",
+      "adp_analysis": "QB14 ranking around pick 62-65 prices in long-term upside vs immediate challenges",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Patriots beat reporters", "NFL Draft analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "No injury concerns entering rookie season",
+      "matchup_factors": ["Strong arm vs any defense", "Rookie learning curve vs complex coverages"],
+      "usage_trends": ["20-28 pass attempts", "6-10 rush attempts", "Limited efficiency"],
+      "ceiling_games": "Patriots in competitive games with Maye utilizing mobility",
+      "floor_games": "Rookie struggles or Patriots blown out early"
+    }
+  },
+  "Justin Herbert": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite arm talent with proven track record of 4,000+ yard seasons when healthy",
+        "Strong supporting cast with Keenan Allen's return and Ladd McConkey's emergence",
+        "Age 26 entering prime years with Jim Harbaugh's quarterback-friendly system"
+      ],
+      "concerns": [
+        "Injury history including finger and rib issues that limited effectiveness in recent seasons",
+        "Chargers' run-heavy approach under Harbaugh may reduce overall passing attempts",
+        "Limited rushing upside compared to dual-threat options caps weekly ceiling"
+      ],
+      "expert_take": "Herbert's arm talent remains elite but Chargers' offensive philosophy limits fantasy upside. His accuracy and connection with receivers provide solid weekly floor, though lack of rushing and conservative approach prevent elite tier consideration.",
+      "confidence_level": "Medium",
+      "adp_analysis": "QB12 ranking around pick 56-59 reflects talent vs system limitations",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Chargers beat reporters", "Fantasy analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Injury history creates some concerns, requires monitoring",
+      "matchup_factors": ["Elite arm vs any defense", "Limited mobility vs pass rush"],
+      "usage_trends": ["30-34 pass attempts", "Limited rushing", "Conservative system"],
+      "ceiling_games": "Chargers in shootouts with Herbert airing it out",
+      "floor_games": "Injury concerns or Chargers' run-heavy approach"
+    }
+  },
+  "Jared Goff": {
+    "draft_analysis": {
+      "strengths": [
+        "Proven production in Lions' elite offensive system that led NFL in scoring",
+        "Strong supporting cast with Amon-Ra St. Brown, Jameson Williams, and excellent offensive line",
+        "Age 30 with excellent chemistry with receivers and Dan Campbell's aggressive approach"
+      ],
+      "concerns": [
+        "Lions' improved defense may reduce need for high-volume passing attack",
+        "Limited rushing upside caps weekly ceiling compared to mobile QB options",
+        "System QB concerns about maintaining production if supporting cast changes"
+      ],
+      "expert_take": "Goff's situation in Detroit creates consistent QB1 upside despite physical limitations. The Lions' offensive system maximizes his accuracy and decision-making, providing reliable weekly production in one of NFL's best offenses.",
+      "confidence_level": "High",
+      "adp_analysis": "QB8 ranking around pick 46-49 reflects proven production in elite system",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Lions beat reporters", "Fantasy analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Generally durable with excellent health track record",
+      "matchup_factors": ["Accurate vs any coverage", "Limited mobility vs pressure"],
+      "usage_trends": ["32-36 pass attempts", "Limited rushing", "Red zone efficient"],
+      "ceiling_games": "Lions in shootouts with Goff managing elite offense",
+      "floor_games": "Lions controlling games through ground attack"
+    }
+  },
+  "Jordan Love": {
+    "draft_analysis": {
+      "strengths": [
+        "Breakout 2024 season with strong arm talent and clear chemistry with Packers receivers",
+        "Excellent supporting cast with improved offensive line and multiple receiving threats",
+        "Age 26 entering prime years with Matt LaFleur's quarterback-friendly system"
+      ],
+      "concerns": [
+        "Only one season of starting experience makes projection less reliable than established QBs",
+        "Packers may be more run-heavy with improved ground game limiting passing volume",
+        "Injury concerns including MCL sprain that limited effectiveness late in 2024"
+      ],
+      "expert_take": "Love's 2024 breakout suggests legitimate QB1 potential, but sample size remains limited. His arm talent and Packers' system provide upside, though injury concerns and team's balanced approach create some volatility.",
+      "confidence_level": "Medium",
+      "adp_analysis": "QB5 ranking around pick 34-37 reflects breakout potential vs limited track record",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Packers beat reporters", "Fantasy analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "MCL injury from 2024 healed but requires monitoring",
+      "matchup_factors": ["Strong arm vs any defense", "Mobility adds rushing upside"],
+      "usage_trends": ["30-34 pass attempts", "3-5 rush attempts", "Red zone efficient"],
+      "ceiling_games": "Packers in shootouts with Love utilizing full skill set",
+      "floor_games": "Injury concerns or Packers' balanced offensive approach"
+    }
+  },
+  "Trevor Lawrence": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite physical tools with strong arm and mobility providing dual-threat potential",
+        "Clear connection with rookie Brian Thomas Jr. and improved Jaguars receiving corps",
+        "Age 25 entering prime years with room for continued development"
+      ],
+      "concerns": [
+        "Inconsistent production and turnover issues throughout NFL career limit reliability",
+        "Jaguars' offensive struggles and poor offensive line create challenging environment",
+        "Team's rebuilding status suggests negative game scripts and limited scoring opportunities"
+      ],
+      "expert_take": "Lawrence's physical tools remain evident but production has been disappointing relative to draft pedigree. His connection with Thomas provides optimism, though Jaguars' limitations make him volatile QB2 rather than reliable starter.",
+      "confidence_level": "Low",
+      "adp_analysis": "QB18 ranking around pick 68-71 reflects talent vs consistent production concerns",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Jaguars beat reporters", "Fantasy analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Generally durable with good health track record",
+      "matchup_factors": ["Strong arm vs any defense", "Turnover-prone vs pressure"],
+      "usage_trends": ["28-32 pass attempts", "4-6 rush attempts", "Inconsistent efficiency"],
+      "ceiling_games": "Jaguars in competitive games with Lawrence connecting with Thomas",
+      "floor_games": "Turnover issues or Jaguars blown out early"
+    }
+  },
+  "J.J. McCarthy": {
+    "draft_analysis": {
+      "strengths": [
+        "Strong accuracy and decision-making from Michigan's championship-winning system",
+        "Vikings' pass-heavy approach and Kevin O'Connell's QB development create opportunity",
+        "Age 21 with unlimited upside potential if development continues as expected"
+      ],
+      "concerns": [
+        "Rookie QB with no NFL experience facing significant learning curve",
+        "Sam Darnold may retain starting role longer than expected, limiting McCarthy's opportunities",
+        "Vikings' inconsistent offensive line may create challenging environment for rookie development"
+      ],
+      "expert_take": "McCarthy represents long-term upside but likely limited 2025 fantasy value behind Darnold. His accuracy and decision-making translate well to NFL, though rookie timeline makes him better dynasty target than immediate option.",
+      "confidence_level": "Low",
+      "adp_analysis": "QB6 ranking around pick 38-41 may be too aggressive for limited 2025 opportunity",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Vikings beat reporters", "NFL Draft analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "No injury concerns entering rookie season",
+      "matchup_factors": ["Accurate vs soft coverage", "Rookie struggles vs complex defenses"],
+      "usage_trends": ["Limited opportunity behind Darnold", "Potential late-season emergence"],
+      "ceiling_games": "If given starting opportunity in competitive Vikings games",
+      "floor_games": "Limited playing time or rookie growing pains"
+    }
+  },
+  "Bryce Young": {
+    "draft_analysis": {
+      "strengths": [
+        "High football IQ and accuracy with improved Panthers offensive line and weapons",
+        "Age 23 entering second season with Dave Canales' quarterback-friendly system",
+        "Mobility adds rushing upside rare among pocket passers"
+      ],
+      "concerns": [
+        "Struggled significantly in rookie season with poor decision-making and accuracy issues",
+        "Panthers' poor offense and likely negative game scripts limit scoring opportunities",
+        "Small frame at 5'10\" raises durability questions with increased mobility usage"
+      ],
+      "expert_take": "Young's rookie struggles were concerning but improved situation provides optimism for development. His accuracy and mobility create upside, though Panthers' limitations make him volatile option better suited for streaming than weekly consideration.",
+      "confidence_level": "Low",
+      "adp_analysis": "QB14 ranking around pick 60-63 reflects potential vs rookie struggles",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Panthers beat reporters", "Fantasy analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Small frame creates durability concerns but no current issues",
+      "matchup_factors": ["Mobility vs any defense", "Accuracy struggles vs pressure"],
+      "usage_trends": ["26-30 pass attempts", "5-8 rush attempts", "Development-focused"],
+      "ceiling_games": "Panthers in competitive games with Young showing improvement",
+      "floor_games": "Continued struggles or Panthers blown out early"
+    }
+  },
+  "Brock Bowers": {
+    "draft_analysis": {
+      "strengths": [
+        "Historic rookie season with 112 receptions, 1,076 yards, and 5 TDs - breaking multiple rookie TE records including Sam LaPorta's reception mark",
+        "Elite usage metrics with 26% target share, 25% targets per route run, and over 2.0 yards per route run in rookie campaign",
+        "Age 22 with three-year college track record and clear trajectory for dynasty TE1 status for years to come"
+      ],
+      "concerns": [
+        "Limited touchdown production (5 TDs) in rookie year due to poor Raiders red zone efficiency and questionable QB play",
+        "Raiders offensive concerns with below-average offensive line and uncertain quarterback situation entering 2025",
+        "TE position historically volatile for fantasy, and sophomore slump possible after record-setting rookie year"
+      ],
+      "expert_take": "Bowers posted the 13th-best fantasy season ever by a tight end as a rookie, making him the cleanest TE profile for 2025. His usage rate and efficiency metrics suggest sustainable production even if TDs remain low. The positional advantage over other TEs justifies early second-round cost despite team concerns.",
+      "confidence_level": "High",
+      "adp_analysis": "TE1 ranking around pick 20-22 appropriately values positional scarcity and historic rookie production",
+      "last_updated": "2025-09-06",
+      "research_sources": ["Fantasy Alarm", "NBC Sports", "ESPN mock drafts", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "No injury concerns entering sophomore season",
+      "matchup_factors": ["Matchup-proof with high target volume", "Benefits from Raiders' lack of other weapons"],
+      "usage_trends": ["10+ targets per game likely", "80%+ route participation", "Limited red zone efficiency"],
+      "ceiling_games": "Raiders in competitive games requiring heavy passing",
+      "floor_games": "Blowout losses or if Raiders improve red zone efficiency goes to other players"
+    }
+  },
+  "Trey McBride": {
+    "draft_analysis": {
+      "strengths": [
+        "Consistent elite production with strong target share and efficiency metrics, finishing just behind Bowers in TE fantasy scoring in 2024",
+        "Excellent connection with Kyler Murray and clear role as primary receiving option in Cardinals passing offense",
+        "Age 25 entering prime years with proven track record of weekly consistency and red zone involvement"
+      ],
+      "concerns": [
+        "Kyler Murray's red zone deficiencies limited McBride's touchdown production in 2024 despite heavy usage",
+        "Cardinals offense may be more run-heavy with improved ground game, potentially reducing overall passing volume",
+        "Target competition from rookie WRs and improved offensive weapons could impact target share"
+      ],
+      "expert_take": "McBride offers the safest floor among elite TEs with proven chemistry with Murray and consistent usage patterns. While TD upside may be limited by Murray's red zone struggles, his route-running precision and target volume provide reliable weekly production. Solid TE1 option with less ceiling than Bowers.",
+      "confidence_level": "High",
+      "adp_analysis": "TE2 ranking around pick 21-25 reflects proven production with slight ceiling limitations vs Bowers",
+      "last_updated": "2025-09-06",
+      "research_sources": ["NBC Sports", "ESPN rankings", "Cardinals beat reporters"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Excellent health track record with minimal concerns",
+      "matchup_factors": ["Consistent regardless of coverage", "Red zone role limited by Murray"],
+      "usage_trends": ["8+ targets per game", "High route participation", "Possession-based usage"],
+      "ceiling_games": "Cardinals in shootouts with heavy passing volume",
+      "floor_games": "Run-heavy game scripts or if new weapons emerge in offense"
+    }
+  },
+  "George Kittle": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite talent with proven track record when healthy, averaging 15+ PPG in seasons played",
+        "49ers' pass-heavy approach and Brock Purdy's connection create consistent target opportunities",
+        "Unmatched YAC ability and big-play potential separate him from other tight end options"
+      ],
+      "concerns": [
+        "Extensive injury history including missed games in multiple recent seasons",
+        "Age 31 with heavy usage throughout career creating wear concerns",
+        "49ers' improved running game may reduce overall passing volume in 2025"
+      ],
+      "expert_take": "Kittle remains most talented tight end when healthy but durability concerns are significant. His ceiling is unmatched at position, though injury risk makes him volatile option compared to more reliable alternatives like Bowers.",
+      "confidence_level": "Medium",
+      "adp_analysis": "TE3 ranking around pick 43.3 reflects talent vs injury risk appropriately",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "49ers beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Injury history creates ongoing durability concerns, requires monitoring",
+      "matchup_factors": ["YAC specialist vs any coverage", "Deep threat ability"],
+      "usage_trends": ["6-8 targets per game", "Big-play potential", "Red zone involved"],
+      "ceiling_games": "49ers in shootouts with Kittle healthy and featured",
+      "floor_games": "Injury concerns or 49ers controlling games through ground attack"
+    }
+  },
+  "Travis Kelce": {
+    "draft_analysis": {
+      "strengths": [
+        "Proven elite production with 6 consecutive 1,000+ yard seasons and clear chemistry with Patrick Mahomes",
+        "Chiefs' pass-heavy red zone approach creates consistent touchdown opportunities for premier receiving threat",
+        "Playoff experience and clutch gene make him reliable in high-pressure fantasy situations"
+      ],
+      "concerns": [
+        "Age 35 with extensive career usage and visible decline in 2024 with career-low 97 targets and efficiency metrics",
+        "Chiefs' improved running game and conservative offensive approach may limit overall passing volume",
+        "Target competition from Xavier Worthy and other weapons could reduce his traditional target dominance"
+      ],
+      "expert_take": "Kelce's 2024 showed clear signs of aging with reduced separation and target volume, though playoff performance suggested he can still elevate in key moments. The Chiefs' offensive evolution away from pass-heavy approach limits his ceiling, making him more of a safe floor play than upside pick.",
+      "confidence_level": "Medium",
+      "adp_analysis": "TE4 ranking around pick 48.5 reflects age-related decline while preserving some name value",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Chiefs beat reporters", "Fantasy analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Age-related durability concerns but historically tough and reliable",
+      "matchup_factors": ["Experience vs any coverage", "Red zone reliability"],
+      "usage_trends": ["6-8 targets per game", "Red zone specialist", "Possession role"],
+      "ceiling_games": "Chiefs in shootouts with Kelce finding end zone",
+      "floor_games": "Age-related performance decline or Chiefs' conservative offensive approach"
+    }
+  },
+  "Mark Andrews": {
+    "draft_analysis": {
+      "strengths": [
+        "Clear TE1 role in Ravens offense with strong connection to Lamar Jackson and red zone usage",
+        "Ravens' improved passing attack should create more opportunities for consistent target volume",
+        "Age 29 entering prime years with proven track record of TE1 seasons when healthy"
+      ],
+      "concerns": [
+        "Injury history including dropped passes and concentration issues that limited 2024 effectiveness",
+        "Ravens' run-heavy approach with Derrick Henry may reduce overall passing attempts",
+        "Target competition from improved receiving corps could limit his traditional target dominance"
+      ],
+      "expert_take": "Andrews showed flashes of elite ability in 2024 but inconsistency and drops were concerning. His role in the Ravens offense remains secure, though the team's commitment to running may cap his weekly ceiling. Better suited as TE1 with upside rather than weekly ceiling play.",
+      "confidence_level": "Medium",
+      "adp_analysis": "TE5 ranking around pick 52.1 reflects role security with efficiency concerns",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Ravens beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Some durability concerns but generally reliable veteran",
+      "matchup_factors": ["Red zone threat vs any coverage", "Concentration issues vs press coverage"],
+      "usage_trends": ["5-7 targets per game", "Red zone featured", "Possession role"],
+      "ceiling_games": "Ravens in shootouts with Andrews finding end zone",
+      "floor_games": "Run-heavy game scripts or if concentration issues continue"
+    }
+  },
+  "Kyle Pitts": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite physical tools at 6'6\" with proven college production and clear athletic advantage over most defenders",
+        "Michael Penix Jr.'s arrival provides significant QB upgrade from previous years of poor quarterback play",
+        "Age 24 entering prime years with room for growth and breakout potential in improved offensive system"
+      ],
+      "concerns": [
+        "Four-year NFL track record shows concerning inability to consistently produce despite elite physical tools",
+        "Falcons' run-heavy approach with Bijan Robinson may limit overall passing attempts and red zone targets",
+        "Target competition from Drake London and improved receiving corps could prevent target dominance"
+      ],
+      "expert_take": "Pitts represents classic boom-bust profile with elite ceiling if everything clicks but concerning track record. The QB upgrade with Penix creates optimism, though the Falcons' offensive philosophy and his inconsistent production make him risky TE1 option despite physical tools.",
+      "confidence_level": "Low",
+      "adp_analysis": "TE6 ranking around pick 58.2 prices in upside while acknowledging significant production concerns",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Falcons beat reporters", "Fantasy analysts"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Generally healthy with no significant concerns",
+      "matchup_factors": ["Size advantage vs any coverage", "Route running precision"],
+      "usage_trends": ["4-6 targets per game", "Red zone opportunities", "Inconsistent usage"],
+      "ceiling_games": "Falcons in shootouts with Pitts finally breaking out",
+      "floor_games": "Continued inconsistent usage or run-heavy Atlanta game plans"
+    }
+  },
+  "Evan Engram": {
+    "draft_analysis": {
+      "strengths": [
+        "Consistent target volume with 114 catches in 2024 showing clear role as primary receiving option",
+        "Trevor Lawrence's connection with him provides reliable weekly floor in Jaguars passing offense",
+        "Age 30 but still productive with excellent route-running and reliable hands"
+      ],
+      "concerns": [
+        "Jaguars' offensive struggles and poor quarterback play may limit scoring opportunities",
+        "Limited red zone role reduces touchdown upside compared to other tight end options",
+        "Team's rebuilding status suggests potential for negative game scripts limiting offensive efficiency"
+      ],
+      "expert_take": "Engram offers solid PPR floor with consistent target volume but limited ceiling due to Jaguars' offensive limitations. His reliability makes him safe TE1 option for risk-averse managers, though upside is capped by team context and limited red zone usage.",
+      "confidence_level": "High",
+      "adp_analysis": "TE7 ranking around pick 62.4 reflects reliable production with limited upside",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Jaguars beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Generally durable with good health track record",
+      "matchup_factors": ["Reliable vs any coverage", "Limited red zone threat"],
+      "usage_trends": ["7-9 targets per game", "Possession receiver", "Limited touchdown upside"],
+      "ceiling_games": "Jaguars in competitive games with heavy passing volume",
+      "floor_games": "Poor offensive performance or limited red zone opportunities"
+    }
+  },
+  "David Njoku": {
+    "draft_analysis": {
+      "strengths": [
+        "Clear TE1 role in Browns offense with strong connection to Deshaun Watson when healthy",
+        "Athletic ability and red zone size create touchdown upside in Cleveland's improved offensive system",
+        "Age 28 entering prime years with proven ability to produce TE1 seasons"
+      ],
+      "concerns": [
+        "Deshaun Watson's inconsistency and injury history create quarterback uncertainty throughout season",
+        "Browns' offensive struggles and poor offensive line may limit overall scoring opportunities",
+        "Injury history including missed games raises durability questions for full season"
+      ],
+      "expert_take": "Njoku's success is directly tied to Watson's health and performance, making him volatile weekly option. His physical tools provide upside when everything clicks, but Browns' offensive limitations and quarterback uncertainty make him boom-bust TE1 rather than reliable option.",
+      "confidence_level": "Low",
+      "adp_analysis": "TE8 ranking around pick 68.1 reflects upside potential with significant risk factors",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Browns beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Some injury history creates ongoing concerns, requires monitoring",
+      "matchup_factors": ["Athletic advantage vs most defenders", "Red zone threat"],
+      "usage_trends": ["5-7 targets per game", "Red zone involvement", "Watson-dependent"],
+      "ceiling_games": "Watson healthy with Browns in competitive games",
+      "floor_games": "QB struggles or Browns offensive limitations limiting opportunities"
+    }
+  },
   "Ja'Marr Chase": {
     "draft_analysis": {
       "strengths": [
@@ -23,32 +829,6 @@
       "usage_trends": ["25% target share on pass routes", "Featured heavily in red zone", "Used at all levels of field"],
       "ceiling_games": "Game scripts requiring heavy passing volume and red zone opportunities",
       "floor_games": "Potential tough matchups vs Browns secondary Week 1, though still has 50-point upside any week"
-    }
-  },
-  "Bijan Robinson": {
-    "draft_analysis": {
-      "strengths": [
-        "Finished 2024 with 1,456 rushing yards on 304 carries (4.8 YPC) plus 61 catches for 431 yards, showing elite dual-threat capability",
-        "Significantly increased late-season usage averaging 22+ carries in final 6 games, indicating coaching staff confidence in bell-cow role",
-        "Michael Penix Jr. takeover at QB showed no negative impact on Robinson's usage - actually averaged 26.5 PPG in weeks 16-18 with rookie QB"
-      ],
-      "concerns": [
-        "Tyler Allgeier still earned 137 carries and more goal-line work (6 carries inside 5-yard line vs Robinson's 3) in 2024",
-        "Only 5 runs of 20+ yards despite 304 attempts - lacks explosive play element that defines elite fantasy RBs",
-        "Offensive line lost 20% of starters from 2024 according to Robinson's own comments about 'outlandish goals' being harder to achieve"
-      ],
-      "expert_take": "Robinson enters his prime as a true three-down back with increased receiving work and goal-line opportunities expected. The QB situation stabilized with Penix, and his late-season surge (170 yards vs Panthers in finale) shows his ceiling. However, the explosiveness concerns and Allgeier's continued presence prevent him from being a lock for RB1 overall.",
-      "confidence_level": "High", 
-      "adp_analysis": "ADP around 2.02 feels appropriate as RB1 with upside for overall fantasy MVP if explosiveness improves",
-      "last_updated": "2025-09-06",
-      "research_sources": ["Pro Football Network", "FantasyData", "PFF", "CBS Sports"]
-    },
-    "weekly_analysis": {
-      "injury_outlook": "Minor ankle issue during OTAs but expected fully healthy for Week 1",
-      "matchup_factors": ["Excels vs weak run defenses", "May struggle vs stacked boxes without explosive plays"],
-      "usage_trends": ["Working with WRs in practice for expanded route tree", "22+ carries expected weekly", "Red zone role growing"],
-      "ceiling_games": "Positive game scripts with lead allowing heavy rushing volume",
-      "floor_games": "Games requiring catch-up mode, though receiving work provides decent floor"
     }
   },
   "Justin Jefferson": {
@@ -77,108 +857,108 @@
       "floor_games": "Conservative game scripts in blowout wins with clock management"
     }
   },
-  "Saquon Barkley": {
+  "CeeDee Lamb": {
     "draft_analysis": {
       "strengths": [
-        "Explosive 2024 campaign with Eagles rejuvenated his career - 2,005 rushing yards, 13 TDs on 345 carries in elite offensive system",
-        "Proven workhorse capability with 370+ total touches and durability improvements in Philadelphia's system vs injury-prone Giants years",
-        "Elite offensive line and coaching upgrade provides optimal environment for continued success in age-28 season"
+        "Proven elite target share with 152 targets in 2024 despite missing 2 games due to AC joint injury and QB carousel",
+        "Addition of George Pickens as WR2 should reduce coverage attention while maintaining Lamb's alpha role in Dallas offense",
+        "Contract restructure creating $20M cap space shows Cowboys' long-term commitment, with Prescott healthy entering 2025"
       ],
       "concerns": [
-        "Age 28 with 6 NFL seasons and 1,800+ career touches raises durability questions for sustained workload",
-        "Kenneth Gainwell and Will Shipley on roster could limit receiving work compared to 2024's heavy usage",
-        "Historically inconsistent year-to-year production with boom-bust pattern throughout career"
+        "TD regression likely from historically low 3.9% TD rate in 2024 (6 TDs on 152 targets) due to Cooper Rush starts",
+        "Lingering AC joint injury from Week 9 2024 required season-ending IR placement, though reports indicate full recovery",
+        "Cowboys' 7.5-win total suggests potential negative game scripts limiting overall offensive efficiency"
       ],
-      "expert_take": "Barkley's 2024 proved he can still be elite in the right system. The Eagles' offensive line and scheme maximizes his talents, but the heavy workload and age make him a higher-risk pick than younger options. Still offers league-winning upside if health maintains, making him a solid RB2 choice.",
-      "confidence_level": "Medium",
-      "adp_analysis": "Early second round ADP reflects upside but acknowledges age and workload concerns",
+      "expert_take": "Lamb's 2024 struggles were largely QB-driven, averaging 21.3 PPR points with Prescott vs significantly less with Rush. The Pickens addition creates a true WR2 threat without cannibalizing Lamb's target share. His discounted ADP reflects injury/performance concerns, creating value for a player who led the NFL in receiving yards in 2023.",
+      "confidence_level": "High",
+      "adp_analysis": "Current WR3 ranking around pick 4.9 represents excellent value given proven elite ceiling with healthy Prescott",
       "last_updated": "2025-09-06",
-      "research_sources": ["ESPN", "Philadelphia Inquirer", "NFL.com"]
+      "research_sources": ["FanDuel Research", "NBC Sports", "FantasyPros", "FantasyData"]
     },
     "weekly_analysis": {
-      "injury_outlook": "Healthy but requires monitoring given historical injury concerns and heavy 2024 usage",
-      "matchup_factors": ["Elite vs weak run defenses", "Struggles vs elite defensive fronts"],
-      "usage_trends": ["20+ carries expected", "Goal line primary back", "Receiving role may decrease"],
-      "ceiling_games": "Positive game scripts allowing heavy ground game usage",
-      "floor_games": "Injury concerns or negative game scripts requiring heavy passing"
+      "injury_outlook": "AC joint injury fully healed after offseason recovery, no current concerns reported",
+      "matchup_factors": ["Elite route runner vs any coverage", "Benefits from Pickens drawing safety attention"],
+      "usage_trends": ["25%+ target share expected", "Red zone featured target", "All-levels route usage"],
+      "ceiling_games": "Prescott healthy in shootouts with balanced target distribution to both receivers",
+      "floor_games": "QB injury concerns or if Cowboys fall behind early requiring heavy rushing attack"
     }
   },
-  "Jahmyr Gibbs": {
+  "Puka Nacua": {
     "draft_analysis": {
       "strengths": [
-        "Elite dual-threat production with 1,261 rushing yards and 52 catches in 2024, showing consistent week-to-week usage in Lions' explosive offense",
-        "Operates in one of NFL's best offensive systems with excellent coaching and offensive line creating consistent opportunities",
-        "Age 22 entering just third season with room for growth and minimal wear, unlike veteran RB options"
+        "Led all WRs in targets per route (.35) and yards per route (3.2) when healthy, averaging 90 yards per game in 2024",
+        "Cooper Kupp departure eliminates target competition while Davante Adams addition should reduce defensive attention",
+        "2-year track record shows elite per-game production ranking 5th in targets and 4th in receiving yards among all WRs"
       ],
       "concerns": [
-        "David Montgomery remains significant factor in backfield rotation, limiting Gibbs to ~60% of total RB touches",
-        "Red zone usage favors Montgomery's power style over Gibbs' speed, capping TD upside despite team's high scoring",
-        "Lions' success could lead to more conservative approaches and clock management limiting explosive play opportunities"
+        "Missed 5 games in 2024 with PCL sprain after aggravating training camp knee injury, raising durability questions",
+        "Matthew Stafford's back issues and age 36 season create QB reliability concerns for 2025",
+        "Adams' presence could limit target ceiling in offense that may prioritize running game more heavily"
       ],
-      "expert_take": "Gibbs offers unique ceiling as part of time-share in elite offense but the Montgomery factor creates weekly uncertainty. His big-play ability and receiving skills provide strong floor, but the split backfield prevents him from reaching true bell-cow potential despite the high-powered Lions attack.",
-      "confidence_level": "Medium",
-      "adp_analysis": "Top-5 ADP appropriate given upside, but Montgomery's presence creates lower floor than pure workhorses",
+      "expert_take": "Nacua's per-route efficiency metrics are unprecedented for his age, and Adams won't significantly impact his volume given their different roles. The knee injury appears fully healed, and his track record suggests top-5 WR finish potential if he stays healthy throughout 2025.",
+      "confidence_level": "High",
+      "adp_analysis": "WR4 ranking around pick 10.2 reflects appropriate premium for elite efficiency with manageable injury discount",
       "last_updated": "2025-09-06",
-      "research_sources": ["ESPN", "Detroit Free Press", "The Athletic"]
+      "research_sources": ["NBC Sports", "Pro Football Network", "Yahoo Sports", "SI.com"]
     },
     "weekly_analysis": {
-      "injury_outlook": "Excellent health record and young age minimize injury concerns",
-      "matchup_factors": ["Explosive vs weak defenses", "Game script dependent for touches"],
-      "usage_trends": ["15-18 touches typical", "Featured in passing game", "Limited goal line work"],
-      "ceiling_games": "High-scoring games where Lions maintain balanced attack",
-      "floor_games": "Clock management situations or Montgomery getting hot streak"
+      "injury_outlook": "Knee fully healthy entering season, no limitations reported in camp",
+      "matchup_factors": ["Elite separator vs any coverage", "Benefits from Adams drawing top corner"],
+      "usage_trends": ["8-10 targets per game", "Slot and outside usage", "High-value target quality"],
+      "ceiling_games": "Stafford healthy with Rams in high-scoring affairs featuring both receivers",
+      "floor_games": "Stafford injury concerns or if target share decreases due to Adams integration"
     }
   },
-  "Ashton Jeanty": {
+  "Amon-Ra St. Brown": {
     "draft_analysis": {
       "strengths": [
-        "Elite college production averaging 200+ yards per game in 2024 at Boise State with dominant avoided tackle metrics vs all other rookie RBs",
-        "Chip Kelly's historically run-heavy offense ranks top-10 in rushing attempts/yards/TDs in 3 of past 4 seasons as NFL coordinator",
-        "Clear path to workhorse role in Las Vegas with minimal competition and immediate opportunity as 6th overall draft pick"
+        "Consistent 1,100+ yard seasons with elite target share in Lions' high-powered offense that led NFL in scoring",
+        "Proven chemistry with Jared Goff in slot-heavy system that maximizes his route-running precision and YAC ability",
+        "Lions' pass-heavy approach near goal line creates consistent TD opportunities despite Jameson Williams' big-play threat"
       ],
       "concerns": [
-        "Rookie running back with no NFL experience facing significant jump in competition level and defensive speed",
-        "Raiders offensive line concerns and questionable quarterback situation could limit overall offensive efficiency",
-        "Historically, rookie RBs drafted this high (ADP ~12) face steep learning curve and workload management early in season"
+        "Target competition increased with Williams' emergence and potential for more 3-WR sets limiting individual volume",
+        "Lions' improved defense may reduce overall passing attempts as team controls games through ground attack",
+        "Lack of true deep speed limits big-play upside compared to other first-round WR options"
       ],
-      "expert_take": "Jeanty represents the highest upside rookie RB in years, with college production rivaling Saquon Barkley and Bijan Robinson. Kelly's offense should maximize his skills, but rookie adjustment period and team context create higher volatility than established options. Best suited for managers comfortable with rookie risk for league-winning ceiling.",
-      "confidence_level": "Medium",
-      "adp_analysis": "ADP around pick 11-13 prices in both elite college production and rookie uncertainty appropriately",
+      "expert_take": "St. Brown's role as Goff's security blanket in one of NFL's best offenses provides reliable weekly floor with WR1 upside. His precise route-running and red zone efficiency maintain strong target quality even if raw volume decreases slightly with improved supporting cast.",
+      "confidence_level": "High",
+      "adp_analysis": "WR5 ranking around pick 10.6 offers solid value for proven production in elite offensive environment",
       "last_updated": "2025-09-06",
-      "research_sources": ["ESPN", "PFF", "CBS Sports", "Fantasy Football Calculator"]
+      "research_sources": ["ESPN", "FantasyPros", "Lions beat reporters"]
     },
     "weekly_analysis": {
-      "injury_outlook": "No injury concerns entering rookie season with fresh legs",
-      "matchup_factors": ["Should excel vs weaker run defenses", "May struggle vs elite defensive fronts"],
-      "usage_trends": ["Projected 15+ touches per game", "Goal line role expected", "Some receiving work"],
-      "ceiling_games": "Positive game scripts allowing heavy rushing volume in Kelly's system",
-      "floor_games": "Rookie learning curve or negative game scripts limiting opportunities"
+      "injury_outlook": "No injury concerns, excellent health track record",
+      "matchup_factors": ["Slot specialist vs nickel coverage", "Red zone mismatch"],
+      "usage_trends": ["8+ targets per game", "70%+ slot usage", "Goal line involved"],
+      "ceiling_games": "Lions in shootouts with multiple receivers producing",
+      "floor_games": "Heavy ground game or if Williams captures larger target share"
     }
   },
-  "De'Von Achane": {
+  "Malik Nabers": {
     "draft_analysis": {
       "strengths": [
-        "Explosive 2024 breakout with 1,585 yards from scrimmage and 11 TDs despite missing time, finishing as RB5 in fantasy",
-        "Elite speed and big-play ability with multiple long TDs, averaging 5.8 YPC and strong receiving production (46 catches)",
-        "Clear lead back role in Miami with Tua Tagovailoa's return providing improved offensive efficiency"
+        "Historic rookie season with 109 catches for 1,204 yards on 170 targets, breaking multiple Giants receiving records",
+        "35% target share led NFL among WRs with elite 74.1% catchable pass rate despite poor QB play from Jones, Lock, and DeVito",
+        "Russell Wilson addition provides significant QB upgrade with his 54% completion rate on 20+ air yard throws in 2024"
       ],
       "concerns": [
-        "Injury concerns with calf issues entering 2025 season and durability questions at 5'9\", 188 pounds frame",
-        "Backfield competition from Jaylen Wright and Alexander Mattison could limit weekly floor and goal-line work",
-        "Heavy 2024 usage may lead to regression, and Dolphins offensive line remains questionable for run blocking"
+        "Chronic toe injury dating back to college has limited camp participation and required ongoing management",
+        "Giants offense scored NFL's 2nd-fewest points (273) with 72.1% empty drive rate, limiting red zone opportunities",
+        "Wilson's declining arm strength and Jaxson Dart's rookie status create QB uncertainty throughout season"
       ],
-      "expert_take": "Achane's explosive ability makes him a weekly ceiling play, but size concerns and injury history create volatility. His receiving skills provide decent floor in PPR, but the backfield committee approach limits his path to true bell-cow status. Better suited as high-upside RB2 than primary back.",
-      "confidence_level": "Medium",
-      "adp_analysis": "RB6 ranking around pick 12-15 reflects explosive upside vs durability and committee concerns",
-      "last_updated": "2025-09-06", 
-      "research_sources": ["CBS Sports", "ESPN", "NFL.com", "Fantasy analysts"]
+      "expert_take": "Nabers' 170 targets as rookie were 4th-most in 21st century, with efficiency metrics suggesting even greater upside with improved QB play. His 876 unrealized air yards should benefit from Wilson's deep ball accuracy. The toe injury requires monitoring but hasn't caused missed games.",
+      "confidence_level": "High",
+      "adp_analysis": "WR6 ranking around pick 7.6 appropriately balances elite target share vs team offensive limitations",
+      "last_updated": "2025-09-06",
+      "research_sources": ["NBC Sports", "Yahoo Sports", "Pro Football Network", "ESPN"]
     },
     "weekly_analysis": {
-      "injury_outlook": "Calf injury concerns entering Week 1 require close monitoring",
-      "matchup_factors": ["Explosive vs weak defenses", "Size concerns vs physical defensive fronts"],
-      "usage_trends": ["12-15 touches per game", "Featured in passing game", "Limited goal line work"],
-      "ceiling_games": "Healthy with big-play opportunities in passing game",
-      "floor_games": "Injury limitations or committee approach reducing touches"
+      "injury_outlook": "Toe injury managed since college, back tightness resolved, expected full go Week 1",
+      "matchup_factors": ["Target magnet regardless of coverage", "Benefits from lack of other weapons"],
+      "usage_trends": ["11+ targets per game", "All-level route usage", "35%+ target share"],
+      "ceiling_games": "Wilson healthy with Giants in competitive games requiring heavy passing",
+      "floor_games": "Toe injury flare-ups or Giants blown out early limiting passing volume"
     }
   },
   "Nico Collins": {
@@ -285,186 +1065,30 @@
       "floor_games": "Rookie QB struggles or run-heavy Atlanta game plans"
     }
   },
-  "Jonathan Taylor": {
+  "Mike Evans": {
     "draft_analysis": {
       "strengths": [
-        "Workhorse usage with 272 carries in 2024 averaging 17.5 fantasy points per game when healthy",
-        "Proven track record with multiple 1,000+ yard seasons and receiving ability (44 catches in 2024)",
-        "Colts offense built around running game with Anthony Richardson's dual-threat ability opening up rushing lanes"
+        "11 consecutive 1,000-yard seasons entering age 32, most reliable target in Bucs' offense with Baker Mayfield connection",
+        "Red zone dominance with 6'5\" frame creating consistent TD opportunities in improved Tampa Bay offensive system",
+        "Minimal target competition with Chris Godwin's departure and focus on Bucky Irving in backfield"
       ],
       "concerns": [
-        "Injury history including ankle issues that limited him in 2024 and chronic availability questions throughout career",
-        "Colts offensive line concerns and overall offensive efficiency may limit scoring opportunities",
-        "Age 26 with heavy career workload approaching typical RB decline phase with over 1,000 career touches"
+        "Age 32 with over 750 career catches approaching typical decline phase for elite receivers",
+        "Injury history including missed games in recent seasons, requiring load management during long season",
+        "Buccaneers may be more run-heavy with Irving's emergence, potentially reducing overall passing attempts"
       ],
-      "expert_take": "Taylor offers bell-cow upside when healthy but injury concerns are legitimate after missing time in 2024. His receiving ability provides PPR floor, and the Colts' commitment to running creates volume opportunity. However, the injury risk prevents him from elite tier consideration.",
+      "expert_take": "Evans remains elite red zone threat with proven durability, but age concerns are legitimate entering what could be final elite season. His size and chemistry with Mayfield provide strong weekly floor, though ceiling may be capped by declining deep speed.",
       "confidence_level": "Medium",
-      "adp_analysis": "RB7 ranking around pick 17-20 prices in talent vs injury and efficiency concerns",
+      "adp_analysis": "WR11 ranking around pick 29.3 appropriately discounts for age while preserving proven production value",
       "last_updated": "2025-09-06",
-      "research_sources": ["ESPN analysis", "NFL.com", "Colts beat reporters"]
+      "research_sources": ["ESPN", "Buccaneers beat reporters", "FantasyPros"]
     },
     "weekly_analysis": {
-      "injury_outlook": "Ankle concerns from 2024 require ongoing monitoring",
-      "matchup_factors": ["Effective vs weak run defenses", "Struggles vs stacked boxes"],
-      "usage_trends": ["18+ carries when healthy", "4-5 targets per game", "Goal line primary"],
-      "ceiling_games": "Healthy with positive game scripts allowing heavy rushing",
-      "floor_games": "Injury limitations or negative game scripts requiring passing"
-    }
-  },
-  "Josh Jacobs": {
-    "draft_analysis": {
-      "strengths": [
-        "Excellent 2024 production with 1,329 rushing yards and 15 TDs, finishing as RB3 in weeks 11-18",
-        "Clear workhorse role in Green Bay with minimal competition and commitment to establishing run game",
-        "Proven durability and receiving ability (44 catches) providing PPR value and weekly floor"
-      ],
-      "concerns": [
-        "Age 27 with over 1,400 career touches and declining efficiency metrics over past two seasons",
-        "Packers may be more pass-heavy than expected with Jordan Love's development, limiting rushing volume",
-        "Touchdown regression likely after career-high 15 TDs, and goal-line competition from other backs possible"
-      ],
-      "expert_take": "Jacobs provides reliable RB2 production with proven track record and clear role, but age and workload concerns prevent elite upside. His receiving ability maintains PPR floor, and Green Bay's offensive improvements should create scoring opportunities. Solid pick for risk-averse managers.",
-      "confidence_level": "High",
-      "adp_analysis": "RB8 ranking around pick 18-21 reflects proven production with age-related discount",
-      "last_updated": "2025-09-06",
-      "research_sources": ["ESPN analysis", "NFL.com", "SI.com rankings"]
-    },
-    "weekly_analysis": {
-      "injury_outlook": "Durable veteran with minimal injury concerns",
-      "matchup_factors": ["Effective vs most defenses", "May struggle vs elite run defenses"],
-      "usage_trends": ["15-18 carries per game", "4-5 targets per game", "Goal line work"],
-      "ceiling_games": "Packers controlling games with strong running attack",
-      "floor_games": "Pass-heavy game scripts or if efficiency declines with age"
-    }
-  },
-  "Derrick Henry": {
-    "draft_analysis": {
-      "strengths": [
-        "Elite 2024 production as RB4 with 1,921 rushing yards and NFL-leading 16 rushing TDs at age 30",
-        "Perfect fit in Ravens' run-heavy offense that should continue to feature him heavily with Lamar Jackson",
-        "Minimal wear concerns despite age due to late career start and excellent physical condition"
-      ],
-      "concerns": [
-        "Age 31 with 2,529 career touches - historically, RBs this age with high workload decline significantly",
-        "Limited receiving ability may cap weekly ceiling in PPR formats compared to other elite backs",
-        "Ravens may reduce his workload to preserve him for playoffs, affecting fantasy value late in season"
-      ],
-      "expert_take": "Henry defies aging curves but history suggests significant regression risk at age 31. His TD-dependent scoring makes him volatile, though the Ravens' offense should provide consistent opportunities. Better suited as high-floor RB2 than primary fantasy back due to age concerns.",
-      "confidence_level": "Medium",
-      "adp_analysis": "RB9 ranking around pick 19-22 appropriately balances elite production vs age cliff risk",
-      "last_updated": "2025-09-06",
-      "research_sources": ["ESPN analysis", "NFL.com", "Age curve research"]
-    },
-    "weekly_analysis": {
-      "injury_outlook": "Excellent health track record but age increases injury risk",
-      "matchup_factors": ["Dominant vs weak run defenses", "May struggle vs speed defenses"],
-      "usage_trends": ["18+ carries per game", "Limited receiving work", "Goal line primary"],
-      "ceiling_games": "Ravens controlling games with heavy ground attack",
-      "floor_games": "Negative game scripts requiring passing or age-related decline"
-    }
-  },
-  "Brock Bowers": {
-    "draft_analysis": {
-      "strengths": [
-        "Historic rookie season with 112 receptions, 1,076 yards, and 5 TDs - breaking multiple rookie TE records including Sam LaPorta's reception mark",
-        "Elite usage metrics with 26% target share, 25% targets per route run, and over 2.0 yards per route run in rookie campaign",
-        "Age 22 with three-year college track record and clear trajectory for dynasty TE1 status for years to come"
-      ],
-      "concerns": [
-        "Limited touchdown production (5 TDs) in rookie year due to poor Raiders red zone efficiency and questionable QB play",
-        "Raiders offensive concerns with below-average offensive line and uncertain quarterback situation entering 2025",
-        "TE position historically volatile for fantasy, and sophomore slump possible after record-setting rookie year"
-      ],
-      "expert_take": "Bowers posted the 13th-best fantasy season ever by a tight end as a rookie, making him the cleanest TE profile for 2025. His usage rate and efficiency metrics suggest sustainable production even if TDs remain low. The positional advantage over other TEs justifies early second-round cost despite team concerns.",
-      "confidence_level": "High",
-      "adp_analysis": "TE1 ranking around pick 20-22 appropriately values positional scarcity and historic rookie production",
-      "last_updated": "2025-09-06",
-      "research_sources": ["Fantasy Alarm", "NBC Sports", "ESPN mock drafts", "FantasyPros"]
-    },
-    "weekly_analysis": {
-      "injury_outlook": "No injury concerns entering sophomore season",
-      "matchup_factors": ["Matchup-proof with high target volume", "Benefits from Raiders' lack of other weapons"],
-      "usage_trends": ["10+ targets per game likely", "80%+ route participation", "Limited red zone efficiency"],
-      "ceiling_games": "Raiders in competitive games requiring heavy passing",
-      "floor_games": "Blowout losses or if Raiders improve red zone efficiency goes to other players"
-    }
-  },
-  "Trey McBride": {
-    "draft_analysis": {
-      "strengths": [
-        "Consistent elite production with strong target share and efficiency metrics, finishing just behind Bowers in TE fantasy scoring in 2024",
-        "Excellent connection with Kyler Murray and clear role as primary receiving option in Cardinals passing offense",
-        "Age 25 entering prime years with proven track record of weekly consistency and red zone involvement"
-      ],
-      "concerns": [
-        "Kyler Murray's red zone deficiencies limited McBride's touchdown production in 2024 despite heavy usage",
-        "Cardinals offense may be more run-heavy with improved ground game, potentially reducing overall passing volume",
-        "Target competition from rookie WRs and improved offensive weapons could impact target share"
-      ],
-      "expert_take": "McBride offers the safest floor among elite TEs with proven chemistry with Murray and consistent usage patterns. While TD upside may be limited by Murray's red zone struggles, his route-running precision and target volume provide reliable weekly production. Solid TE1 option with less ceiling than Bowers.",
-      "confidence_level": "High",
-      "adp_analysis": "TE2 ranking around pick 21-25 reflects proven production with slight ceiling limitations vs Bowers",
-      "last_updated": "2025-09-06",
-      "research_sources": ["NBC Sports", "ESPN rankings", "Cardinals beat reporters"]
-    },
-    "weekly_analysis": {
-      "injury_outlook": "Excellent health track record with minimal concerns",
-      "matchup_factors": ["Consistent regardless of coverage", "Red zone role limited by Murray"],
-      "usage_trends": ["8+ targets per game", "High route participation", "Possession-based usage"],
-      "ceiling_games": "Cardinals in shootouts with heavy passing volume",
-      "floor_games": "Run-heavy game scripts or if new weapons emerge in offense"
-    }
-  },
-  "Bucky Irving": {
-    "draft_analysis": {
-      "strengths": [
-        "Emerged as clear lead back by season's end, out-snapping Rachaad White in 5 of 6 games from Week 11 onwards when healthy",
-        "Elite efficiency with 1,122 rushing yards (300+ more than next rookie RB) and 1,429 total yards ranking 10th among all RBs",
-        "Offensive coordinator Liam Cohen's system maximized ground game effectiveness, and Irving appears to be best runner Bucs have had in years"
-      ],
-      "concerns": [
-        "Rachaad White still on roster and could reclaim touches if Irving struggles or gets injured",
-        "Bucs may not retain OC Liam Cohen, potentially changing offensive philosophy away from Irving's strengths",
-        "Second-year player without full season of workhorse usage, making projections somewhat uncertain"
-      ],
-      "expert_take": "Irving's late-season emergence suggests he's earned the lead role through performance rather than draft pedigree. His efficiency metrics and clear separation from White by year-end indicate potential for true workhorse usage. The coaching uncertainty creates some risk, but his talent appears evident.",
-      "confidence_level": "Medium",
-      "adp_analysis": "RB10 ranking around pick 22-25 balances emergence vs uncertainty about role security",
-      "last_updated": "2025-09-06",
-      "research_sources": ["FantasyPros", "ESPN analysis", "Buccaneers beat reporters"]
-    },
-    "weekly_analysis": {
-      "injury_outlook": "Young player with no significant injury history",
-      "matchup_factors": ["Effective vs most defenses", "Benefits from improved Bucs OL"],
-      "usage_trends": ["15+ carries expected", "Limited receiving work", "Goal line opportunities"],
-      "ceiling_games": "Bucs controlling games with heavy ground attack",
-      "floor_games": "Committee approach if White regains role or negative game scripts"
-    }
-  },
-  "Kyren Williams": {
-    "draft_analysis": {
-      "strengths": [
-        "Back-to-back seasons with 1,100+ rushing yards and 81% snap share led all RBs in 2024, showing Sean McVay's commitment to one-back system",
-        "Only Saquon Barkley and Bijan Robinson exceeded his total touches, and recent contract extension shows team's long-term faith",
-        "Proven red zone efficiency and goal-line usage in high-scoring Rams offense with excellent offensive line"
-      ],
-      "concerns": [
-        "Ball security issues with 5 fumbles in 2024 could lead to reduced usage if problem continues",
-        "Rams keep drafting RBs suggesting they may not view him as long-term bell-cow despite current usage",
-        "Limited receiving upside compared to other elite backs, potentially capping weekly ceiling in PPR formats"
-      ],
-      "expert_take": "Williams represents the closest thing to a sure bet for heavy workload given McVay's historical usage patterns and Williams' proven effectiveness. The fumble concerns are real but manageable if corrected. His ADP feels discounted for a player with clear path to 20+ touches weekly.",
-      "confidence_level": "High",
-      "adp_analysis": "RB11-12 ranking around pick 23-26 seems undervalued for proven workhorse in elite offense",
-      "last_updated": "2025-09-06",
-      "research_sources": ["ESPN analysis", "NFL.com", "Rams beat reporters"]
-    },
-    "weekly_analysis": {
-      "injury_outlook": "Generally durable with good health track record",
-      "matchup_factors": ["Effective vs most defenses", "Benefits from Rams' passing game attention"],
-      "usage_trends": ["18+ carries per game", "Limited receiving work", "Primary goal line back"],
-      "ceiling_games": "Rams in positive game scripts with heavy ground control",
-      "floor_games": "Ball security issues or if Rams fall behind early requiring passing"
+      "injury_outlook": "Generally durable but age increases injury risk, no current concerns",
+      "matchup_factors": ["Size advantage vs smaller DBs", "Red zone specialist"],
+      "usage_trends": ["7-9 targets per game", "Deep and red zone usage", "Possession role"],
+      "ceiling_games": "Bucs in shootouts with Evans finding end zone multiple times",
+      "floor_games": "Age-related performance decline or increased focus on running game"
     }
   },
   "Tee Higgins": {
@@ -571,84 +1195,273 @@
       "floor_games": "Age-related decline or if target share too limited in Nacua-heavy offense"
     }
   },
-  "Josh Allen": {
+  "DK Metcalf": {
     "draft_analysis": {
       "strengths": [
-        "Elite dual-threat production with 30+ passing TDs and 12+ rushing TDs in multiple seasons, providing highest ceiling among QBs",
-        "Improved supporting cast with more weapons and stronger offensive line should boost efficiency metrics",
-        "Clear separation from QB field in fantasy scoring with unique rushing ability rare among elite passers"
+        "Fresh start in Pittsburgh with Russell Wilson providing deep ball accuracy that suits his skill set perfectly",
+        "Clear alpha receiver role with Steelers after being secondary option behind Tyler Lockett in Seattle",
+        "Physical dominance at 6'4\" creates red zone mismatch and contested catch opportunities"
       ],
       "concerns": [
-        "Age 29 with significant rushing usage raising injury concerns from designed runs and scrambles",
-        "Buffalo's improved defense may reduce need for Allen to carry offense, potentially limiting overall volume",
-        "Early ADP (typically 3rd round) represents significant draft capital investment in volatile QB position"
+        "New team adjustment period with different offensive system and terminology to learn",
+        "Steelers' historically run-heavy approach may limit overall passing volume compared to Seattle",
+        "Wilson's declining arm strength and mobility may not maximize Metcalf's downfield speed"
       ],
-      "expert_take": "Allen remains the gold standard for fantasy QBs with unmatched ceiling from dual-threat ability. The supporting cast improvements should boost efficiency while maintaining rushing upside. His early ADP is justified for those prioritizing positional advantage and weekly ceiling.",
-      "confidence_level": "High",
-      "adp_analysis": "QB1 ranking around pick 28-31 reflects positional scarcity and elite ceiling",
+      "expert_take": "Metcalf's change of scenery could unlock elite potential with Wilson's experience and Steelers' need for true WR1. His size and speed combination provides weekly ceiling, though system fit and Wilson's limitations create some uncertainty about consistency.",
+      "confidence_level": "Medium",
+      "adp_analysis": "WR14 ranking around pick 37.6 represents good value for potential breakout in new environment",
       "last_updated": "2025-09-06",
-      "research_sources": ["ESPN analysis", "Bills beat reporters", "Fantasy experts"]
+      "research_sources": ["ESPN", "Steelers beat reporters", "FantasyPros"]
     },
     "weekly_analysis": {
-      "injury_outlook": "Durable track record but rushing usage creates injury risk",
-      "matchup_factors": ["Elite vs any defense", "Rushing adds safe floor"],
-      "usage_trends": ["35+ pass attempts", "8-12 rush attempts", "Goal line rushing"],
-      "ceiling_games": "Shootouts requiring heavy passing plus rushing touchdowns",
-      "floor_games": "Blowout wins with reduced passing volume or injury concerns"
+      "injury_outlook": "Generally durable with no current injury concerns",
+      "matchup_factors": ["Size advantage vs smaller DBs", "Deep threat capability"],
+      "usage_trends": ["8+ targets per game", "Deep and red zone focus", "Alpha receiver role"],
+      "ceiling_games": "Steelers in shootouts with Metcalf finding deep connections",
+      "floor_games": "System adjustment issues or heavy ground game limiting passing attempts"
     }
   },
-  "Lamar Jackson": {
+  "Marvin Harrison Jr.": {
     "draft_analysis": {
       "strengths": [
-        "2024 career highs in passing TDs and yards with elite rushing production, proving dual-threat ability remains at peak level",
-        "Ravens' run-heavy offense maximizes his rushing opportunities while improved passing weapons boost aerial attack",
-        "Just 0.8% interception rate in 2024 shows improved decision-making and ball security in prime of career"
+        "Elite college production and 4th overall draft pedigree with clear path to WR1 role in Arizona",
+        "Kyler Murray's arm talent and mobility should create favorable matchups and broken-play opportunities",
+        "Size and route-running ability at 6'3\" provides red zone target and contested catch upside"
       ],
       "concerns": [
-        "Age 28 with extensive rushing usage throughout career raises long-term durability questions",
-        "Ravens may reduce his rushing attempts to preserve health, potentially limiting fantasy ceiling",
-        "Early ADP investment in QB position when depth exists at other positions"
+        "Rookie receiver with no NFL experience facing significant competition level jump from college",
+        "Cardinals' offensive line concerns may limit overall offensive efficiency and Murray's effectiveness",
+        "Target competition from Trey McBride and other veterans could cap rookie year volume"
       ],
-      "expert_take": "Jackson posted career-best efficiency in 2024 while maintaining elite rushing production, suggesting he's entering his peak rather than declining. The Ravens' commitment to running game benefits his rushing stats while improved receivers help passing numbers. Elite QB1 with unique ceiling.",
-      "confidence_level": "High",
-      "adp_analysis": "QB2 ranking around pick 29-32 justified by elite dual-threat production and improved efficiency",
+      "expert_take": "Harrison possesses all tools to be immediate impact player, but rookie receivers are notoriously inconsistent week-to-week. His talent level and opportunity make him intriguing mid-round target with league-winning upside if he adapts quickly to NFL speed.",
+      "confidence_level": "Medium",
+      "adp_analysis": "WR15 ranking around pick 38.8 prices in high ceiling vs rookie volatility appropriately",
       "last_updated": "2025-09-06",
-      "research_sources": ["ESPN analysis", "Ravens beat reporters", "Fantasy experts"]
+      "research_sources": ["ESPN", "Cardinals beat reporters", "FantasyPros"]
     },
     "weekly_analysis": {
-      "injury_outlook": "Generally durable but rushing usage creates inherent risk",
-      "matchup_factors": ["Elite vs any defense", "Rushing provides high floor"],
-      "usage_trends": ["30+ pass attempts", "10+ rush attempts", "Goal line rushing"],
-      "ceiling_games": "Shootouts combined with designed rushing TDs",
-      "floor_games": "Blowout wins limiting passing volume or if Ravens reduce rushing usage"
+      "injury_outlook": "No injury concerns entering rookie season",
+      "matchup_factors": ["Size advantage vs smaller DBs", "Deep threat potential"],
+      "usage_trends": ["6-8 targets per game projected", "Red zone involvement", "Deep routes"],
+      "ceiling_games": "Murray playing well with Cardinals in competitive games",
+      "floor_games": "Rookie inconsistency or poor offensive line play limiting opportunities"
+    }
+  },
+  "Garrett Wilson": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite route-running and separation ability with Justin Fields providing significant QB upgrade",
+        "Clear WR1 role in Jets offense with minimal competition after Davante Adams' departure",
+        "Age 24 entering prime years with proven track record of production despite poor QB play"
+      ],
+      "concerns": [
+        "Fields' inconsistency and limited arm strength may cap the ceiling of passing attack",
+        "Jets' emphasis on running game and defense may limit overall passing volume",
+        "Target competition from tight ends and running backs in Jets' offensive system"
+      ],
+      "expert_take": "Wilson's talent is undeniable and Fields represents upgrade from previous quarterbacks. His route-running precision should translate well, though Jets' conservative approach and Fields' limitations may prevent him from reaching true WR1 status.",
+      "confidence_level": "Medium",
+      "adp_analysis": "WR16 ranking around pick 41.3 offers solid value for proven talent with improved QB situation",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Jets beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Excellent health track record with no current concerns",
+      "matchup_factors": ["Elite separator vs any coverage", "Route running precision"],
+      "usage_trends": ["7-9 targets per game", "All-level routes", "Primary receiver role"],
+      "ceiling_games": "Jets in shootouts with Fields airing it out to Wilson",
+      "floor_games": "Conservative game plans or Fields struggling with accuracy/decision-making"
+    }
+  },
+  "DJ Moore": {
+    "draft_analysis": {
+      "strengths": [
+        "Consistent target share with Caleb Williams providing significant QB upgrade from previous years",
+        "Clear WR1 role in Chicago with Williams' development creating more efficient passing attack",
+        "Proven track record with over 1,000 yards in multiple seasons despite poor QB play"
+      ],
+      "concerns": [
+        "Williams' rookie growing pains may limit overall offensive efficiency early in season",
+        "Bears' emphasis on running game and defense could reduce overall passing volume",
+        "Age 27 with heavy career usage may be approaching peak rather than ascending"
+      ],
+      "expert_take": "Moore's connection with Williams showed promise late in 2024 and should improve with full offseason together. His route-running and reliability make him safe weekly option, though Bears' conservative approach may limit explosive weeks.",
+      "confidence_level": "Medium",
+      "adp_analysis": "WR17 ranking around pick 43.9 represents fair value for proven production with QB upgrade",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Bears beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Generally durable with excellent health track record",
+      "matchup_factors": ["Route running vs any coverage", "Reliable target"],
+      "usage_trends": ["7-9 targets per game", "Possession receiver", "Limited deep work"],
+      "ceiling_games": "Bears in competitive games with Williams developing chemistry",
+      "floor_games": "Rookie QB struggles or Bears' conservative offensive approach"
+    }
+  },
+  "Terry McLaurin": {
+    "draft_analysis": {
+      "strengths": [
+        "Consistent 1,000+ yard producer with Jayden Daniels providing significant QB upgrade from previous years",
+        "Clear WR1 role in Washington with minimal competition and chemistry developed throughout Daniels' rookie season",
+        "Commanders' improved offensive line and play-calling should create more efficient passing attack in 2025"
+      ],
+      "concerns": [
+        "Age 30 entering 7th NFL season with over 400 career catches, approaching typical decline phase",
+        "Washington's defensive improvements may reduce overall passing volume in potential blowout victories",
+        "Limited red zone size at 6'0\" compared to bigger targets near goal line"
+      ],
+      "expert_take": "McLaurin's connection with Daniels showed promise in 2024 and should improve with full offseason together. His route-running remains elite and role secure, though age concerns and team context prevent top-tier consideration. Reliable WR2 with occasional WR1 weeks.",
+      "confidence_level": "High",
+      "adp_analysis": "WR13 ranking around pick 35.9 offers solid value for proven production with improved QB play",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Commanders beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Excellent health track record with no current concerns",
+      "matchup_factors": ["Deep threat vs any coverage", "Route running precision"],
+      "usage_trends": ["7-9 targets per game", "Deep and intermediate routes", "Limited red zone"],
+      "ceiling_games": "Commanders in competitive games with Daniels airing it out",
+      "floor_games": "Blowout wins limiting passing volume or age-related decline"
+    }
+  },
+  "Jaxon Smith-Njigba": {
+    "draft_analysis": {
+      "strengths": [
+        "Emerged as clear WR1 for Seahawks with DK Metcalf's trade, creating path to 25%+ target share in 2025",
+        "Strong chemistry with Geno Smith developed throughout 2024 with consistent route-running and reliable hands",
+        "Age 22 entering prime years with room for growth in Ryan Grubb's new offensive system"
+      ],
+      "concerns": [
+        "Limited target competition with DK Metcalf's departure but Tyler Lockett still commands significant share",
+        "Geno Smith's inconsistency and potential for younger QB to take over mid-season creates uncertainty",
+        "Seahawks' emphasis on running game may limit overall passing volume compared to other offenses"
+      ],
+      "expert_take": "Smith-Njigba's breakout potential is significant with reduced competition for targets in Seattle's offense. His route-running precision and ability to work all levels of the field make him reliable weekly option. The QB situation adds risk but his talent should translate regardless of who's throwing.",
+      "confidence_level": "Medium",
+      "adp_analysis": "WR12 ranking around pick 32.6 represents good value for ascending player with clear path to increased role",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Seahawks beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "No injury concerns entering second season",
+      "matchup_factors": ["Slot specialist with outside ability", "Benefits from reduced competition"],
+      "usage_trends": ["7-9 targets per game", "All-level routes", "Possession receiver role"],
+      "ceiling_games": "Seahawks in shootouts with Smith-Njigba as primary target",
+      "floor_games": "Heavy running scripts or if Lockett maintains larger target share"
+    }
+  },
+  "Xavier Worthy": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite speed and big-play ability in Chiefs' explosive offense with Patrick Mahomes",
+        "Clear opportunity for targets with minimal competition in Kansas City's receiver room",
+        "Andy Reid's track record of developing rookie receivers and maximizing speed weapons"
+      ],
+      "concerns": [
+        "Rookie receiver facing NFL learning curve and typically inconsistent first-year production",
+        "Chiefs' run-heavy approach and conservative passing attack may limit overall volume",
+        "Small frame at 5'11\", 165 pounds raises durability concerns for full season"
+      ],
+      "expert_take": "Worthy's speed creates weekly big-play potential in Chiefs' offense, but rookie inconsistency and limited volume in conservative system cap his floor. His ceiling is intriguing with Mahomes throwing, though better suited as boom-bust flex option.",
+      "confidence_level": "Low",
+      "adp_analysis": "WR18 ranking around pick 50.9 reflects appropriate discount for rookie volatility in limited role",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Chiefs beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Small frame creates durability concerns but no current injuries",
+      "matchup_factors": ["Speed mismatch vs any defense", "Deep threat specialist"],
+      "usage_trends": ["4-6 targets per game", "Deep routes primarily", "Limited volume"],
+      "ceiling_games": "Chiefs in shootouts with Worthy finding deep connections",
+      "floor_games": "Rookie inconsistency or Chiefs' conservative approach limiting targets"
     }
   }
 }
-{
-  "CeeDee Lamb": {
+    "weekly_analysis": {
+      "injury_outlook": "No injury concerns entering rookie season",
+      "matchup_factors": ["Size advantage vs smaller DBs", "Deep threat potential"],
+      "usage_trends": ["6-8 targets per game projected", "Red zone involvement", "Deep routes"],
+      "ceiling_games": "Murray playing well with Cardinals in competitive games",
+      "floor_games": "Rookie inconsistency or poor offensive line play limiting opportunities"
+    }
+ },
+  "Bijan Robinson": {
     "draft_analysis": {
       "strengths": [
-        "Proven elite target share with 152 targets in 2024 despite missing 2 games due to AC joint injury and QB carousel",
-        "Addition of George Pickens as WR2 should reduce coverage attention while maintaining Lamb's alpha role in Dallas offense",
-        "Contract restructure creating $20M cap space shows Cowboys' long-term commitment, with Prescott healthy entering 2025"
+        "Finished 2024 with 1,456 rushing yards on 304 carries (4.8 YPC) plus 61 catches for 431 yards, showing elite dual-threat capability",
+        "Significantly increased late-season usage averaging 22+ carries in final 6 games, indicating coaching staff confidence in bell-cow role",
+        "Michael Penix Jr. takeover at QB showed no negative impact on Robinson's usage - actually averaged 26.5 PPG in weeks 16-18 with rookie QB"
       ],
       "concerns": [
-        "TD regression likely from historically low 3.9% TD rate in 2024 (6 TDs on 152 targets) due to Cooper Rush starts",
-        "Lingering AC joint injury from Week 9 2024 required season-ending IR placement, though reports indicate full recovery",
-        "Cowboys' 7.5-win total suggests potential negative game scripts limiting overall offensive efficiency"
+        "Tyler Allgeier still earned 137 carries and more goal-line work (6 carries inside 5-yard line vs Robinson's 3) in 2024",
+        "Only 5 runs of 20+ yards despite 304 attempts - lacks explosive play element that defines elite fantasy RBs",
+        "Offensive line lost 20% of starters from 2024 according to Robinson's own comments about 'outlandish goals' being harder to achieve"
       ],
-      "expert_take": "Lamb's 2024 struggles were largely QB-driven, averaging 21.3 PPR points with Prescott vs significantly less with Rush. The Pickens addition creates a true WR2 threat without cannibalizing Lamb's target share. His discounted ADP reflects injury/performance concerns, creating value for a player who led the NFL in receiving yards in 2023.",
-      "confidence_level": "High",
-      "adp_analysis": "Current WR3 ranking around pick 4.9 represents excellent value given proven elite ceiling with healthy Prescott",
+      "expert_take": "Robinson enters his prime as a true three-down back with increased receiving work and goal-line opportunities expected. The QB situation stabilized with Penix, and his late-season surge (170 yards vs Panthers in finale) shows his ceiling. However, the explosiveness concerns and Allgeier's continued presence prevent him from being a lock for RB1 overall.",
+      "confidence_level": "High", 
+      "adp_analysis": "ADP around 2.02 feels appropriate as RB1 with upside for overall fantasy MVP if explosiveness improves",
       "last_updated": "2025-09-06",
-      "research_sources": ["FanDuel Research", "NBC Sports", "FantasyPros", "FantasyData"]
+      "research_sources": ["Pro Football Network", "FantasyData", "PFF", "CBS Sports"]
     },
     "weekly_analysis": {
-      "injury_outlook": "AC joint injury fully healed after offseason recovery, no current concerns reported",
-      "matchup_factors": ["Elite route runner vs any coverage", "Benefits from Pickens drawing safety attention"],
-      "usage_trends": ["25%+ target share expected", "Red zone featured target", "All-levels route usage"],
-      "ceiling_games": "Prescott healthy in shootouts with balanced target distribution to both receivers",
-      "floor_games": "QB injury concerns or if Cowboys fall behind early requiring heavy rushing attack"
+      "injury_outlook": "Minor ankle issue during OTAs but expected fully healthy for Week 1",
+      "matchup_factors": ["Excels vs weak run defenses", "May struggle vs stacked boxes without explosive plays"],
+      "usage_trends": ["Working with WRs in practice for expanded route tree", "22+ carries expected weekly", "Red zone role growing"],
+      "ceiling_games": "Positive game scripts with lead allowing heavy rushing volume",
+      "floor_games": "Games requiring catch-up mode, though receiving work provides decent floor"
+    }
+  },
+  "Saquon Barkley": {
+    "draft_analysis": {
+      "strengths": [
+        "Explosive 2024 campaign with Eagles rejuvenated his career - 2,005 rushing yards, 13 TDs on 345 carries in elite offensive system",
+        "Proven workhorse capability with 370+ total touches and durability improvements in Philadelphia's system vs injury-prone Giants years",
+        "Elite offensive line and coaching upgrade provides optimal environment for continued success in age-28 season"
+      ],
+      "concerns": [
+        "Age 28 with 6 NFL seasons and 1,800+ career touches raises durability questions for sustained workload",
+        "Kenneth Gainwell and Will Shipley on roster could limit receiving work compared to 2024's heavy usage",
+        "Historically inconsistent year-to-year production with boom-bust pattern throughout career"
+      ],
+      "expert_take": "Barkley's 2024 proved he can still be elite in the right system. The Eagles' offensive line and scheme maximizes his talents, but the heavy workload and age make him a higher-risk pick than younger options. Still offers league-winning upside if health maintains, making him a solid RB2 choice.",
+      "confidence_level": "Medium",
+      "adp_analysis": "Early second round ADP reflects upside but acknowledges age and workload concerns",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Philadelphia Inquirer", "NFL.com"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Healthy but requires monitoring given historical injury concerns and heavy 2024 usage",
+      "matchup_factors": ["Elite vs weak run defenses", "Struggles vs elite defensive fronts"],
+      "usage_trends": ["20+ carries expected", "Goal line primary back", "Receiving role may decrease"],
+      "ceiling_games": "Positive game scripts allowing heavy ground game usage",
+      "floor_games": "Injury concerns or negative game scripts requiring heavy passing"
+    }
+  },
+  "Jahmyr Gibbs": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite dual-threat production with 1,261 rushing yards and 52 catches in 2024, showing consistent week-to-week usage in Lions' explosive offense",
+        "Operates in one of NFL's best offensive systems with excellent coaching and offensive line creating consistent opportunities",
+        "Age 22 entering just third season with room for growth and minimal wear, unlike veteran RB options"
+      ],
+      "concerns": [
+        "David Montgomery remains significant factor in backfield rotation, limiting Gibbs to ~60% of total RB touches",
+        "Red zone usage favors Montgomery's power style over Gibbs' speed, capping TD upside despite team's high scoring",
+        "Lions' success could lead to more conservative approaches and clock management limiting explosive play opportunities"
+      ],
+      "expert_take": "Gibbs offers unique ceiling as part of time-share in elite offense but the Montgomery factor creates weekly uncertainty. His big-play ability and receiving skills provide strong floor, but the split backfield prevents him from reaching true bell-cow potential despite the high-powered Lions attack.",
+      "confidence_level": "Medium",
+      "adp_analysis": "Top-5 ADP appropriate given upside, but Montgomery's presence creates lower floor than pure workhorses",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Detroit Free Press", "The Athletic"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Excellent health record and young age minimize injury concerns",
+      "matchup_factors": ["Explosive vs weak defenses", "Game script dependent for touches"],
+      "usage_trends": ["15-18 touches typical", "Featured in passing game", "Limited goal line work"],
+      "ceiling_games": "High-scoring games where Lions maintain balanced attack",
+      "floor_games": "Clock management situations or Montgomery getting hot streak"
     }
   },
   "Christian McCaffrey": {
@@ -677,134 +1490,82 @@
       "floor_games": "Injury limitations or if 49ers forced into pass-heavy scripts early"
     }
   },
-  "Malik Nabers": {
+  "De'Von Achane": {
     "draft_analysis": {
       "strengths": [
-        "Historic rookie season with 109 catches for 1,204 yards on 170 targets, breaking multiple Giants receiving records",
-        "35% target share led NFL among WRs with elite 74.1% catchable pass rate despite poor QB play from Jones, Lock, and DeVito",
-        "Russell Wilson addition provides significant QB upgrade with his 54% completion rate on 20+ air yard throws in 2024"
+        "Explosive 2024 breakout with 1,585 yards from scrimmage and 11 TDs despite missing time, finishing as RB5 in fantasy",
+        "Elite speed and big-play ability with multiple long TDs, averaging 5.8 YPC and strong receiving production (46 catches)",
+        "Clear lead back role in Miami with Tua Tagovailoa's return providing improved offensive efficiency"
       ],
       "concerns": [
-        "Chronic toe injury dating back to college has limited camp participation and required ongoing management",
-        "Giants offense scored NFL's 2nd-fewest points (273) with 72.1% empty drive rate, limiting red zone opportunities",
-        "Wilson's declining arm strength and Jaxson Dart's rookie status create QB uncertainty throughout season"
+        "Injury concerns with calf issues entering 2025 season and durability questions at 5'9\", 188 pounds frame",
+        "Backfield competition from Jaylen Wright and Alexander Mattison could limit weekly floor and goal-line work",
+        "Heavy 2024 usage may lead to regression, and Dolphins offensive line remains questionable for run blocking"
       ],
-      "expert_take": "Nabers' 170 targets as rookie were 4th-most in 21st century, with efficiency metrics suggesting even greater upside with improved QB play. His 876 unrealized air yards should benefit from Wilson's deep ball accuracy. The toe injury requires monitoring but hasn't caused missed games.",
-      "confidence_level": "High",
-      "adp_analysis": "WR6 ranking around pick 7.6 appropriately balances elite target share vs team offensive limitations",
-      "last_updated": "2025-09-06",
-      "research_sources": ["NBC Sports", "Yahoo Sports", "Pro Football Network", "ESPN"]
-    },
-    "weekly_analysis": {
-      "injury_outlook": "Toe injury managed since college, back tightness resolved, expected full go Week 1",
-      "matchup_factors": ["Target magnet regardless of coverage", "Benefits from lack of other weapons"],
-      "usage_trends": ["11+ targets per game", "All-level route usage", "35%+ target share"],
-      "ceiling_games": "Wilson healthy with Giants in competitive games requiring heavy passing",
-      "floor_games": "Toe injury flare-ups or Giants blown out early limiting passing volume"
-    }
-  },
-  "Puka Nacua": {
-    "draft_analysis": {
-      "strengths": [
-        "Led all WRs in targets per route (.35) and yards per route (3.2) when healthy, averaging 90 yards per game in 2024",
-        "Cooper Kupp departure eliminates target competition while Davante Adams addition should reduce defensive attention",
-        "2-year track record shows elite per-game production ranking 5th in targets and 4th in receiving yards among all WRs"
-      ],
-      "concerns": [
-        "Missed 5 games in 2024 with PCL sprain after aggravating training camp knee injury, raising durability questions",
-        "Matthew Stafford's back issues and age 36 season create QB reliability concerns for 2025",
-        "Adams' presence could limit target ceiling in offense that may prioritize running game more heavily"
-      ],
-      "expert_take": "Nacua's per-route efficiency metrics are unprecedented for his age, and Adams won't significantly impact his volume given their different roles. The knee injury appears fully healed, and his track record suggests top-5 WR finish potential if he stays healthy throughout 2025.",
-      "confidence_level": "High",
-      "adp_analysis": "WR4 ranking around pick 10.2 reflects appropriate premium for elite efficiency with manageable injury discount",
-      "last_updated": "2025-09-06",
-      "research_sources": ["NBC Sports", "Pro Football Network", "Yahoo Sports", "SI.com"]
-    },
-    "weekly_analysis": {
-      "injury_outlook": "Knee fully healthy entering season, no limitations reported in camp",
-      "matchup_factors": ["Elite separator vs any coverage", "Benefits from Adams drawing top corner"],
-      "usage_trends": ["8-10 targets per game", "Slot and outside usage", "High-value target quality"],
-      "ceiling_games": "Stafford healthy with Rams in high-scoring affairs featuring both receivers",
-      "floor_games": "Stafford injury concerns or if target share decreases due to Adams integration"
-    }
-  },
-  "Amon-Ra St. Brown": {
-    "draft_analysis": {
-      "strengths": [
-        "Consistent 1,100+ yard seasons with elite target share in Lions' high-powered offense that led NFL in scoring",
-        "Proven chemistry with Jared Goff in slot-heavy system that maximizes his route-running precision and YAC ability",
-        "Lions' pass-heavy approach near goal line creates consistent TD opportunities despite Jameson Williams' big-play threat"
-      ],
-      "concerns": [
-        "Target competition increased with Williams' emergence and potential for more 3-WR sets limiting individual volume",
-        "Lions' improved defense may reduce overall passing attempts as team controls games through ground attack",
-        "Lack of true deep speed limits big-play upside compared to other first-round WR options"
-      ],
-      "expert_take": "St. Brown's role as Goff's security blanket in one of NFL's best offenses provides reliable weekly floor with WR1 upside. His precise route-running and red zone efficiency maintain strong target quality even if raw volume decreases slightly with improved supporting cast.",
-      "confidence_level": "High",
-      "adp_analysis": "WR5 ranking around pick 10.6 offers solid value for proven production in elite offensive environment",
-      "last_updated": "2025-09-06",
-      "research_sources": ["ESPN", "FantasyPros", "Lions beat reporters"]
-    },
-    "weekly_analysis": {
-      "injury_outlook": "No injury concerns, excellent health track record",
-      "matchup_factors": ["Slot specialist vs nickel coverage", "Red zone mismatch"],
-      "usage_trends": ["8+ targets per game", "70%+ slot usage", "Goal line involved"],
-      "ceiling_games": "Lions in shootouts with multiple receivers producing",
-      "floor_games": "Heavy ground game or if Williams captures larger target share"
-    }
-  },
-  "Chase Brown": {
-    "draft_analysis": {
-      "strengths": [
-        "Emerged as clear lead back after Joe Mixon trade with 179 carries for 857 yards (4.8 YPC) in final 10 games",
-        "Bengals' pass-heavy offense with Burrow-Chase connection creates positive game scripts favoring consistent RB usage",
-        "Limited competition with Zack Moss relegated to backup role and no significant additions to backfield"
-      ],
-      "concerns": [
-        "Only one season of significant NFL production makes projection less reliable than established backs",
-        "Bengals' poor defense may force abandonment of run game in negative game scripts requiring catchup mode",
-        "Limited receiving upside with only 27 catches in 2024 caps weekly ceiling in PPR formats"
-      ],
-      "expert_take": "Brown's late-season emergence suggests true breakout potential in explosive Bengals offense. His efficiency metrics and clear path to 15+ carries weekly make him solid RB2 with upside, though limited passing game role prevents elite tier consideration.",
+      "expert_take": "Achane's explosive ability makes him a weekly ceiling play, but size concerns and injury history create volatility. His receiving skills provide decent floor in PPR, but the backfield committee approach limits his path to true bell-cow status. Better suited as high-upside RB2 than primary back.",
       "confidence_level": "Medium",
-      "adp_analysis": "RB8 ranking around pick 19.7 reflects appropriate value for ascending player in good offensive situation",
-      "last_updated": "2025-09-06",
-      "research_sources": ["ESPN", "FantasyPros", "Bengals beat reporters"]
+      "adp_analysis": "RB6 ranking around pick 12-15 reflects explosive upside vs durability and committee concerns",
+      "last_updated": "2025-09-06", 
+      "research_sources": ["CBS Sports", "ESPN", "NFL.com", "Fantasy analysts"]
     },
     "weekly_analysis": {
-      "injury_outlook": "No injury concerns entering 2025 season",
-      "matchup_factors": ["Effective vs weak run defenses", "Benefits from Bengals' passing attack"],
-      "usage_trends": ["15+ carries expected", "Limited receiving work", "Goal line opportunities"],
-      "ceiling_games": "Bengals controlling games with balanced offensive attack",
-      "floor_games": "Negative game scripts or if Moss reclaims significant role"
+      "injury_outlook": "Calf injury concerns entering Week 1 require close monitoring",
+      "matchup_factors": ["Explosive vs weak defenses", "Size concerns vs physical defensive fronts"],
+      "usage_trends": ["12-15 touches per game", "Featured in passing game", "Limited goal line work"],
+      "ceiling_games": "Healthy with big-play opportunities in passing game",
+      "floor_games": "Injury limitations or committee approach reducing touches"
     }
   },
-  "Mike Evans": {
+  "Jonathan Taylor": {
     "draft_analysis": {
       "strengths": [
-        "11 consecutive 1,000-yard seasons entering age 32, most reliable target in Bucs' offense with Baker Mayfield connection",
-        "Red zone dominance with 6'5\" frame creating consistent TD opportunities in improved Tampa Bay offensive system",
-        "Minimal target competition with Chris Godwin's departure and focus on Bucky Irving in backfield"
+        "Workhorse usage with 272 carries in 2024 averaging 17.5 fantasy points per game when healthy",
+        "Proven track record with multiple 1,000+ yard seasons and receiving ability (44 catches in 2024)",
+        "Colts offense built around running game with Anthony Richardson's dual-threat ability opening up rushing lanes"
       ],
       "concerns": [
-        "Age 32 with over 750 career catches approaching typical decline phase for elite receivers",
-        "Injury history including missed games in recent seasons, requiring load management during long season",
-        "Buccaneers may be more run-heavy with Irving's emergence, potentially reducing overall passing attempts"
+        "Injury history including ankle issues that limited him in 2024 and chronic availability questions throughout career",
+        "Colts offensive line concerns and overall offensive efficiency may limit scoring opportunities",
+        "Age 26 with heavy career workload approaching typical RB decline phase with over 1,000 career touches"
       ],
-      "expert_take": "Evans remains elite red zone threat with proven durability, but age concerns are legitimate entering what could be final elite season. His size and chemistry with Mayfield provide strong weekly floor, though ceiling may be capped by declining deep speed.",
+      "expert_take": "Taylor offers bell-cow upside when healthy but injury concerns are legitimate after missing time in 2024. His receiving ability provides PPR floor, and the Colts' commitment to running creates volume opportunity. However, the injury risk prevents him from elite tier consideration.",
       "confidence_level": "Medium",
-      "adp_analysis": "WR11 ranking around pick 29.3 appropriately discounts for age while preserving proven production value",
+      "adp_analysis": "RB7 ranking around pick 17-20 prices in talent vs injury and efficiency concerns",
       "last_updated": "2025-09-06",
-      "research_sources": ["ESPN", "Buccaneers beat reporters", "FantasyPros"]
+      "research_sources": ["ESPN analysis", "NFL.com", "Colts beat reporters"]
     },
     "weekly_analysis": {
-      "injury_outlook": "Generally durable but age increases injury risk, no current concerns",
-      "matchup_factors": ["Size advantage vs smaller DBs", "Red zone specialist"],
-      "usage_trends": ["7-9 targets per game", "Deep and red zone usage", "Possession role"],
-      "ceiling_games": "Bucs in shootouts with Evans finding end zone multiple times",
-      "floor_games": "Age-related performance decline or increased focus on running game"
+      "injury_outlook": "Ankle concerns from 2024 require ongoing monitoring",
+      "matchup_factors": ["Effective vs weak run defenses", "Struggles vs stacked boxes"],
+      "usage_trends": ["18+ carries when healthy", "4-5 targets per game", "Goal line primary"],
+      "ceiling_games": "Healthy with positive game scripts allowing heavy rushing",
+      "floor_games": "Injury limitations or negative game scripts requiring passing"
+    }
+  },
+  "Josh Jacobs": {
+    "draft_analysis": {
+      "strengths": [
+        "Excellent 2024 production with 1,329 rushing yards and 15 TDs, finishing as RB3 in weeks 11-18",
+        "Clear workhorse role in Green Bay with minimal competition and commitment to establishing run game",
+        "Proven durability and receiving ability (44 catches) providing PPR value and weekly floor"
+      ],
+      "concerns": [
+        "Age 27 with over 1,400 career touches and declining efficiency metrics over past two seasons",
+        "Packers may be more pass-heavy than expected with Jordan Love's development, limiting rushing volume",
+        "Touchdown regression likely after career-high 15 TDs, and goal-line competition from other backs possible"
+      ],
+      "expert_take": "Jacobs provides reliable RB2 production with proven track record and clear role, but age and workload concerns prevent elite upside. His receiving ability maintains PPR floor, and Green Bay's offensive improvements should create scoring opportunities. Solid pick for risk-averse managers.",
+      "confidence_level": "High",
+      "adp_analysis": "RB8 ranking around pick 18-21 reflects proven production with age-related discount",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN analysis", "NFL.com", "SI.com rankings"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Durable veteran with minimal injury concerns",
+      "matchup_factors": ["Effective vs most defenses", "May struggle vs elite run defenses"],
+      "usage_trends": ["15-18 carries per game", "4-5 targets per game", "Goal line work"],
+      "ceiling_games": "Packers controlling games with strong running attack",
+      "floor_games": "Pass-heavy game scripts or if efficiency declines with age"
     }
   },
   "Alvin Kamara": {
@@ -833,61 +1594,316 @@
       "floor_games": "Poor QB play or negative game scripts limiting overall offensive efficiency"
     }
   },
-  "Jayden Daniels": {
+  "Bucky Irving": {
     "draft_analysis": {
       "strengths": [
-        "2024 Offensive Rookie of the Year with 3,568 passing yards, 25 total TDs, and elite rushing production (891 yards)",
-        "Dual-threat ability provides consistent fantasy floor with 14 rushing TDs proving goal-line effectiveness",
-        "Improved Commanders offensive line and weapons including Terry McLaurin create better supporting cast for Year 2"
+        "Emerged as clear lead back by season's end, out-snapping Rachaad White in 5 of 6 games from Week 11 onwards when healthy",
+        "Elite efficiency with 1,122 rushing yards (300+ more than next rookie RB) and 1,429 total yards ranking 10th among all RBs",
+        "Offensive coordinator Liam Cohen's system maximized ground game effectiveness, and Irving appears to be best runner Bucs have had in years"
       ],
       "concerns": [
-        "Sophomore slump concerns after historic rookie season, with defenses having full year of film study",
-        "Rib injury late in 2024 raised durability questions given his designed run usage and smaller frame",
-        "Washington's defensive improvements may reduce need for high-volume passing attack in potential blowout wins"
+        "Rachaad White still on roster and could reclaim touches if Irving struggles or gets injured",
+        "Bucs may not retain OC Liam Cohen, potentially changing offensive philosophy away from Irving's strengths",
+        "Second-year player without full season of workhorse usage, making projections somewhat uncertain"
       ],
-      "expert_take": "Daniels' rushing ability makes him unique among QB options with legitimate dual-threat upside. His accuracy and decision-making showed marked improvement throughout rookie year. The injury concern is real but manageable given his proven toughness and improved protection.",
-      "confidence_level": "High",
-      "adp_analysis": "QB3 ranking around pick 30.6 provides excellent value for proven dual-threat production and upside",
-      "last_updated": "2025-09-06",
-      "research_sources": ["ESPN", "Commanders beat reporters", "FantasyPros"]
-    },
-    "weekly_analysis": {
-      "injury_outlook": "Rib injury from 2024 healed, but rushing usage creates inherent injury risk",
-      "matchup_factors": ["Mobile vs any defense", "Goal line rushing threat"],
-      "usage_trends": ["35+ pass attempts", "8-12 rush attempts", "Red zone rushing"],
-      "ceiling_games": "Competitive games requiring both passing and rushing production",
-      "floor_games": "Blowout wins limiting overall volume or injury concerns affecting mobility"
-    }
-  },
-  "Joe Burrow": {
-    "draft_analysis": {
-      "strengths": [
-        "Elite passing efficiency with improved offensive line and healthy Ja'Marr Chase/Tee Higgins duo entering 2025",
-        "Bengals' poor defense creates consistent need for high-volume passing attack and comeback scenarios",
-        "Wrist injury from 2024 appears fully healed with full participation in offseason activities"
-      ],
-      "concerns": [
-        "Injury history including torn ACL, appendix surgery, and wrist issues raising durability questions",
-        "Age 28 without playoff success creates pressure, potentially leading to conservative approach in meaningless games",
-        "Bengals' improved running game with Chase Brown may reduce overall passing attempts compared to previous seasons"
-      ],
-      "expert_take": "Burrow's talent level and supporting cast create QB1 upside, but injury concerns prevent him from elite tier. His connection with Chase and Higgins provides reliable weekly production, though durability questions make him riskier than other top QB options.",
+      "expert_take": "Irving's late-season emergence suggests he's earned the lead role through performance rather than draft pedigree. His efficiency metrics and clear separation from White by year-end indicate potential for true workhorse usage. The coaching uncertainty creates some risk, but his talent appears evident.",
       "confidence_level": "Medium",
-      "adp_analysis": "QB4 ranking around pick 30.8 reflects talent vs injury risk, appropriate for high-upside QB2 selection",
+      "adp_analysis": "RB10 ranking around pick 22-25 balances emergence vs uncertainty about role security",
       "last_updated": "2025-09-06",
-      "research_sources": ["ESPN", "Bengals beat reporters", "FantasyPros"]
+      "research_sources": ["FantasyPros", "ESPN analysis", "Buccaneers beat reporters"]
     },
     "weekly_analysis": {
-      "injury_outlook": "Wrist injury healed but history creates ongoing durability concerns",
-      "matchup_factors": ["Elite accuracy vs any defense", "Excels in shootout scenarios"],
-      "usage_trends": ["35+ pass attempts", "Heavy reliance on Chase/Higgins", "Red zone efficiency"],
-      "ceiling_games": "Bengals in high-scoring affairs with full receiving corps healthy",
-      "floor_games": "Injury concerns or if Bengals establish early leads reducing passing volume"
+      "injury_outlook": "Young player with no significant injury history",
+      "matchup_factors": ["Effective vs most defenses", "Benefits from improved Bucs OL"],
+      "usage_trends": ["15+ carries expected", "Limited receiving work", "Goal line opportunities"],
+      "ceiling_games": "Bucs controlling games with heavy ground attack",
+      "floor_games": "Committee approach if White regains role or negative game scripts"
     }
   },
-  "Jaxon Smith-Njigba": {
+  "Kyren Williams": {
     "draft_analysis": {
       "strengths": [
-        "Emerged as clear WR1 for Seahawks with DK Metcalf's trade, creating path to 25%+ target share in 2025",
-        "Strong chemistry with Geno Smith developed throughout 2024 with consistent route-running and reliable hands",
-        "Age 22 entering prime years with room for growth in Ryan Grubb's new offensive system"
+        "Back-to-back seasons with 1,100+ rushing yards and 81% snap share led all RBs in 2024, showing Sean McVay's commitment to one-back system",
+        "Only Saquon Barkley and Bijan Robinson exceeded his total touches, and recent contract extension shows team's long-term faith",
+        "Proven red zone efficiency and goal-line usage in high-scoring Rams offense with excellent offensive line"
+      ],
+      "concerns": [
+        "Ball security issues with 5 fumbles in 2024 could lead to reduced usage if problem continues",
+        "Rams keep drafting RBs suggesting they may not view him as long-term bell-cow despite current usage",
+        "Limited receiving upside compared to other elite backs, potentially capping weekly ceiling in PPR formats"
+      ],
+      "expert_take": "Williams represents the closest thing to a sure bet for heavy workload given McVay's historical usage patterns and Williams' proven effectiveness. The fumble concerns are real but manageable if corrected. His ADP feels discounted for a player with clear path to 20+ touches weekly.",
+      "confidence_level": "High",
+      "adp_analysis": "RB11-12 ranking around pick 23-26 seems undervalued for proven workhorse in elite offense",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN analysis", "NFL.com", "Rams beat reporters"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Generally durable with good health track record",
+      "matchup_factors": ["Effective vs most defenses", "Benefits from Rams' passing game attention"],
+      "usage_trends": ["18+ carries per game", "Limited receiving work", "Primary goal line back"],
+      "ceiling_games": "Rams in positive game scripts with heavy ground control",
+      "floor_games": "Ball security issues or if Rams fall behind early requiring passing"
+    }
+  },
+  "Chase Brown": {
+    "draft_analysis": {
+      "strengths": [
+        "Emerged as clear lead back after Joe Mixon trade with 179 carries for 857 yards (4.8 YPC) in final 10 games",
+        "Bengals' pass-heavy offense with Burrow-Chase connection creates positive game scripts favoring consistent RB usage",
+        "Limited competition with Zack Moss relegated to backup role and no significant additions to backfield"
+      ],
+      "concerns": [
+        "Only one season of significant NFL production makes projection less reliable than established backs",
+        "Bengals' poor defense may force abandonment of run game in negative game scripts requiring catchup mode",
+        "Limited receiving upside with only 27 catches in 2024 caps weekly ceiling in PPR formats"
+      ],
+      "expert_take": "Brown's late-season emergence suggests true breakout potential in explosive Bengals offense. His efficiency metrics and clear path to 15+ carries weekly make him solid RB2 with upside, though limited passing game role prevents elite tier consideration.",
+      "confidence_level": "Medium",
+      "adp_analysis": "RB8 ranking around pick 19.7 reflects appropriate value for ascending player in good offensive situation",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "FantasyPros", "Bengals beat reporters"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "No injury concerns entering 2025 season",
+      "matchup_factors": ["Effective vs weak run defenses", "Benefits from Bengals' passing attack"],
+      "usage_trends": ["15+ carries expected", "Limited receiving work", "Goal line opportunities"],
+      "ceiling_games": "Bengals controlling games with balanced offensive attack",
+      "floor_games": "Negative game scripts or if Moss reclaims significant role"
+    }
+  },
+  "Derrick Henry": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite 2024 production as RB4 with 1,921 rushing yards and NFL-leading 16 rushing TDs at age 30",
+        "Perfect fit in Ravens' run-heavy offense that should continue to feature him heavily with Lamar Jackson",
+        "Minimal wear concerns despite age due to late career start and excellent physical condition"
+      ],
+      "concerns": [
+        "Age 31 with 2,529 career touches - historically, RBs this age with high workload decline significantly",
+        "Limited receiving ability may cap weekly ceiling in PPR formats compared to other elite backs",
+        "Ravens may reduce his workload to preserve him for playoffs, affecting fantasy value late in season"
+      ],
+      "expert_take": "Henry defies aging curves but history suggests significant regression risk at age 31. His TD-dependent scoring makes him volatile, though the Ravens' offense should provide consistent opportunities. Better suited as high-floor RB2 than primary fantasy back due to age concerns.",
+      "confidence_level": "Medium",
+      "adp_analysis": "RB9 ranking around pick 19-22 appropriately balances elite production vs age cliff risk",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN analysis", "NFL.com", "Age curve research"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Excellent health track record but age increases injury risk",
+      "matchup_factors": ["Dominant vs weak run defenses", "May struggle vs speed defenses"],
+      "usage_trends": ["18+ carries per game", "Limited receiving work", "Goal line primary"],
+      "ceiling_games": "Ravens controlling games with heavy ground attack",
+      "floor_games": "Negative game scripts requiring passing or age-related decline"
+    }
+  },
+  "Ashton Jeanty": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite college production averaging 200+ yards per game in 2024 at Boise State with dominant avoided tackle metrics vs all other rookie RBs",
+        "Chip Kelly's historically run-heavy offense ranks top-10 in rushing attempts/yards/TDs in 3 of past 4 seasons as NFL coordinator",
+        "Clear path to workhorse role in Las Vegas with minimal competition and immediate opportunity as 6th overall draft pick"
+      ],
+      "concerns": [
+        "Rookie running back with no NFL experience facing significant jump in competition level and defensive speed",
+        "Raiders offensive line concerns and questionable quarterback situation could limit overall offensive efficiency",
+        "Historically, rookie RBs drafted this high (ADP ~12) face steep learning curve and workload management early in season"
+      ],
+      "expert_take": "Jeanty represents the highest upside rookie RB in years, with college production rivaling Saquon Barkley and Bijan Robinson. Kelly's offense should maximize his skills, but rookie adjustment period and team context create higher volatility than established options. Best suited for managers comfortable with rookie risk for league-winning ceiling.",
+      "confidence_level": "Medium",
+      "adp_analysis": "ADP around pick 11-13 prices in both elite college production and rookie uncertainty appropriately",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "PFF", "CBS Sports", "Fantasy Football Calculator"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "No injury concerns entering rookie season with fresh legs",
+      "matchup_factors": ["Should excel vs weaker run defenses", "May struggle vs elite defensive fronts"],
+      "usage_trends": ["Projected 15+ touches per game", "Goal line role expected", "Some receiving work"],
+      "ceiling_games": "Positive game scripts allowing heavy rushing volume in Kelly's system",
+      "floor_games": "Rookie learning curve or negative game scripts limiting opportunities"
+    }
+  },
+  "Kenneth Walker III": {
+    "draft_analysis": {
+      "strengths": [
+        "Explosive running ability with proven big-play potential when healthy",
+        "Clear lead back role in Seattle with minimal competition from backup options",
+        "Seahawks' improved offensive line should create better running lanes in 2025"
+      ],
+      "concerns": [
+        "Extensive injury history including multiple missed games in recent seasons",
+        "Limited receiving ability caps weekly ceiling in PPR formats",
+        "Seahawks' pass-heavy tendencies may reduce overall rushing volume"
+      ],
+      "expert_take": "Walker's talent is evident but injury concerns are significant for fantasy reliability. His big-play ability provides weekly ceiling when healthy, though durability issues and limited receiving work make him boom-bust option.",
+      "confidence_level": "Low",
+      "adp_analysis": "RB16 ranking around pick 45.2 may be too aggressive given injury history and limited upside",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Seahawks beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Injury history creates ongoing concerns, requires careful monitoring",
+      "matchup_factors": ["Speed threat vs any defense", "Limited between tackles"],
+      "usage_trends": ["12-15 carries when healthy", "Limited receiving work", "Big-play dependent"],
+      "ceiling_games": "Walker healthy with Seahawks controlling ground game",
+      "floor_games": "Injury concerns or pass-heavy game scripts limiting touches"
+    }
+  },
+  "James Cook": {
+    "draft_analysis": {
+      "strengths": [
+        "Clear lead back role in high-powered Bills offense with Josh Allen's dual-threat ability opening running lanes",
+        "Excellent receiving skills with 44 catches in 2024 providing strong PPR floor and target consistency",
+        "Bills' playoff aspirations create positive game scripts favoring balanced offensive attack throughout season"
+      ],
+      "concerns": [
+        "Competition from Ty Johnson and Ray Davis limits goal-line opportunities and potential ceiling",
+        "Bills' pass-heavy tendencies may reduce overall rushing volume in favor of Allen's arm and legs",
+        "Injury history and smaller frame raise durability questions for full 17-game workhorse role"
+      ],
+      "expert_take": "Cook's receiving ability makes him valuable in PPR formats within Bills' explosive offense. His speed and versatility provide weekly upside, though goal-line vulturing and committee approach prevent true RB1 ceiling. Solid RB2 with flex appeal.",
+      "confidence_level": "Medium",
+      "adp_analysis": "RB12 ranking around pick 34.2 reflects appropriate value for role player in elite offense",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Bills beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Some durability concerns but no current injuries reported",
+      "matchup_factors": ["Speed threat vs any defense", "Receiving mismatch vs linebackers"],
+      "usage_trends": ["12-15 carries per game", "4-6 targets per game", "Limited goal line work"],
+      "ceiling_games": "Bills controlling games with Cook featuring in passing attack",
+      "floor_games": "Committee approach or Allen vulturing rushing TDs at goal line"
+    }
+  },
+  "Breece Hall": {
+    "draft_analysis": {
+      "strengths": [
+        "Proven talent with 15.1 PPG in 2024 despite poor offensive context and clear lead back opportunity with Jets",
+        "Excellent receiving ability with 75 targets providing strong PPR floor and weekly target consistency",
+        "Justin Fields' arrival should improve QB play and provide designed check-downs favoring Hall's skill set"
+      ],
+      "concerns": [
+        "Hasn't recorded 20+ yard run in 10 consecutive games, showing concerning lack of explosiveness since mid-2024",
+        "Jets coaching staff indicated three-back committee approach with Braelon Allen and Isaiah Davis competing for touches",
+        "Fields' rushing ability may vulture carries and red zone opportunities typically available to running backs"
+      ],
+      "expert_take": "Hall's talent remains evident but the loss of explosive plays and committee concerns create significant risk at current ADP. His receiving skills provide decent floor, but the Jets' offensive limitations and backfield competition prevent him from reliable RB2 status.",
+      "confidence_level": "Low",
+      "adp_analysis": "RB18 ranking around pick 49.0 reflects appropriate discount for talent vs situation concerns",
+      "last_updated": "2025-09-06",
+      "research_sources": ["Pro Football Network", "NBC Sports", "FantasyPros", "CBS Sports"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "ACL fully recovered but no current injury concerns reported",
+      "matchup_factors": ["Receiving ability vs linebackers", "Limited explosive plays"],
+      "usage_trends": ["12-15 carries in committee", "5-7 targets per game", "Limited goal line work"],
+      "ceiling_games": "Jets controlling games with Hall featured in passing attack",
+      "floor_games": "Committee approach limiting touches or Fields vulturing rushing opportunities"
+    }
+  },
+  "James Conner": {
+    "draft_analysis": {
+      "strengths": [
+        "Proven workhorse ability with 1,040 rushing yards in 2024 despite missing time",
+        "Clear lead back role in Arizona with minimal competition and goal-line responsibilities",
+        "Cardinals' improved offensive line should create better running lanes and efficiency"
+      ],
+      "concerns": [
+        "Age 30 with extensive injury history including multiple missed games in recent seasons",
+        "Cardinals' poor offense may create negative game scripts requiring abandonment of run game",
+        "Limited receiving upside caps weekly ceiling compared to other backfield options"
+      ],
+      "expert_take": "Conner's role is secure when healthy but durability concerns are significant at age 30. His goal-line work provides TD upside, though Cardinals' likely struggles and his injury history make him risky as primary back.",
+      "confidence_level": "Low",
+      "adp_analysis": "RB15 ranking around pick 41.7 may be too high given age and injury concerns vs upside",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Cardinals beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "Extensive injury history creates ongoing concerns, requires monitoring",
+      "matchup_factors": ["Power runner vs weak defenses", "Goal line specialist"],
+      "usage_trends": ["15+ carries when healthy", "Limited receiving work", "Goal line primary"],
+      "ceiling_games": "Cardinals controlling games with Conner finding end zone",
+      "floor_games": "Injury concerns or negative game scripts limiting rushing opportunities"
+    }
+  },
+  "Chuba Hubbard": {
+    "draft_analysis": {
+      "strengths": [
+        "Clear lead back role in Carolina with minimal competition after proving himself in 2024",
+        "Improved Panthers offensive line and Bryce Young's development should create better running lanes",
+        "Receiving ability with 48 catches provides PPR value and weekly floor"
+      ],
+      "concerns": [
+        "Panthers' poor offense and likely negative game scripts may limit positive rushing opportunities",
+        "Competition from rookie additions and veterans could reduce overall touch share",
+        "Team's rebuilding status suggests limited red zone opportunities and scoring chances"
+      ],
+      "expert_take": "Hubbard's role appears secure but team context limits ceiling significantly. His receiving skills provide some weekly floor in PPR, though Panthers' likely struggles make him better suited as depth piece rather than weekly starter.",
+      "confidence_level": "Low",
+      "adp_analysis": "RB14 ranking around pick 40.3 may be too aggressive given team limitations and upside concerns",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Panthers beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "No injury concerns but heavy workload could create wear",
+      "matchup_factors": ["Receiving ability vs linebackers", "Limited between tackles"],
+      "usage_trends": ["15+ carries when healthy", "4-6 targets per game", "Limited goal line"],
+      "ceiling_games": "Panthers in competitive games with balanced attack",
+      "floor_games": "Negative game scripts or poor offensive line play limiting effectiveness"
+    }
+  },
+  "TreVeyon Henderson": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite college production and immediate opportunity as Patriots' lead back with minimal competition",
+        "Strong physical frame at 5'11\", 215 pounds with proven durability throughout college career",
+        "Patriots' improved offensive line and coaching should create better rushing opportunities than recent years"
+      ],
+      "concerns": [
+        "Rookie running back facing significant NFL adjustment period and learning curve",
+        "Patriots' poor QB situation may create negative game scripts requiring abandonment of run game",
+        "Limited receiving experience caps weekly ceiling in PPR formats"
+      ],
+      "expert_take": "Henderson represents solid floor with clear opportunity but Patriots' offensive limitations cap his ceiling. His physical tools and college production suggest he can handle workhorse role, though team context makes him better suited as RB3 than primary option.",
+      "confidence_level": "Low",
+      "adp_analysis": "RB17 ranking around pick 50.2 may be appropriate for rookie with opportunity in poor offense",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Patriots beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "No injury concerns entering rookie season with good college durability",
+      "matchup_factors": ["Power runner vs weak defenses", "Limited speed"],
+      "usage_trends": ["15+ carries expected", "Limited receiving work", "Goal line opportunities"],
+      "ceiling_games": "Patriots in competitive games with balanced offensive attack",
+      "floor_games": "Negative game scripts or rookie adjustment period limiting effectiveness"
+    }
+  },
+  "Omarion Hampton": {
+    "draft_analysis": {
+      "strengths": [
+        "Elite college production with 1,500+ rushing yards and clear path to immediate starting role",
+        "Jim Harbaugh's run-heavy system in Los Angeles should maximize ground game opportunities",
+        "Physical running style and goal-line size create TD upside in improved Chargers offense"
+      ],
+      "concerns": [
+        "Rookie running back with no NFL experience facing significant jump in competition level",
+        "Chargers' historically pass-heavy approach may not change dramatically despite coaching change",
+        "J.K. Dobbins and other veterans still on roster could limit early-season opportunities"
+      ],
+      "expert_take": "Hampton represents highest-upside rookie RB with clear opportunity in Harbaugh's system. His college production and physical tools suggest immediate impact potential, though rookie adjustment period and competition create week-to-week volatility.",
+      "confidence_level": "Medium",
+      "adp_analysis": "RB13 ranking around pick 39.5 reflects rookie premium with significant upside potential",
+      "last_updated": "2025-09-06",
+      "research_sources": ["ESPN", "Chargers beat reporters", "FantasyPros"]
+    },
+    "weekly_analysis": {
+      "injury_outlook": "No injury concerns entering rookie season with fresh legs",
+      "matchup_factors": ["Power runner vs weak defenses", "Goal line threat"],
+      "usage_trends": ["12-15 carries projected", "Limited receiving work", "Goal line role"],
+      "ceiling_games": "Chargers controlling games with heavy ground attack",
+      "floor_games": "Rookie learning curve or committee approach limiting touches"
+    }
+  }
+}
