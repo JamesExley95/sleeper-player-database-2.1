@@ -1,0 +1,316 @@
+name: Test NFL Performance Collection
+
+on:
+  # Manual trigger for testing
+  workflow_dispatch:
+    inputs:
+      test_week:
+        description: 'Week number to test (1-18)'
+        required: false
+        default: '1'
+        type: string
+      test_mode:
+        description: 'Test mode'
+        required: false
+        default: 'single_week'
+        type: choice
+        options:
+        - single_week
+        - season_data
+        - validation_only
+  
+  # Auto-trigger for testing (can be disabled)
+  push:
+    branches: [ main ]
+    paths:
+      - 'scripts/collect_nfl_performance.py'
+      - '.github/workflows/test_nfl_collection.yml'
+
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  test-nfl-collection:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pytest
+    
+    - name: Verify data directory structure
+      run: |
+        echo "=== Current Repository Structure ==="
+        find . -name "*.json" -o -name "*.py" | head -20
+        echo ""
+        echo "=== Data Directory Contents ==="
+        ls -la data/ || echo "Data directory not found"
+        echo ""
+        echo "=== Scripts Directory Contents ==="
+        ls -la scripts/ || echo "Scripts directory not found"
+    
+    - name: Validate existing data files
+      run: |
+        echo "=== Validating Data Files ==="
+        
+        # Check if required files exist
+        files=("data/players.json" "data/adp_consolidated_2025.json")
+        for file in "${files[@]}"; do
+          if [ -f "$file" ]; then
+            echo "✅ Found: $file"
+            echo "   Size: $(wc -c < "$file") bytes"
+            echo "   Valid JSON: $(python -c "import json; json.load(open('$file')); print('Yes')" 2>/dev/null || echo "No")"
+          else
+            echo "❌ Missing: $file"
+          fi
+        done
+    
+    - name: Test script syntax and imports
+      run: |
+        echo "=== Testing Script Syntax ==="
+        python -m py_compile scripts/collect_nfl_performance.py
+        echo "✅ Syntax validation passed"
+        
+        echo "=== Testing Imports ==="
+        python -c "
+        import sys
+        sys.path.append('scripts')
+        try:
+            from collect_nfl_performance import NFLPerformanceCollector
+            print('✅ Import successful')
+        except Exception as e:
+            print(f'❌ Import failed: {e}')
+            exit(1)
+        "
+    
+    - name: Test collector initialization
+      run: |
+        echo "=== Testing Collector Initialization ==="
+        python -c "
+        import sys
+        sys.path.append('scripts')
+        from collect_nfl_performance import NFLPerformanceCollector
+        
+        try:
+            collector = NFLPerformanceCollector(data_dir='data')
+            print('✅ Collector initialized successfully')
+            print(f'   Fantasy relevant players: {len(collector.fantasy_relevant_players)}')
+            print(f'   Sleeper players loaded: {len(collector.sleeper_players)}')
+        except Exception as e:
+            print(f'❌ Initialization failed: {e}')
+            exit(1)
+        "
+    
+    - name: Test data collection (single week)
+      if: ${{ github.event.inputs.test_mode != 'validation_only' }}
+      env:
+        NFL_WEEK: ${{ github.event.inputs.test_week || '1' }}
+      run: |
+        echo "=== Testing Data Collection for Week $NFL_WEEK ==="
+        
+        # Create backup of existing files
+        cp data/season_2025_performances.json data/season_2025_performances.json.backup 2>/dev/null || echo "No existing performance file"
+        
+        # Run collection
+        python scripts/collect_nfl_performance.py --week $NFL_WEEK
+        
+        echo "=== Verifying Output Files ==="
+        
+        # Check performance file
+        if [ -f "data/season_2025_performances.json" ]; then
+          echo "✅ Performance file created/updated"
+          echo "   Size: $(wc -c < data/season_2025_performances.json) bytes"
+          
+          # Validate JSON structure
+          python -c "
+import json
+with open('data/season_2025_performances.json', 'r') as f:
+    data = json.load(f)
+
+week_key = f'week_${NFL_WEEK}'
+if week_key in data:
+    player_count = len(data[week_key])
+    print(f'✅ Week ${NFL_WEEK} data found with {player_count} players')
+    
+    # Show sample player
+    if player_count > 0:
+        sample_player = list(data[week_key].keys())[0]
+        sample_data = data[week_key][sample_player]
+        print(f'   Sample player: {sample_data.get(\"player_name\", \"Unknown\")}')
+        print(f'   Position: {sample_data.get(\"position\", \"Unknown\")}')
+        print(f'   Fantasy points: {sample_data.get(\"stats\", {}).get(\"fantasy\", {}).get(\"points_ppr\", \"Unknown\")}')
+else:
+    print(f'❌ No data found for week ${NFL_WEEK}')
+    exit(1)
+          "
+        else
+          echo "❌ Performance file not created"
+          exit 1
+        fi
+        
+        # Check totals file
+        if [ -f "data/season_2025_totals.json" ]; then
+          echo "✅ Totals file created/updated"
+          echo "   Size: $(wc -c < data/season_2025_totals.json) bytes"
+          
+          # Validate totals structure
+          python -c "
+import json
+with open('data/season_2025_totals.json', 'r') as f:
+    data = json.load(f)
+
+player_count = len(data)
+print(f'✅ Season totals for {player_count} players')
+
+if player_count > 0:
+    sample_player = list(data.keys())[0]
+    sample_data = data[sample_player]
+    print(f'   Sample player: {sample_data.get(\"player_name\", \"Unknown\")}')
+    print(f'   Games played: {sample_data.get(\"games_played\", 0)}')
+    print(f'   Fantasy average: {sample_data.get(\"metrics\", {}).get(\"average_per_game\", \"Unknown\")}')
+          "
+        else
+          echo "❌ Totals file not created"
+          exit 1
+        fi
+    
+    - name: Test season data collection
+      if: ${{ github.event.inputs.test_mode == 'season_data' }}
+      run: |
+        echo "=== Testing Season Data Collection ==="
+        echo "⚠️  This will collect multiple weeks of data (may take several minutes)"
+        
+        # Test with limited range to avoid timeouts
+        python scripts/collect_nfl_performance.py --season
+        
+        echo "=== Season Collection Summary ==="
+        python -c "
+import json
+
+# Analyze performance data
+with open('data/season_2025_performances.json', 'r') as f:
+    perf_data = json.load(f)
+
+weeks = [k for k in perf_data.keys() if k.startswith('week_')]
+print(f'✅ Performance data collected for {len(weeks)} weeks')
+
+# Analyze totals data
+with open('data/season_2025_totals.json', 'r') as f:
+    totals_data = json.load(f)
+
+players_with_data = len([p for p in totals_data.values() if p.get('games_played', 0) > 0])
+print(f'✅ Season totals calculated for {players_with_data} players')
+        "
+    
+    - name: Data quality validation
+      if: ${{ always() && github.event.inputs.test_mode != 'validation_only' }}
+      run: |
+        echo "=== Data Quality Validation ==="
+        
+        python -c "
+import json
+import sys
+
+errors = []
+
+# Validate performance data structure
+try:
+    with open('data/season_2025_performances.json', 'r') as f:
+        perf_data = json.load(f)
+    
+    for week_key, week_data in perf_data.items():
+        if not week_key.startswith('week_'):
+            continue
+            
+        for player_key, player_data in week_data.items():
+            # Check required fields
+            required_fields = ['player_name', 'position', 'stats']
+            for field in required_fields:
+                if field not in player_data:
+                    errors.append(f'{week_key}/{player_key}: Missing {field}')
+            
+            # Check stats structure
+            if 'stats' in player_data:
+                stats = player_data['stats']
+                required_stat_categories = ['passing', 'rushing', 'receiving', 'fantasy']
+                for category in required_stat_categories:
+                    if category not in stats:
+                        errors.append(f'{week_key}/{player_key}: Missing {category} stats')
+
+except Exception as e:
+    errors.append(f'Performance data validation error: {e}')
+
+# Validate totals data structure
+try:
+    with open('data/season_2025_totals.json', 'r') as f:
+        totals_data = json.load(f)
+    
+    for player_key, player_data in totals_data.items():
+        # Check required fields
+        required_fields = ['player_name', 'games_played', 'season_totals', 'metrics']
+        for field in required_fields:
+            if field not in player_data:
+                errors.append(f'Totals {player_key}: Missing {field}')
+
+except Exception as e:
+    errors.append(f'Totals data validation error: {e}')
+
+# Report results
+if errors:
+    print('❌ Data quality issues found:')
+    for error in errors[:10]:  # Show first 10 errors
+        print(f'   - {error}')
+    if len(errors) > 10:
+        print(f'   ... and {len(errors) - 10} more errors')
+    sys.exit(1)
+else:
+    print('✅ Data quality validation passed')
+        "
+    
+    - name: Generate test report
+      if: always()
+      run: |
+        echo "=== Test Report ==="
+        echo "Timestamp: $(date)"
+        echo "Test mode: ${{ github.event.inputs.test_mode || 'single_week' }}"
+        echo "Test week: ${{ github.event.inputs.test_week || '1' }}"
+        echo ""
+        
+        echo "File sizes:"
+        ls -lh data/*.json 2>/dev/null || echo "No JSON files found"
+        echo ""
+        
+        echo "Python version: $(python --version)"
+        echo "Pip packages:"
+        pip list | grep -E "(pandas|nfl-data-py|requests)" || echo "Core packages not found"
+    
+    - name: Upload artifacts on failure
+      if: failure()
+      uses: actions/upload-artifact@v3
+      with:
+        name: debug-data
+        path: |
+          data/
+          scripts/collect_nfl_performance.py
+        retention-days: 7
+    
+    - name: Clean up test files
+      if: always()
+      run: |
+        # Restore backups if they exist
+        if [ -f "data/season_2025_performances.json.backup" ]; then
+          mv data/season_2025_performances.json.backup data/season_2025_performances.json
+          echo "Restored performance data backup"
+        fi
