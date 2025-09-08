@@ -9,6 +9,7 @@ import os
 import sys
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Any
+from difflib import SequenceMatcher
 import pandas as pd
 
 # Third-party imports
@@ -175,52 +176,226 @@ class NFLPerformanceCollector:
             return None
 
     def map_player_ids(self, nfl_data: pd.DataFrame) -> pd.DataFrame:
-        """Map NFL player names to Sleeper player IDs"""
+        """Map NFL player names to Sleeper player IDs with robust name matching"""
         
-        # Create a mapping from NFL player names to Sleeper IDs
+        # Create comprehensive mapping from NFL names to Sleeper IDs
         sleeper_mapping = {}
+        
         for sleeper_id, player_info in self.sleeper_players.items():
-            if isinstance(player_info, dict):
-                full_name = player_info.get('full_name', '')
-                first_name = player_info.get('first_name', '')
-                last_name = player_info.get('last_name', '')
+            if not isinstance(player_info, dict):
+                continue
                 
-                # Try multiple name variations
-                names_to_try = [full_name, f"{first_name} {last_name}"]
-                for name in names_to_try:
-                    if name and name not in sleeper_mapping:
-                        sleeper_mapping[name] = sleeper_id
-
-        # Add Sleeper ID to NFL data
+            # Get all name variations from Sleeper
+            full_name = player_info.get('full_name', '').strip()
+            first_name = player_info.get('first_name', '').strip()
+            last_name = player_info.get('last_name', '').strip()
+            
+            if not full_name or not first_name or not last_name:
+                continue
+                
+            # Create multiple name format variations to match against
+            name_variations = []
+            
+            # 1. Full name as-is
+            name_variations.append(full_name)
+            
+            # 2. "First Last" format
+            name_variations.append(f"{first_name} {last_name}")
+            
+            # 3. "F.Last" format (common in NFL data)
+            if first_name:
+                name_variations.append(f"{first_name[0]}.{last_name}")
+                
+            # 4. "FirstName LastName" (no middle names/suffixes)
+            # Handle cases like "Le'Veon Bell" -> "LeVeon Bell"
+            clean_first = first_name.replace("'", "").replace("-", "")
+            clean_last = last_name.replace("'", "").replace("-", "")
+            name_variations.append(f"{clean_first} {clean_last}")
+            if clean_first:
+                name_variations.append(f"{clean_first[0]}.{clean_last}")
+            
+            # 5. Handle Jr/Sr/III suffixes
+            if " Jr" in full_name or " Sr" in full_name or " III" in full_name:
+                base_name = full_name.split(" Jr")[0].split(" Sr")[0].split(" III")[0]
+                name_variations.append(base_name.strip())
+                
+            # 6. Reverse format "Last, First"
+            name_variations.append(f"{last_name}, {first_name}")
+            
+            # Store all variations (avoid duplicates)
+            for name_var in name_variations:
+                if name_var and name_var not in sleeper_mapping:
+                    sleeper_mapping[name_var] = sleeper_id
+        
+        print(f"Created {len(sleeper_mapping)} name-to-ID mappings")
+        
+        # Debug: Show sample mappings
+        sample_mappings = list(sleeper_mapping.items())[:5]
+        for name, sleeper_id in sample_mappings:
+            print(f"  Sample: '{name}' -> {sleeper_id}")
+        
+        # Add Sleeper ID to NFL data with fuzzy matching
         nfl_data = nfl_data.copy()
-        nfl_data['sleeper_id'] = nfl_data['player_name'].map(sleeper_mapping)
+        nfl_data['sleeper_id'] = None
+        nfl_data['sleeper_id_confidence'] = None
+        
+        # First pass: Exact matching
+        exact_matches = 0
+        for idx, row in nfl_data.iterrows():
+            nfl_name = str(row['player_name']).strip()
+            
+            if nfl_name in sleeper_mapping:
+                nfl_data.at[idx, 'sleeper_id'] = sleeper_mapping[nfl_name]
+                nfl_data.at[idx, 'sleeper_id_confidence'] = 'exact'
+                exact_matches += 1
+        
+        # Second pass: Fuzzy matching for unmapped players
+        def similarity(a, b):
+            return SequenceMatcher(None, a.lower(), b.lower()).ratio()
+        
+        fuzzy_matches = 0
+        for idx, row in nfl_data.iterrows():
+            if pd.notna(row['sleeper_id']):
+                continue  # Already mapped
+                
+            nfl_name = str(row['player_name']).strip()
+            best_match = None
+            best_score = 0.0
+            
+            # Try fuzzy matching against all Sleeper names
+            for sleeper_name, sleeper_id in sleeper_mapping.items():
+                score = similarity(nfl_name, sleeper_name)
+                
+                # High confidence threshold for fuzzy matching
+                if score > 0.85 and score > best_score:
+                    best_score = score
+                    best_match = sleeper_id
+            
+            if best_match and best_score > 0.85:
+                nfl_data.at[idx, 'sleeper_id'] = best_match
+                nfl_data.at[idx, 'sleeper_id_confidence'] = f'fuzzy_{best_score:.2f}'
+                fuzzy_matches += 1
         
         # Log mapping success rate
         mapped_count = nfl_data['sleeper_id'].notna().sum()
         total_count = len(nfl_data)
         mapping_rate = mapped_count / total_count * 100 if total_count > 0 else 0
         
-        print(f"Mapped {mapped_count}/{total_count} players to Sleeper IDs ({mapping_rate:.1f}%)")
+        print(f"Mapping Results:")
+        print(f"  Exact matches: {exact_matches}")
+        print(f"  Fuzzy matches: {fuzzy_matches}")
+        print(f"  Total mapped: {mapped_count}/{total_count} ({mapping_rate:.1f}%)")
+        
+        # Show sample unmapped players for debugging
+        unmapped = nfl_data[nfl_data['sleeper_id'].isna()]['player_name'].head(5).tolist()
+        if unmapped:
+            print(f"  Sample unmapped: {unmapped}")
         
         return nfl_data
 
     def filter_fantasy_relevant(self, nfl_data: pd.DataFrame) -> pd.DataFrame:
-        """Filter to fantasy-relevant players only"""
+        """Filter to fantasy-relevant players with inclusive criteria"""
         
-        # Filter by position (fantasy relevant positions)
-        fantasy_positions = ['QB', 'RB', 'WR', 'TE', 'K']
+        # Filter by position first (fantasy relevant positions)
+        fantasy_positions = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF']
         relevant_data = nfl_data[nfl_data['position'].isin(fantasy_positions)].copy()
         
-        # Further filter to players with significant involvement
-        relevant_data = relevant_data[
-            (relevant_data['fantasy_points'].fillna(0) > 0) |  # Scored fantasy points
-            (relevant_data['targets'].fillna(0) > 0) |         # Had targets
-            (relevant_data['carries'].fillna(0) > 0) |         # Had carries
-            (relevant_data['attempts'].fillna(0) > 0)          # Had pass attempts
-        ].copy()
+        print(f"After position filter: {len(relevant_data)} players")
         
-        print(f"Filtered to {len(relevant_data)} fantasy-relevant performances")
+        # Apply inclusive activity filter (OR logic instead of AND)
+        # Player needs ANY significant fantasy activity
+        activity_filter = (
+            (relevant_data['fantasy_points'].fillna(0) > 0) |      # Scored any fantasy points
+            (relevant_data['fantasy_points_ppr'].fillna(0) > 0) |  # Scored any PPR points
+            (relevant_data['targets'].fillna(0) > 0) |             # Had any targets (WR/TE/RB)
+            (relevant_data['carries'].fillna(0) > 0) |             # Had any carries (RB/QB)
+            (relevant_data['attempts'].fillna(0) > 0) |            # Had any pass attempts (QB)
+            (relevant_data['receptions'].fillna(0) > 0)            # Had any receptions (WR/TE/RB)
+        )
+        
+        relevant_data = relevant_data[activity_filter].copy()
+        
+        print(f"After activity filter: {len(relevant_data)} players")
+        
+        # Optional: Filter out players with very minimal involvement
+        # (This is less aggressive than the original filter)
+        minimal_involvement = (
+            (relevant_data['fantasy_points_ppr'].fillna(0) >= 0.1) |  # At least 0.1 PPR points
+            (relevant_data['targets'].fillna(0) >= 1) |              # At least 1 target
+            (relevant_data['carries'].fillna(0) >= 1) |              # At least 1 carry
+            (relevant_data['attempts'].fillna(0) >= 1)               # At least 1 pass attempt
+        )
+        
+        relevant_data = relevant_data[minimal_involvement].copy()
+        
+        print(f"After minimal involvement filter: {len(relevant_data)} players")
+        
+        # Debug: Show sample players that made it through
+        if len(relevant_data) > 0:
+            print("Sample players that passed filter:")
+            sample_players = relevant_data[['player_name', 'position', 'fantasy_points_ppr', 'targets', 'carries', 'attempts']].head(5)
+            for _, player in sample_players.iterrows():
+                targets_val = player['targets'] if pd.notna(player['targets']) else 0
+                carries_val = player['carries'] if pd.notna(player['carries']) else 0
+                attempts_val = player['attempts'] if pd.notna(player['attempts']) else 0
+                ppr_val = player['fantasy_points_ppr'] if pd.notna(player['fantasy_points_ppr']) else 0.0
+                
+                print(f"  {player['player_name']} ({player['position']}): "
+                      f"PPR: {ppr_val:.1f}, "
+                      f"Targets: {int(targets_val)}, "
+                      f"Carries: {int(carries_val)}, "
+                      f"Attempts: {int(attempts_val)}")
+        
         return relevant_data
+
+    def _calculate_usage_metrics(self, player_row: pd.Series, snap_counts: Optional[pd.DataFrame]) -> Dict[str, Any]:
+        """Calculate usage metrics for a player"""
+        
+        usage = {
+            'target_share': None,
+            'snap_percentage': None,
+            'red_zone_targets': None,
+            'air_yards': None
+        }
+        
+        # Calculate target share (requires team data)
+        targets = self._safe_int(player_row.get('targets'))
+        if targets is not None and targets > 0:
+            # This would need team-level target data to calculate properly
+            # For now, just store raw targets
+            usage['raw_targets'] = targets
+        
+        # Add snap count data if available
+        if snap_counts is not None and not snap_counts.empty:
+            player_snaps = snap_counts[
+                snap_counts['player'] == player_row['player_name']
+            ]
+            
+            if not player_snaps.empty:
+                snap_row = player_snaps.iloc[0]
+                usage['snaps_offense'] = self._safe_int(snap_row.get('offense'))
+                usage['snaps_defense'] = self._safe_int(snap_row.get('defense'))
+                usage['snaps_st'] = self._safe_int(snap_row.get('st'))
+        
+        return usage
+
+    def _safe_int(self, value) -> Optional[int]:
+        """Safely convert value to int"""
+        if pd.isna(value) or value is None:
+            return None
+        try:
+            return int(float(value))
+        except (ValueError, TypeError):
+            return None
+
+    def _safe_float(self, value) -> Optional[float]:
+        """Safely convert value to float"""
+        if pd.isna(value) or value is None:
+            return None
+        try:
+            return float(value)
+        except (ValueError, TypeError):
+            return None
 
     def process_week_data(self, week: int) -> Dict[str, Any]:
         """Process all data for a specific week"""
@@ -288,55 +463,6 @@ class NFLPerformanceCollector:
         
         print(f"Processed {len(week_data)} player performances for week {week}")
         return {week_key: week_data}
-
-    def _calculate_usage_metrics(self, player_row: pd.Series, snap_counts: Optional[pd.DataFrame]) -> Dict[str, Any]:
-        """Calculate usage metrics for a player"""
-        
-        usage = {
-            'target_share': None,
-            'snap_percentage': None,
-            'red_zone_targets': None,
-            'air_yards': None
-        }
-        
-        # Calculate target share (requires team data)
-        targets = self._safe_int(player_row.get('targets'))
-        if targets is not None and targets > 0:
-            # This would need team-level target data to calculate properly
-            # For now, just store raw targets
-            usage['raw_targets'] = targets
-        
-        # Add snap count data if available
-        if snap_counts is not None and not snap_counts.empty:
-            player_snaps = snap_counts[
-                snap_counts['player'] == player_row['player_name']
-            ]
-            
-            if not player_snaps.empty:
-                snap_row = player_snaps.iloc[0]
-                usage['snaps_offense'] = self._safe_int(snap_row.get('offense'))
-                usage['snaps_defense'] = self._safe_int(snap_row.get('defense'))
-                usage['snaps_st'] = self._safe_int(snap_row.get('st'))
-        
-        return usage
-
-    def _safe_int(self, value) -> Optional[int]:
-        """Safely convert value to int"""
-        if pd.isna(value) or value is None:
-            return None
-        try:
-            return int(float(value))
-        except (ValueError, TypeError):
-            return None
-
-    def _safe_float(self, value) -> Optional[float]:
-        """Safely convert value to float"""
-        if pd.isna(value) or value is None:
-            return None
-        try:
-            return float(value)
-        except (ValueError, TypeError):
-            return None
 
     def update_performance_data(self, week_data: Dict[str, Any]) -> None:
         """Update the performance data file with new week data"""
