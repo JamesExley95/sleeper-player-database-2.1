@@ -32,7 +32,7 @@ env:
 jobs:
   test-nfl-collection:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     
     steps:
     - name: Checkout repository
@@ -153,6 +153,8 @@ jobs:
                 print(f'   Position: {sample_data.get("position", "Unknown")}')
                 fantasy_points = sample_data.get("stats", {}).get("fantasy", {}).get("points_ppr", "Unknown")
                 print(f'   Fantasy points: {fantasy_points}')
+                sleeper_id = sample_data.get("sleeper_id", "None")
+                print(f'   Sleeper ID: {sleeper_id}')
         else:
             print(f'❌ No data found for week {os.environ["NFL_WEEK"]}')
             exit(1)
@@ -216,6 +218,59 @@ jobs:
         print(f'✅ Season totals calculated for {players_with_data} players')
         "
     
+    - name: Test mapping quality
+      if: ${{ always() && github.event.inputs.test_mode != 'validation_only' }}
+      run: |
+        echo "=== Testing Mapping Quality ==="
+        
+        cat > test_mapping.py << 'EOF'
+        import json
+        import sys
+        
+        # Load performance data
+        with open('data/season_2025_performances.json', 'r') as f:
+            perf_data = json.load(f)
+        
+        # Analyze mapping success
+        total_players = 0
+        mapped_players = 0
+        
+        for week_key, week_data in perf_data.items():
+            if not week_key.startswith('week_'):
+                continue
+                
+            for player_key, player_data in week_data.items():
+                total_players += 1
+                if player_data.get('sleeper_id'):
+                    mapped_players += 1
+        
+        mapping_rate = (mapped_players / total_players * 100) if total_players > 0 else 0
+        
+        print(f"Mapping Analysis:")
+        print(f"  Total players processed: {total_players}")
+        print(f"  Players with Sleeper IDs: {mapped_players}")
+        print(f"  Mapping success rate: {mapping_rate:.1f}%")
+        
+        # Show sample mapped players
+        sample_count = 0
+        for week_key, week_data in perf_data.items():
+            if not week_key.startswith('week_') or sample_count >= 3:
+                continue
+            for player_key, player_data in week_data.items():
+                if player_data.get('sleeper_id') and sample_count < 3:
+                    print(f"  Sample mapped: {player_data['player_name']} -> {player_data['sleeper_id']}")
+                    sample_count += 1
+                    
+        # Quality threshold check
+        if mapping_rate < 50:
+            print(f"⚠️  Warning: Mapping rate below 50% ({mapping_rate:.1f}%)")
+        elif mapping_rate < 70:
+            print(f"✅ Acceptable mapping rate: {mapping_rate:.1f}%")
+        else:
+            print(f"✅ Excellent mapping rate: {mapping_rate:.1f}%")
+        EOF
+        python test_mapping.py
+    
     - name: Data quality validation
       if: ${{ always() && github.event.inputs.test_mode != 'validation_only' }}
       run: |
@@ -226,6 +281,7 @@ jobs:
         import sys
         
         errors = []
+        warnings = []
         
         # Validate performance data structure
         try:
@@ -250,6 +306,10 @@ jobs:
                         for category in required_stat_categories:
                             if category not in stats:
                                 errors.append(f'{week_key}/{player_key}: Missing {category} stats')
+                    
+                    # Check for Sleeper ID mapping
+                    if not player_data.get('sleeper_id'):
+                        warnings.append(f'{week_key}/{player_key}: No Sleeper ID mapping')
         
         except Exception as e:
             errors.append(f'Performance data validation error: {e}')
@@ -279,6 +339,10 @@ jobs:
             sys.exit(1)
         else:
             print('✅ Data quality validation passed')
+            
+        if warnings:
+            warning_count = len([w for w in warnings if 'No Sleeper ID' in w])
+            print(f'⚠️  {warning_count} players without Sleeper ID mapping')
         EOF
         python validate_quality.py
     
@@ -298,12 +362,30 @@ jobs:
         echo "Python version: $(python --version)"
         echo "Pip packages:"
         pip list | grep -E "(pandas|nfl-data-py|requests)" || echo "Core packages not found"
+        
+        # Summary of results
+        if [ -f "data/season_2025_performances.json" ]; then
+          echo ""
+          echo "Collection Summary:"
+          python -c "
+        import json
+        try:
+            with open('data/season_2025_performances.json', 'r') as f:
+                data = json.load(f)
+            weeks = [k for k in data.keys() if k.startswith('week_')]
+            total_players = sum(len(data[k]) for k in weeks)
+            print(f'  Weeks collected: {len(weeks)}')
+            print(f'  Total player performances: {total_players}')
+        except:
+            print('  Could not analyze performance data')
+          "
+        fi
     
     - name: Upload artifacts on failure
       if: failure()
       uses: actions/upload-artifact@v4
       with:
-        name: debug-data
+        name: debug-data-${{ github.event.inputs.test_week || '1' }}
         path: |
           data/
           scripts/collect_nfl_performance.py
