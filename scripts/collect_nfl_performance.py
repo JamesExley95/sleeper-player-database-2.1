@@ -123,7 +123,7 @@ class NFLPerformanceCollector:
             # Try current year first, fallback to previous year for testing
             try:
                 weekly_data = nfl.import_weekly_data([self.current_year], columns=[
-                    'player_id', 'player_name', 'player_display_name', 'position', 'team',
+                    'player_id', 'player_name', 'player_display_name', 'position', 'recent_team',
                     'week', 'season', 'season_type',
                     'completions', 'attempts', 'passing_yards', 'passing_tds', 'interceptions',
                     'carries', 'rushing_yards', 'rushing_tds', 'targets', 'receptions', 
@@ -132,7 +132,7 @@ class NFLPerformanceCollector:
             except Exception as e:
                 print(f"2025 data not available, using 2024 for testing: {e}")
                 weekly_data = nfl.import_weekly_data([2024], columns=[
-                    'player_id', 'player_name', 'player_display_name', 'position', 'team',
+                    'player_id', 'player_name', 'player_display_name', 'position', 'recent_team',
                     'week', 'season', 'season_type',
                     'completions', 'attempts', 'passing_yards', 'passing_tds', 'interceptions',
                     'carries', 'rushing_yards', 'rushing_tds', 'targets', 'receptions', 
@@ -251,7 +251,7 @@ class NFLPerformanceCollector:
                 'player_name': player_name,
                 'sleeper_id': sleeper_id,
                 'position': player_row['position'],
-                'team': player_row['team'],
+                'team': player_row['recent_team'],
                 'week': week,
                 'season': int(player_row['season']),
                 'stats': {
