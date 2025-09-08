@@ -133,30 +133,30 @@ jobs:
           echo "✅ Performance file created/updated"
           echo "   Size: $(wc -c < data/season_2025_performances.json) bytes"
           
-        # Validate JSON structure
-        python << 'EOF'
-import json
-import os
-with open('data/season_2025_performances.json', 'r') as f:
-    data = json.load(f)
-
-week_key = f'week_{os.environ["NFL_WEEK"]}'
-if week_key in data:
-    player_count = len(data[week_key])
-    print(f'✅ Week {os.environ["NFL_WEEK"]} data found with {player_count} players')
-    
-    # Show sample player
-    if player_count > 0:
-        sample_player = list(data[week_key].keys())[0]
-        sample_data = data[week_key][sample_player]
-        print(f'   Sample player: {sample_data.get("player_name", "Unknown")}')
-        print(f'   Position: {sample_data.get("position", "Unknown")}')
-        fantasy_points = sample_data.get("stats", {}).get("fantasy", {}).get("points_ppr", "Unknown")
-        print(f'   Fantasy points: {fantasy_points}')
-else:
-    print(f'❌ No data found for week {os.environ["NFL_WEEK"]}')
-    exit(1)
-EOF
+          # Validate JSON structure
+          python << 'EOF'
+        import json
+        import os
+        with open('data/season_2025_performances.json', 'r') as f:
+            data = json.load(f)
+        
+        week_key = f'week_{os.environ["NFL_WEEK"]}'
+        if week_key in data:
+            player_count = len(data[week_key])
+            print(f'✅ Week {os.environ["NFL_WEEK"]} data found with {player_count} players')
+            
+            # Show sample player
+            if player_count > 0:
+                sample_player = list(data[week_key].keys())[0]
+                sample_data = data[week_key][sample_player]
+                print(f'   Sample player: {sample_data.get("player_name", "Unknown")}')
+                print(f'   Position: {sample_data.get("position", "Unknown")}')
+                fantasy_points = sample_data.get("stats", {}).get("fantasy", {}).get("points_ppr", "Unknown")
+                print(f'   Fantasy points: {fantasy_points}')
+        else:
+            print(f'❌ No data found for week {os.environ["NFL_WEEK"]}')
+            exit(1)
+        EOF
         else
           echo "❌ Performance file not created"
           exit 1
@@ -169,19 +169,19 @@ EOF
           
           # Validate totals structure
           python -c "
-import json
-with open('data/season_2025_totals.json', 'r') as f:
-    data = json.load(f)
-
-player_count = len(data)
-print(f'✅ Season totals for {player_count} players')
-
-if player_count > 0:
-    sample_player = list(data.keys())[0]
-    sample_data = data[sample_player]
-    print(f'   Sample player: {sample_data.get(\"player_name\", \"Unknown\")}')
-    print(f'   Games played: {sample_data.get(\"games_played\", 0)}')
-    print(f'   Fantasy average: {sample_data.get(\"metrics\", {}).get(\"average_per_game\", \"Unknown\")}')
+        import json
+        with open('data/season_2025_totals.json', 'r') as f:
+            data = json.load(f)
+        
+        player_count = len(data)
+        print(f'✅ Season totals for {player_count} players')
+        
+        if player_count > 0:
+            sample_player = list(data.keys())[0]
+            sample_data = data[sample_player]
+            print(f'   Sample player: {sample_data.get(\"player_name\", \"Unknown\")}')
+            print(f'   Games played: {sample_data.get(\"games_played\", 0)}')
+            print(f'   Fantasy average: {sample_data.get(\"metrics\", {}).get(\"average_per_game\", \"Unknown\")}')
           "
         else
           echo "❌ Totals file not created"
@@ -199,21 +199,21 @@ if player_count > 0:
         
         echo "=== Season Collection Summary ==="
         python -c "
-import json
-
-# Analyze performance data
-with open('data/season_2025_performances.json', 'r') as f:
-    perf_data = json.load(f)
-
-weeks = [k for k in perf_data.keys() if k.startswith('week_')]
-print(f'✅ Performance data collected for {len(weeks)} weeks')
-
-# Analyze totals data
-with open('data/season_2025_totals.json', 'r') as f:
-    totals_data = json.load(f)
-
-players_with_data = len([p for p in totals_data.values() if p.get('games_played', 0) > 0])
-print(f'✅ Season totals calculated for {players_with_data} players')
+        import json
+        
+        # Analyze performance data
+        with open('data/season_2025_performances.json', 'r') as f:
+            perf_data = json.load(f)
+        
+        weeks = [k for k in perf_data.keys() if k.startswith('week_')]
+        print(f'✅ Performance data collected for {len(weeks)} weeks')
+        
+        # Analyze totals data
+        with open('data/season_2025_totals.json', 'r') as f:
+            totals_data = json.load(f)
+        
+        players_with_data = len([p for p in totals_data.values() if p.get('games_played', 0) > 0])
+        print(f'✅ Season totals calculated for {players_with_data} players')
         "
     
     - name: Data quality validation
@@ -222,64 +222,64 @@ print(f'✅ Season totals calculated for {players_with_data} players')
         echo "=== Data Quality Validation ==="
         
         cat > validate_quality.py << 'EOF'
-import json
-import sys
-
-errors = []
-
-# Validate performance data structure
-try:
-    with open('data/season_2025_performances.json', 'r') as f:
-        perf_data = json.load(f)
-    
-    for week_key, week_data in perf_data.items():
-        if not week_key.startswith('week_'):
-            continue
+        import json
+        import sys
+        
+        errors = []
+        
+        # Validate performance data structure
+        try:
+            with open('data/season_2025_performances.json', 'r') as f:
+                perf_data = json.load(f)
             
-        for player_key, player_data in week_data.items():
-            # Check required fields
-            required_fields = ['player_name', 'position', 'stats']
-            for field in required_fields:
-                if field not in player_data:
-                    errors.append(f'{week_key}/{player_key}: Missing {field}')
+            for week_key, week_data in perf_data.items():
+                if not week_key.startswith('week_'):
+                    continue
+                    
+                for player_key, player_data in week_data.items():
+                    # Check required fields
+                    required_fields = ['player_name', 'position', 'stats']
+                    for field in required_fields:
+                        if field not in player_data:
+                            errors.append(f'{week_key}/{player_key}: Missing {field}')
+                    
+                    # Check stats structure
+                    if 'stats' in player_data:
+                        stats = player_data['stats']
+                        required_stat_categories = ['passing', 'rushing', 'receiving', 'fantasy']
+                        for category in required_stat_categories:
+                            if category not in stats:
+                                errors.append(f'{week_key}/{player_key}: Missing {category} stats')
+        
+        except Exception as e:
+            errors.append(f'Performance data validation error: {e}')
+        
+        # Validate totals data structure
+        try:
+            with open('data/season_2025_totals.json', 'r') as f:
+                totals_data = json.load(f)
             
-            # Check stats structure
-            if 'stats' in player_data:
-                stats = player_data['stats']
-                required_stat_categories = ['passing', 'rushing', 'receiving', 'fantasy']
-                for category in required_stat_categories:
-                    if category not in stats:
-                        errors.append(f'{week_key}/{player_key}: Missing {category} stats')
-
-except Exception as e:
-    errors.append(f'Performance data validation error: {e}')
-
-# Validate totals data structure
-try:
-    with open('data/season_2025_totals.json', 'r') as f:
-        totals_data = json.load(f)
-    
-    for player_key, player_data in totals_data.items():
-        # Check required fields
-        required_fields = ['player_name', 'games_played', 'season_totals', 'metrics']
-        for field in required_fields:
-            if field not in player_data:
-                errors.append(f'Totals {player_key}: Missing {field}')
-
-except Exception as e:
-    errors.append(f'Totals data validation error: {e}')
-
-# Report results
-if errors:
-    print('❌ Data quality issues found:')
-    for error in errors[:10]:  # Show first 10 errors
-        print(f'   - {error}')
-    if len(errors) > 10:
-        print(f'   ... and {len(errors) - 10} more errors')
-    sys.exit(1)
-else:
-    print('✅ Data quality validation passed')
-EOF
+            for player_key, player_data in totals_data.items():
+                # Check required fields
+                required_fields = ['player_name', 'games_played', 'season_totals', 'metrics']
+                for field in required_fields:
+                    if field not in player_data:
+                        errors.append(f'Totals {player_key}: Missing {field}')
+        
+        except Exception as e:
+            errors.append(f'Totals data validation error: {e}')
+        
+        # Report results
+        if errors:
+            print('❌ Data quality issues found:')
+            for error in errors[:10]:  # Show first 10 errors
+                print(f'   - {error}')
+            if len(errors) > 10:
+                print(f'   ... and {len(errors) - 10} more errors')
+            sys.exit(1)
+        else:
+            print('✅ Data quality validation passed')
+        EOF
         python validate_quality.py
     
     - name: Generate test report
