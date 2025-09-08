@@ -136,13 +136,14 @@ jobs:
           # Validate JSON structure
           python -c "
 import json
+import os
 with open('data/season_2025_performances.json', 'r') as f:
     data = json.load(f)
 
-week_key = f'week_${NFL_WEEK}'
+week_key = f'week_{os.environ[\"NFL_WEEK\"]}'
 if week_key in data:
     player_count = len(data[week_key])
-    print(f'✅ Week ${NFL_WEEK} data found with {player_count} players')
+    print(f'✅ Week {os.environ[\"NFL_WEEK\"]} data found with {player_count} players')
     
     # Show sample player
     if player_count > 0:
@@ -152,7 +153,7 @@ if week_key in data:
         print(f'   Position: {sample_data.get(\"position\", \"Unknown\")}')
         print(f'   Fantasy points: {sample_data.get(\"stats\", {}).get(\"fantasy\", {}).get(\"points_ppr\", \"Unknown\")}')
 else:
-    print(f'❌ No data found for week ${NFL_WEEK}')
+    print(f'❌ No data found for week {os.environ[\"NFL_WEEK\"]}')
     exit(1)
           "
         else
