@@ -38,7 +38,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.685911"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.016146"
     },
     "421": {
       "player_name": "M.Stafford",
@@ -78,7 +79,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.686280"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.016513"
     },
     "829": {
       "player_name": "A.Dalton",
@@ -118,7 +120,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.686640"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.016883"
     },
     "827": {
       "player_name": "T.Taylor",
@@ -158,7 +161,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.686971"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.017229"
     },
     "1166": {
       "player_name": "K.Cousins",
@@ -198,7 +202,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.687299"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.017565"
     },
     "1689": {
       "player_name": "A.Thielen",
@@ -239,7 +244,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.687647"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.017915"
     },
     "1339": {
       "player_name": "Z.Ertz",
@@ -280,7 +286,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.687975"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.018256"
     },
     "1479": {
       "player_name": "K.Allen",
@@ -321,7 +328,8 @@
         "air_yards": null,
         "raw_targets": 11
       },
-      "last_updated": "2025-09-09T06:31:16.688303"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.018589"
     },
     "1466": {
       "player_name": "T.Kelce",
@@ -362,7 +370,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.688671"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.018957"
     },
     "1348": {
       "player_name": "D.Hopkins",
@@ -403,7 +412,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.689001"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.019293"
     },
     "1373": {
       "player_name": "G.Smith",
@@ -443,7 +453,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.689317"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.019614"
     },
     "1535": {
       "player_name": "C.Patterson",
@@ -483,7 +494,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.689663"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.019964"
     },
     "2197": {
       "player_name": "B.Cooks",
@@ -524,7 +536,8 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:31:16.689983"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.020289"
     },
     "2028": {
       "player_name": "D.Carr",
@@ -564,7 +577,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.690299"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.020604"
     },
     "1800": {
       "player_name": "J.Matthews",
@@ -605,7 +619,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.690637"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.020941"
     },
     "2133": {
       "player_name": "D.Adams",
@@ -646,7 +661,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.690952"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.021269"
     },
     "2216": {
       "player_name": "M.Evans",
@@ -687,7 +703,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.691272"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.021584"
     },
     "2309": {
       "player_name": "A.Cooper",
@@ -728,7 +745,8 @@
         "air_yards": null,
         "raw_targets": 9
       },
-      "last_updated": "2025-09-09T06:31:16.691606"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.021926"
     },
     "2325": {
       "player_name": "N.Agholor",
@@ -769,7 +787,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.691918"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.022252"
     },
     "2446": {
       "player_name": "M.Pruitt",
@@ -810,7 +829,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.692228"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.022570"
     },
     "2449": {
       "player_name": "S.Diggs",
@@ -851,7 +871,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.692562"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.022906"
     },
     "2749": {
       "player_name": "R.Mostert",
@@ -892,7 +913,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.692877"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.023243"
     },
     "2564": {
       "player_name": "D.Carter",
@@ -933,7 +955,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.693187"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.023563"
     },
     "2410": {
       "player_name": "J.Crowder",
@@ -974,7 +997,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.693525"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.023901"
     },
     "2374": {
       "player_name": "T.Lockett",
@@ -1015,7 +1039,8 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:31:16.693839"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.024227"
     },
     "3202": {
       "player_name": "A.Hooper",
@@ -1056,7 +1081,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.694150"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.024546"
     },
     "3258": {
       "player_name": "N.Vannett",
@@ -1097,7 +1123,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.694478"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.024886"
     },
     "11576": {
       "player_name": "B.Allen",
@@ -1138,7 +1165,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.777122"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.109562"
     },
     "3634": {
       "player_name": "K.Raymond",
@@ -1178,7 +1206,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.695113"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.025538"
     },
     "3198": {
       "player_name": "D.Henry",
@@ -1219,7 +1248,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.695521"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.025875"
     },
     "3286": {
       "player_name": "D.Robinson",
@@ -1260,7 +1290,8 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:31:16.695842"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.026210"
     },
     "3225": {
       "player_name": "T.Boyd",
@@ -1301,7 +1332,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.696151"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.026531"
     },
     "3321": {
       "player_name": "T.Hill",
@@ -1342,7 +1374,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.699948"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.030539"
     },
     "3164": {
       "player_name": "E.Elliott",
@@ -1383,7 +1416,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.696796"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.027200"
     },
     "3294": {
       "player_name": "D.Prescott",
@@ -1423,7 +1457,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.697107"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.027531"
     },
     "3214": {
       "player_name": "H.Henry",
@@ -1464,7 +1499,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.697416"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.027847"
     },
     "3163": {
       "player_name": "J.Goff",
@@ -1504,7 +1540,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.697747"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.028188"
     },
     "3257": {
       "player_name": "J.Brissett",
@@ -1544,7 +1581,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.698059"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.028507"
     },
     "4054": {
       "player_name": "M.Alie-Cox",
@@ -1585,7 +1623,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.698367"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.028825"
     },
     "4314": {
       "player_name": "J.Mundt",
@@ -1626,7 +1665,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.698696"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.029187"
     },
     "4082": {
       "player_name": "C.Samuel",
@@ -1667,7 +1707,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.699004"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.029506"
     },
     "4217": {
       "player_name": "G.Kittle",
@@ -1708,7 +1749,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.699310"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.029823"
     },
     "11947": {
       "player_name": "A.Jones",
@@ -1749,7 +1791,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.699638"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.030164"
     },
     "4147": {
       "player_name": "S.Perine",
@@ -1790,7 +1833,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.700256"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.030913"
     },
     "4017": {
       "player_name": "D.Watson",
@@ -1830,7 +1874,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.700582"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.031236"
     },
     "520": {
       "player_name": "J.Conner",
@@ -1871,7 +1916,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.700902"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.031555"
     },
     "4177": {
       "player_name": "M.Hollins",
@@ -1912,7 +1958,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.701209"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.031893"
     },
     "4189": {
       "player_name": "E.Saubert",
@@ -1953,7 +2000,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.701532"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.032215"
     },
     "887": {
       "player_name": "D.Moore",
@@ -1994,7 +2042,8 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:31:16.712990"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.043838"
     },
     "4574": {
       "player_name": "C.Rush",
@@ -2034,7 +2083,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.702146"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.032846"
     },
     "4663": {
       "player_name": "A.Ekeler",
@@ -2075,7 +2125,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.702467"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.033182"
     },
     "4718": {
       "player_name": "D.Ogunbowale",
@@ -2116,7 +2167,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.702781"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.033499"
     },
     "4040": {
       "player_name": "J.Smith-Schuster",
@@ -2157,7 +2209,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.703085"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.033812"
     },
     "13246": {
       "player_name": "J.Smith",
@@ -2198,7 +2251,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.703389"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.034149"
     },
     "4046": {
       "player_name": "P.Mahomes",
@@ -2239,7 +2293,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.703718"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.034468"
     },
     "4066": {
       "player_name": "E.Engram",
@@ -2280,7 +2335,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.704025"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.034784"
     },
     "4033": {
       "player_name": "D.Njoku",
@@ -2321,7 +2377,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.704332"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.035121"
     },
     "4089": {
       "player_name": "G.Everett",
@@ -2362,7 +2419,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.704665"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.035437"
     },
     "4018": {
       "player_name": "J.Mixon",
@@ -2403,7 +2461,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.705026"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.035753"
     },
     "4035": {
       "player_name": "A.Kamara",
@@ -2444,7 +2503,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.705339"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.036095"
     },
     "4039": {
       "player_name": "C.Kupp",
@@ -2485,7 +2545,8 @@
         "air_yards": null,
         "raw_targets": 21
       },
-      "last_updated": "2025-09-09T06:31:16.705719"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.036428"
     },
     "4037": {
       "player_name": "C.Godwin",
@@ -2526,7 +2587,8 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:31:16.706035"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.036741"
     },
     "4171": {
       "player_name": "J.Reynolds",
@@ -2567,7 +2629,8 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:31:16.706346"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.037077"
     },
     "4042": {
       "player_name": "J.Williams",
@@ -2608,7 +2671,8 @@
         "air_yards": null,
         "raw_targets": 9
       },
-      "last_updated": "2025-09-09T06:31:16.744089"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.075800"
     },
     "11636": {
       "player_name": "J.Wilson",
@@ -2649,7 +2713,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.772388"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.104724"
     },
     "5010": {
       "player_name": "W.Dissly",
@@ -2690,7 +2755,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.707316"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.038044"
     },
     "5248": {
       "player_name": "G.Edwards",
@@ -2731,7 +2797,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.707668"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.038359"
     },
     "5209": {
       "player_name": "M.Boone",
@@ -2771,7 +2838,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.707979"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.038673"
     },
     "5133": {
       "player_name": "T.Conklin",
@@ -2812,7 +2880,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.708286"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.039010"
     },
     "5086": {
       "player_name": "M.Valdes-Scantling",
@@ -2853,7 +2922,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.708613"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.039328"
     },
     "8438": {
       "player_name": "C.Sutton",
@@ -2894,7 +2964,8 @@
         "air_yards": null,
         "raw_targets": 12
       },
-      "last_updated": "2025-09-09T06:31:16.708928"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.039641"
     },
     "5022": {
       "player_name": "D.Goedert",
@@ -2935,7 +3006,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.709242"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.039977"
     },
     "5032": {
       "player_name": "J.Akins",
@@ -2976,7 +3048,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.709566"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.040295"
     },
     "5001": {
       "player_name": "D.Schultz",
@@ -3017,7 +3090,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.709874"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.040612"
     },
     "5374": {
       "player_name": "J.Watson",
@@ -3058,7 +3132,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.710178"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.040945"
     },
     "5096": {
       "player_name": "R.McCloud",
@@ -3099,7 +3174,8 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:31:16.710505"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.041262"
     },
     "5121": {
       "player_name": "B.Berrios",
@@ -3140,7 +3216,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.710813"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.041575"
     },
     "5185": {
       "player_name": "A.Lazard",
@@ -3181,7 +3258,8 @@
         "air_yards": null,
         "raw_targets": 9
       },
-      "last_updated": "2025-09-09T06:31:16.711119"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.041911"
     },
     "7439": {
       "player_name": "T.Hudson",
@@ -3222,7 +3300,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.711424"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.042234"
     },
     "5012": {
       "player_name": "M.Andrews",
@@ -3263,7 +3342,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.711750"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.042549"
     },
     "4950": {
       "player_name": "C.Kirk",
@@ -3304,7 +3384,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.712056"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.042880"
     },
     "11520": {
       "player_name": "L.Jackson",
@@ -3344,7 +3425,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.712362"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.043212"
     },
     "5008": {
       "player_name": "D.Smythe",
@@ -3385,7 +3467,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.712687"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.043525"
     },
     "4993": {
       "player_name": "M.Gesicki",
@@ -3426,7 +3509,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.713294"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.044174"
     },
     "4973": {
       "player_name": "H.Hurst",
@@ -3467,7 +3551,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.713617"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.044484"
     },
     "4981": {
       "player_name": "C.Ridley",
@@ -3508,7 +3593,8 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:31:16.713921"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.044794"
     },
     "4866": {
       "player_name": "S.Barkley",
@@ -3549,7 +3635,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.714232"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.045133"
     },
     "4892": {
       "player_name": "B.Mayfield",
@@ -3589,7 +3676,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.714564"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.045446"
     },
     "5566": {
       "player_name": "J.Allen",
@@ -3629,7 +3717,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.714869"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.045757"
     },
     "4943": {
       "player_name": "S.Darnold",
@@ -3669,7 +3758,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.715172"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.046097"
     },
     "5947": {
       "player_name": "J.Meyers",
@@ -3710,7 +3800,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.715494"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.046411"
     },
     "5987": {
       "player_name": "A.Mattison",
@@ -3751,7 +3842,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.715805"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.046735"
     },
     "5995": {
       "player_name": "J.Hill",
@@ -3792,7 +3884,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.762912"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.095065"
     },
     "5985": {
       "player_name": "F.Moreau",
@@ -3833,7 +3926,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.716418"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.047385"
     },
     "6427": {
       "player_name": "A.Dulin",
@@ -3874,7 +3968,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.716767"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.047707"
     },
     "6271": {
       "player_name": "O.Zaccheaus",
@@ -3915,7 +4010,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.717075"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.048044"
     },
     "2391": {
       "player_name": "D.Johnson",
@@ -3956,7 +4052,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.717379"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.048357"
     },
     "5849": {
       "player_name": "K.Murray",
@@ -3996,7 +4093,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.717706"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.048666"
     },
     "6151": {
       "player_name": "M.Sanders",
@@ -4037,7 +4135,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.718013"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.048999"
     },
     "5973": {
       "player_name": "J.Oliver",
@@ -4078,7 +4177,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.718314"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.049313"
     },
     "6130": {
       "player_name": "D.Singletary",
@@ -4119,7 +4219,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.718643"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.049626"
     },
     "5967": {
       "player_name": "T.Pollard",
@@ -4160,7 +4261,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.718950"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.049961"
     },
     "6011": {
       "player_name": "G.Minshew",
@@ -4200,7 +4302,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.719253"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.050278"
     },
     "5980": {
       "player_name": "M.Gaskin",
@@ -4240,7 +4343,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.719579"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.050590"
     },
     "6598": {
       "player_name": "T.Irwin",
@@ -4281,7 +4385,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.719884"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.050925"
     },
     "5938": {
       "player_name": "L.Humphrey",
@@ -4322,7 +4427,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.720187"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.051240"
     },
     "5970": {
       "player_name": "G.Dortch",
@@ -4363,7 +4469,8 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:31:16.720512"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.051551"
     },
     "6149": {
       "player_name": "D.Slayton",
@@ -4404,7 +4511,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.720822"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.051881"
     },
     "11597": {
       "player_name": "T.Johnson",
@@ -4445,7 +4553,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.777430"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.109900"
     },
     "6012": {
       "player_name": "T.Homer",
@@ -4485,7 +4594,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.721427"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.052512"
     },
     "5846": {
       "player_name": "D.Metcalf",
@@ -4526,7 +4636,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.721754"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.052826"
     },
     "5857": {
       "player_name": "N.Fant",
@@ -4567,7 +4678,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.722076"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.053160"
     },
     "5927": {
       "player_name": "T.McLaurin",
@@ -4608,7 +4720,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.722385"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.053475"
     },
     "4673": {
       "player_name": "A.Brown",
@@ -4649,7 +4762,8 @@
         "air_yards": null,
         "raw_targets": 10
       },
-      "last_updated": "2025-09-09T06:31:16.722709"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.053786"
     },
     "5892": {
       "player_name": "D.Montgomery",
@@ -4690,7 +4804,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.723016"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.054125"
     },
     "5906": {
       "player_name": "D.Knox",
@@ -4731,7 +4846,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.723319"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.054437"
     },
     "5850": {
       "player_name": "J.Jacobs",
@@ -4772,7 +4888,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.723642"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.054750"
     },
     "5870": {
       "player_name": "D.Jones",
@@ -4812,7 +4929,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.723945"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.055092"
     },
     "5872": {
       "player_name": "D.Samuel",
@@ -4853,7 +4971,8 @@
         "air_yards": null,
         "raw_targets": 9
       },
-      "last_updated": "2025-09-09T06:31:16.724248"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.055428"
     },
     "260": {
       "player_name": "J.Johnson",
@@ -4894,7 +5013,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.724584"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.055741"
     },
     "7021": {
       "player_name": "R.Dowdle",
@@ -4935,7 +5055,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.724898"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.056081"
     },
     "6806": {
       "player_name": "J.Dobbins",
@@ -4976,7 +5097,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.725201"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.056396"
     },
     "2487": {
       "player_name": "G.Davis",
@@ -5017,7 +5139,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.725522"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.056709"
     },
     "6768": {
       "player_name": "T.Tagovailoa",
@@ -5057,7 +5180,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.725829"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.057049"
     },
     "6973": {
       "player_name": "J.Taylor",
@@ -5097,7 +5221,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.726133"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.057364"
     },
     "6865": {
       "player_name": "C.Parkinson",
@@ -5138,7 +5263,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.726437"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.057680"
     },
     "6845": {
       "player_name": "Z.Moss",
@@ -5179,7 +5305,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.726759"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.058017"
     },
     "6819": {
       "player_name": "M.Pittman",
@@ -5220,7 +5347,8 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:31:16.727061"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.058352"
     },
     "7049": {
       "player_name": "J.Jennings",
@@ -5261,7 +5389,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.727365"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.058680"
     },
     "6803": {
       "player_name": "B.Aiyuk",
@@ -5302,7 +5431,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.727692"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.059020"
     },
     "6804": {
       "player_name": "J.Love",
@@ -5342,7 +5472,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.727997"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.059335"
     },
     "6814": {
       "player_name": "L.Shenault",
@@ -5383,7 +5514,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.728303"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.059649"
     },
     "6790": {
       "player_name": "D.Swift",
@@ -5424,7 +5556,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.728629"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.059984"
     },
     "6826": {
       "player_name": "C.Kmet",
@@ -5465,7 +5598,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.728936"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.060299"
     },
     "7090": {
       "player_name": "D.Mooney",
@@ -5506,7 +5640,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.729241"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.060615"
     },
     "7599": {
       "player_name": "J.Jefferson",
@@ -5547,7 +5682,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.729567"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.060956"
     },
     "6945": {
       "player_name": "A.Gibson",
@@ -5587,7 +5723,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.729872"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.061275"
     },
     "6847": {
       "player_name": "D.Duvernay",
@@ -5627,7 +5764,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.730175"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.061589"
     },
     "7066": {
       "player_name": "K.Osborn",
@@ -5668,7 +5806,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.730497"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.061942"
     },
     "6797": {
       "player_name": "J.Herbert",
@@ -5708,7 +5847,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.730806"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.062263"
     },
     "6786": {
       "player_name": "C.Lamb",
@@ -5749,7 +5889,8 @@
         "air_yards": null,
         "raw_targets": 10
       },
-      "last_updated": "2025-09-09T06:31:16.731109"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.062595"
     },
     "6904": {
       "player_name": "J.Hurts",
@@ -5789,7 +5930,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.731412"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.062928"
     },
     "6783": {
       "player_name": "J.Jeudy",
@@ -5830,7 +5972,8 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:31:16.731737"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.063243"
     },
     "6853": {
       "player_name": "V.Jefferson",
@@ -5871,7 +6014,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.732043"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.063557"
     },
     "6869": {
       "player_name": "A.Trautman",
@@ -5912,7 +6056,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.732348"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.063883"
     },
     "6931": {
       "player_name": "D.Dallas",
@@ -5952,7 +6097,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.732673"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.064199"
     },
     "7075": {
       "player_name": "C.Woerner",
@@ -5993,7 +6139,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.733280"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.064824"
     },
     "6770": {
       "player_name": "J.Burrow",
@@ -6033,7 +6180,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.733603"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.065162"
     },
     "7989": {
       "player_name": "D.Turner",
@@ -6074,7 +6222,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.733908"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.065475"
     },
     "7571": {
       "player_name": "R.Bateman",
@@ -6115,7 +6264,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.734211"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.065785"
     },
     "7569": {
       "player_name": "N.Collins",
@@ -6156,7 +6306,8 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:31:16.734540"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.066126"
     },
     "7594": {
       "player_name": "C.Hubbard",
@@ -6196,7 +6347,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.734847"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.066438"
     },
     "7568": {
       "player_name": "B.Jordan",
@@ -6237,7 +6389,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.735149"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.066750"
     },
     "7526": {
       "player_name": "J.Waddle",
@@ -6278,7 +6431,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.735467"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.067083"
     },
     "11539": {
       "player_name": "J.Bates",
@@ -6319,7 +6473,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.735865"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.067394"
     },
     "7828": {
       "player_name": "N.Gray",
@@ -6360,7 +6515,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.736172"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.067703"
     },
     "7891": {
       "player_name": "B.Wright",
@@ -6401,7 +6557,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.736517"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.068040"
     },
     "7611": {
       "player_name": "R.Stevenson",
@@ -6442,7 +6599,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.736830"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.068357"
     },
     "7602": {
       "player_name": "K.Granson",
@@ -6483,7 +6641,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.737135"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.068670"
     },
     "7528": {
       "player_name": "N.Harris",
@@ -6524,7 +6683,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.737440"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.069005"
     },
     "7600": {
       "player_name": "P.Freiermuth",
@@ -6565,7 +6725,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.737770"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.069321"
     },
     "7564": {
       "player_name": "J.Chase",
@@ -6606,7 +6767,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.738076"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.069633"
     },
     "7608": {
       "player_name": "K.Herbert",
@@ -6646,7 +6808,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.738393"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.069967"
     },
     "2342": {
       "player_name": "D.Smith",
@@ -6687,7 +6850,8 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:31:16.738720"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.070285"
     },
     "7567": {
       "player_name": "K.Gainwell",
@@ -6728,7 +6892,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.739027"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.070598"
     },
     "7605": {
       "player_name": "K.Trask",
@@ -6768,7 +6933,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.739331"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.070934"
     },
     "7591": {
       "player_name": "J.Fields",
@@ -6808,7 +6974,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.739687"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.071254"
     },
     "7547": {
       "player_name": "A.St. Brown",
@@ -6849,7 +7016,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.740000"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.071568"
     },
     "7553": {
       "player_name": "K.Pitts",
@@ -6890,7 +7058,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.740317"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.071898"
     },
     "7523": {
       "player_name": "T.Lawrence",
@@ -6930,7 +7099,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.740646"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.072216"
     },
     "12531": {
       "player_name": "T.Etienne",
@@ -6971,7 +7141,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.740954"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.072528"
     },
     "7596": {
       "player_name": "E.Moore",
@@ -7012,7 +7183,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.741265"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.072842"
     },
     "50": {
       "player_name": "J.Palmer",
@@ -7053,7 +7225,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.741594"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.073175"
     },
     "8177": {
       "player_name": "G.Calcaterra",
@@ -7094,7 +7267,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.742210"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.073805"
     },
     "682": {
       "player_name": "D.Young",
@@ -7135,7 +7309,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.742535"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.074139"
     },
     "8205": {
       "player_name": "I.Pacheco",
@@ -7176,7 +7351,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.742843"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.074462"
     },
     "12118": {
       "player_name": "J.Warren",
@@ -7217,7 +7393,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.743148"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.074772"
     },
     "8112": {
       "player_name": "D.London",
@@ -7258,7 +7435,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.743470"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.075170"
     },
     "8144": {
       "player_name": "C.Olave",
@@ -7299,7 +7477,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.743781"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.075488"
     },
     "8137": {
       "player_name": "G.Pickens",
@@ -7340,7 +7519,8 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:31:16.744401"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.076140"
     },
     "8138": {
       "player_name": "J.Cook",
@@ -7381,7 +7561,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.744734"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.076451"
     },
     "8172": {
       "player_name": "G.Dulcich",
@@ -7422,7 +7603,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.745042"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.076760"
     },
     "8136": {
       "player_name": "R.White",
@@ -7463,7 +7645,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.745349"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.077093"
     },
     "8129": {
       "player_name": "D.Pierce",
@@ -7503,7 +7686,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.745678"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.077405"
     },
     "8134": {
       "player_name": "K.Shakir",
@@ -7544,7 +7728,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.745984"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.077718"
     },
     "8132": {
       "player_name": "T.Allgeier",
@@ -7584,7 +7769,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.746292"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.078052"
     },
     "8143": {
       "player_name": "J.Ford",
@@ -7625,7 +7811,8 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:31:16.746619"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.078379"
     },
     "8230": {
       "player_name": "T.Chandler",
@@ -7666,7 +7853,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.746930"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.078690"
     },
     "8180": {
       "player_name": "J.Nailor",
@@ -7707,7 +7895,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.747239"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.079030"
     },
     "8408": {
       "player_name": "J.Mason",
@@ -7748,7 +7937,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.747568"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.079340"
     },
     "8676": {
       "player_name": "R.Shaheed",
@@ -7789,7 +7979,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.747877"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.079650"
     },
     "7897": {
       "player_name": "R.Rivers",
@@ -7829,7 +8020,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.748181"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.079980"
     },
     "8142": {
       "player_name": "A.Pierce",
@@ -7870,7 +8062,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.748506"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.080292"
     },
     "8117": {
       "player_name": "J.Tolbert",
@@ -7911,7 +8104,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.748815"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.080601"
     },
     "8146": {
       "player_name": "G.Wilson",
@@ -7952,7 +8146,8 @@
         "air_yards": null,
         "raw_targets": 11
       },
-      "last_updated": "2025-09-09T06:31:16.749119"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.080931"
     },
     "8119": {
       "player_name": "J.Dotson",
@@ -7993,7 +8188,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.749422"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.081245"
     },
     "8135": {
       "player_name": "T.Burks",
@@ -8034,7 +8230,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.749747"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.081557"
     },
     "8130": {
       "player_name": "T.McBride",
@@ -8075,7 +8272,8 @@
         "air_yards": null,
         "raw_targets": 9
       },
-      "last_updated": "2025-09-09T06:31:16.750050"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.081887"
     },
     "8223": {
       "player_name": "V.Jones",
@@ -8116,7 +8314,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.750354"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.082205"
     },
     "8154": {
       "player_name": "B.Robinson",
@@ -8157,7 +8356,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.757270"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.089249"
     },
     "8917": {
       "player_name": "K.Turpin",
@@ -8198,7 +8398,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.750986"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.082839"
     },
     "8210": {
       "player_name": "C.Okonkwo",
@@ -8239,7 +8440,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.751290"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.083181"
     },
     "8121": {
       "player_name": "R.Doubs",
@@ -8280,7 +8482,8 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:31:16.751617"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.083491"
     },
     "8183": {
       "player_name": "B.Purdy",
@@ -8320,7 +8523,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.751924"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.083801"
     },
     "8125": {
       "player_name": "C.Austin",
@@ -8361,7 +8565,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.752233"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.084133"
     },
     "8131": {
       "player_name": "I.Likely",
@@ -8402,7 +8607,8 @@
         "air_yards": null,
         "raw_targets": 12
       },
-      "last_updated": "2025-09-09T06:31:16.752560"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.084450"
     },
     "12971": {
       "player_name": "K.Williams",
@@ -8443,7 +8649,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.752869"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.084760"
     },
     "8173": {
       "player_name": "Z.White",
@@ -8484,7 +8691,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.753175"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.085091"
     },
     "3453": {
       "player_name": "J.Ferguson",
@@ -8525,7 +8733,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.753500"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.085404"
     },
     "8116": {
       "player_name": "P.Strong",
@@ -8566,7 +8775,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.753811"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.085713"
     },
     "8188": {
       "player_name": "T.Thornton",
@@ -8607,7 +8817,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.754126"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.086048"
     },
     "8225": {
       "player_name": "D.Bellinger",
@@ -8648,7 +8859,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.754435"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.086385"
     },
     "8126": {
       "player_name": "W.Robinson",
@@ -8689,7 +8901,8 @@
         "air_yards": null,
         "raw_targets": 12
       },
-      "last_updated": "2025-09-09T06:31:16.754772"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.086698"
     },
     "8155": {
       "player_name": "B.Hall",
@@ -8730,7 +8943,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.755078"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.087030"
     },
     "8167": {
       "player_name": "C.Watson",
@@ -8771,7 +8985,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.755384"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.087345"
     },
     "8161": {
       "player_name": "M.Willis",
@@ -8811,7 +9026,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.755710"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.087652"
     },
     "8111": {
       "player_name": "C.Otton",
@@ -8852,7 +9068,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.756029"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.087982"
     },
     "4634": {
       "player_name": "K.Walker",
@@ -8893,7 +9110,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.756333"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.088294"
     },
     "9486": {
       "player_name": "D.Wicks",
@@ -8934,7 +9152,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.756659"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.088604"
     },
     "10223": {
       "player_name": "E.Gray",
@@ -8975,7 +9194,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.756965"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.088936"
     },
     "9488": {
       "player_name": "J.Smith-Njigba",
@@ -9016,7 +9236,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.757599"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.089567"
     },
     "9754": {
       "player_name": "Q.Johnston",
@@ -9057,7 +9278,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.757905"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.089914"
     },
     "9225": {
       "player_name": "T.Bigsby",
@@ -9097,7 +9319,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.758210"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.090231"
     },
     "9479": {
       "player_name": "D.Washington",
@@ -9138,7 +9361,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.758537"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.090545"
     },
     "10232": {
       "player_name": "M.Wilson",
@@ -9179,7 +9403,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.758846"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.090872"
     },
     "10213": {
       "player_name": "T.Tucker",
@@ -9220,7 +9445,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.759152"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.091191"
     },
     "6380": {
       "player_name": "D.Davis",
@@ -9260,7 +9486,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.759473"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.091501"
     },
     "10228": {
       "player_name": "C.Jones",
@@ -9301,7 +9528,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.759786"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.091812"
     },
     "2185": {
       "player_name": "C.Brown",
@@ -9342,7 +9570,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.760090"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.092145"
     },
     "9487": {
       "player_name": "P.Washington",
@@ -9383,7 +9612,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.760398"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.092461"
     },
     "10218": {
       "player_name": "X.Hutchinson",
@@ -9424,7 +9654,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.760728"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.092774"
     },
     "10226": {
       "player_name": "A.Iosivas",
@@ -9465,7 +9696,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.761033"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.093106"
     },
     "9501": {
       "player_name": "D.Douglas",
@@ -9506,7 +9738,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.761338"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.093417"
     },
     "9505": {
       "player_name": "D.Vaughn",
@@ -9546,7 +9779,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.761665"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.093728"
     },
     "12532": {
       "player_name": "J.Brooks",
@@ -9587,7 +9821,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.761971"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.094081"
     },
     "11378": {
       "player_name": "J.Mims",
@@ -9627,7 +9862,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.762277"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.094393"
     },
     "11199": {
       "player_name": "E.Demercado",
@@ -9668,7 +9904,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.762605"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.094706"
     },
     "11439": {
       "player_name": "J.McLaughlin",
@@ -9709,7 +9946,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.763221"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.095385"
     },
     "13100": {
       "player_name": "E.Wilson",
@@ -9750,7 +9988,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.763547"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.095697"
     },
     "10236": {
       "player_name": "D.Kincaid",
@@ -9791,7 +10030,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.763856"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.096030"
     },
     "9497": {
       "player_name": "J.Hyatt",
@@ -9832,7 +10072,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.764160"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.096378"
     },
     "9494": {
       "player_name": "M.Mims",
@@ -9873,7 +10114,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.764483"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.096730"
     },
     "9502": {
       "player_name": "T.Dell",
@@ -9914,7 +10156,8 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:31:16.764802"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.097088"
     },
     "10444": {
       "player_name": "C.Tillman",
@@ -9955,7 +10198,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.765108"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.097402"
     },
     "9756": {
       "player_name": "J.Addison",
@@ -9996,7 +10240,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.765415"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.097712"
     },
     "9484": {
       "player_name": "T.Kraft",
@@ -10037,7 +10282,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.765742"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.098047"
     },
     "10215": {
       "player_name": "J.Haener",
@@ -10077,7 +10323,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.766047"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.098361"
     },
     "9508": {
       "player_name": "T.Spears",
@@ -10118,7 +10365,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.766352"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.098673"
     },
     "9226": {
       "player_name": "D.Achane",
@@ -10159,7 +10407,8 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:31:16.766679"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.099003"
     },
     "10231": {
       "player_name": "E.Higgins",
@@ -10200,7 +10449,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.766985"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.099314"
     },
     "11802": {
       "player_name": "T.Palmer",
@@ -10241,7 +10491,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.767314"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.099624"
     },
     "10225": {
       "player_name": "J.Mingo",
@@ -10282,7 +10533,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.767656"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.099955"
     },
     "9997": {
       "player_name": "Z.Flowers",
@@ -10323,7 +10575,8 @@
         "air_yards": null,
         "raw_targets": 10
       },
-      "last_updated": "2025-09-09T06:31:16.767966"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.100268"
     },
     "10859": {
       "player_name": "S.LaPorta",
@@ -10364,7 +10617,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.768272"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.100582"
     },
     "9482": {
       "player_name": "M.Mayer",
@@ -10405,7 +10659,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.768599"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.100913"
     },
     "16": {
       "player_name": "R.Rice",
@@ -10446,7 +10701,8 @@
         "air_yards": null,
         "raw_targets": 9
       },
-      "last_updated": "2025-09-09T06:31:16.768906"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.101229"
     },
     "1105": {
       "player_name": "D.Allen",
@@ -10487,7 +10743,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.769209"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.101537"
     },
     "9493": {
       "player_name": "P.Nacua",
@@ -10528,7 +10785,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.769563"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.101845"
     },
     "9221": {
       "player_name": "J.Gibbs",
@@ -10569,7 +10827,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.769881"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.102180"
     },
     "9481": {
       "player_name": "L.Musgrave",
@@ -10610,7 +10869,8 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:31:16.770189"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.102495"
     },
     "10222": {
       "player_name": "J.Reed",
@@ -10651,7 +10911,8 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:31:16.770515"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.102809"
     },
     "9228": {
       "player_name": "B.Young",
@@ -10691,7 +10952,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.770823"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.103144"
     },
     "9999": {
       "player_name": "W.Levis",
@@ -10731,7 +10993,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.771128"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.103453"
     },
     "9758": {
       "player_name": "C.Stroud",
@@ -10771,7 +11034,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.771437"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.103764"
     },
     "6373": {
       "player_name": "A.Richardson",
@@ -10811,7 +11075,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.771777"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.104100"
     },
     "9753": {
       "player_name": "Z.Charbonnet",
@@ -10852,7 +11117,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.772083"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.104413"
     },
     "11582": {
       "player_name": "C.Steele",
@@ -10892,7 +11158,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.772746"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.105055"
     },
     "11632": {
       "player_name": "M.Nabers",
@@ -10933,7 +11200,8 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:31:16.773057"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.105367"
     },
     "11604": {
       "player_name": "B.Bowers",
@@ -10974,7 +11242,8 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:31:16.773363"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.105684"
     },
     "11626": {
       "player_name": "X.Legette",
@@ -11015,7 +11284,8 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:31:16.773691"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.106015"
     },
     "11650": {
       "player_name": "L.McCaffrey",
@@ -11056,7 +11326,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.773998"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.106334"
     },
     "5119": {
       "player_name": "J.Sanders",
@@ -11097,7 +11368,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.774303"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.106676"
     },
     "11584": {
       "player_name": "B.Irving",
@@ -11138,7 +11410,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.774633"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.107014"
     },
     "11579": {
       "player_name": "A.Estime",
@@ -11178,7 +11451,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.774939"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.107326"
     },
     "11655": {
       "player_name": "T.Tracy",
@@ -11219,7 +11493,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.775243"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.107637"
     },
     "11748": {
       "player_name": "B.Means",
@@ -11260,7 +11535,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.775567"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.107968"
     },
     "11834": {
       "player_name": "D.Vele",
@@ -11301,7 +11577,8 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:31:16.775874"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.108282"
     },
     "5962": {
       "player_name": "K.Johnson",
@@ -11341,7 +11618,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.776178"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.108594"
     },
     "11895": {
       "player_name": "M.Tipton",
@@ -11382,7 +11660,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.776503"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.108924"
     },
     "11563": {
       "player_name": "B.Nix",
@@ -11422,7 +11701,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.776814"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.109240"
     },
     "11628": {
       "player_name": "M.Harrison",
@@ -11463,7 +11743,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.777767"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.110216"
     },
     "11618": {
       "player_name": "J.McMillan",
@@ -11504,7 +11785,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.778074"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.110526"
     },
     "4828": {
       "player_name": "R.Davis",
@@ -11545,7 +11827,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.778383"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.110835"
     },
     "11625": {
       "player_name": "A.Mitchell",
@@ -11586,7 +11869,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.778714"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.111171"
     },
     "11631": {
       "player_name": "B.Thomas",
@@ -11627,7 +11911,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.779023"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.111479"
     },
     "11624": {
       "player_name": "X.Worthy",
@@ -11668,7 +11953,8 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:31:16.779330"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.111799"
     },
     "11637": {
       "player_name": "K.Coleman",
@@ -11709,7 +11995,8 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:31:16.779659"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.112134"
     },
     "11619": {
       "player_name": "J.Polk",
@@ -11750,7 +12037,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.779969"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.112445"
     },
     "11566": {
       "player_name": "J.Daniels",
@@ -11790,7 +12078,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.780279"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.112756"
     },
     "11635": {
       "player_name": "L.McConkey",
@@ -11831,7 +12120,8 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:31:16.780610"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.113090"
     },
     "4128": {
       "player_name": "C.Williams",
@@ -11871,7 +12161,8 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:31:16.780919"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.113409"
     },
     "11620": {
       "player_name": "R.Odunze",
@@ -11912,7 +12203,8 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:31:16.781224"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.113721"
     },
     "6395": {
       "player_name": "T.Benson",
@@ -11953,7 +12245,8 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:31:16.781552"
+      "was_active": true,
+      "last_updated": "2025-09-09T10:47:14.114071"
     }
   }
 }
