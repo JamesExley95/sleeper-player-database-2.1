@@ -397,6 +397,24 @@ class NFLPerformanceCollector:
         except (ValueError, TypeError):
             return None
 
+    def _safe_float_rounded(self, value) -> Optional[float]:
+        """Safely convert value to float rounded to 2 decimal places"""
+        if pd.isna(value) or value is None:
+            return None
+        try:
+            return round(float(value), 2)
+        except (ValueError, TypeError):
+            return None
+
+    def _calculate_half_ppr(self, player_row: pd.Series) -> Optional[float]:
+        """Calculate 0.5 PPR fantasy points"""
+        standard = self._safe_float_rounded(player_row.get('fantasy_points'))
+        receptions = self._safe_int(player_row.get('receptions'))
+        
+        if standard is not None and receptions is not None:
+            return round(standard + (receptions * 0.5), 2)
+        return standard
+
     def process_week_data(self, week: int) -> Dict[str, Any]:
         """Process all data for a specific week"""
         
@@ -449,8 +467,9 @@ class NFLPerformanceCollector:
                         'touchdowns': self._safe_int(player_row.get('receiving_tds'))
                     },
                     'fantasy': {
-                        'points_standard': self._safe_float(player_row.get('fantasy_points')),
-                        'points_ppr': self._safe_float(player_row.get('fantasy_points_ppr'))
+                        'points_standard': self._safe_float_rounded(player_row.get('fantasy_points')),
+                        'points_ppr': self._safe_float_rounded(player_row.get('fantasy_points_ppr')),
+                        'points_half_ppr': self._calculate_half_ppr(player_row)
                     }
                 },
                 'usage': self._calculate_usage_metrics(player_row, snap_counts),
@@ -500,7 +519,8 @@ class NFLPerformanceCollector:
                 },
                 'metrics': {
                     'average_per_game': 0.0,
-                    # Add other metrics as needed, e.g., 'efficiency_rating': 0.0
+                    'average_per_game_half_ppr': 0.0,
+                    'average_per_game_standard': 0.0
                 }
             }
 
@@ -521,10 +541,16 @@ class NFLPerformanceCollector:
             else:
                 totals['season_totals']['fantasy'][stat] += 0.0
 
-        # Update metrics (example: average PPR points per game)
+        # Update metrics (averages for all scoring formats)
         if totals['games_played'] > 0:
             totals['metrics']['average_per_game'] = round(
                 totals['season_totals']['fantasy'].get('points_ppr', 0.0) / totals['games_played'], 2
+            )
+            totals['metrics']['average_per_game_half_ppr'] = round(
+                totals['season_totals']['fantasy'].get('points_half_ppr', 0.0) / totals['games_played'], 2
+            )
+            totals['metrics']['average_per_game_standard'] = round(
+                totals['season_totals']['fantasy'].get('points_standard', 0.0) / totals['games_played'], 2
             )
 
     def save_totals_data(self) -> None:
