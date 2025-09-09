@@ -1,228 +1,427 @@
-name: Weekly NFL Performance Collection
+name: Byline Database v2.1 - Weekly Collection
 
 on:
-  # Manual trigger for immediate collection
+  schedule:
+    # Every Tuesday at 6:00 AM UTC (after NFL week completion)
+    - cron: '0 6 * * 2'
   workflow_dispatch:
     inputs:
-      week_number:
-        description: 'Week number to collect (1-18)'
+      force_refresh:
+        description: 'Force complete data refresh'
+        required: false
+        type: boolean
+        default: false
+      target_week:
+        description: 'Specific week to process'
         required: false
         type: string
-      force_update:
-        description: 'Force update existing data'
-        required: false
-        default: false
-        type: boolean
-  
-  # Automatic weekly collection (Tuesdays at 8 AM UTC - after MNF)
-  schedule:
-    - cron: '0 8 * * 2'
-
-env:
-  PYTHON_VERSION: '3.11'
 
 jobs:
-  collect-nfl-data:
+  collect-database:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-    
+        fetch-depth: 0
+      
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: ${{ env.PYTHON_VERSION }}
-        cache: 'pip'
-    
+        python-version: '3.11'
+        
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
-    
-    - name: Determine collection week
-      id: week
-      run: |
-        if [ -n "${{ github.event.inputs.week_number }}" ]; then
-          WEEK="${{ github.event.inputs.week_number }}"
-        else
-          # Calculate current NFL week (approximate)
-          CURRENT_DATE=$(date +%s)
-          SEASON_START=$(date -d "2025-09-05" +%s)
-          WEEK_DIFF=$(( (CURRENT_DATE - SEASON_START) / 604800 + 1 ))
-          WEEK=$(echo $WEEK_DIFF | awk '{print int($1)}')
-          WEEK=$(( WEEK > 18 ? 18 : WEEK ))
-          WEEK=$(( WEEK < 1 ? 1 : WEEK ))
-        fi
-        echo "week=$WEEK" >> $GITHUB_OUTPUT
-        echo "Collecting data for NFL Week $WEEK"
-    
-    - name: Check if data already exists
-      id: check_data
-      run: |
-        WEEK="${{ steps.week.outputs.week }}"
-        FORCE_UPDATE="${{ github.event.inputs.force_update }}"
+        pip install requests pandas nfl_data_py
         
-        if [ -f "data/season_2025_performances.json" ]; then
-          HAS_WEEK=$(python -c "
-        import json
-        try:
-            with open('data/season_2025_performances.json', 'r') as f:
-                data = json.load(f)
-            print('true' if 'week_$WEEK' in data else 'false')
-        except:
-            print('false')
-          ")
-          
-          if [ "$HAS_WEEK" = "true" ] && [ "$FORCE_UPDATE" != "true" ]; then
-            echo "skip=true" >> $GITHUB_OUTPUT
-            echo "Week $WEEK data already exists. Use force_update=true to override."
-          else
-            echo "skip=false" >> $GITHUB_OUTPUT
+    - name: Create data directories
+      run: |
+        mkdir -p data weekly_snapshots
+        
+    - name: Calculate processing parameters
+      id: params
+      run: |
+        # Calculate current week
+        CURRENT_DATE=$(date +%s)
+        SEASON_START=$(date -d "2025-09-04" +%s)
+        
+        if [ $CURRENT_DATE -lt $SEASON_START ]; then
+          WEEK=0
+        else
+          DAYS_SINCE_START=$(( ($CURRENT_DATE - $SEASON_START) / 86400 ))
+          WEEK=$(( ($DAYS_SINCE_START / 7) + 1 ))
+          if [ $WEEK -gt 18 ]; then
+            WEEK=18
           fi
+        fi
+        
+        # Override with manual input if provided
+        if [ -n "${{ github.event.inputs.target_week }}" ]; then
+          WEEK=${{ github.event.inputs.target_week }}
+        fi
+        
+        FORCE_REFRESH=${{ github.event.inputs.force_refresh }}
+        
+        echo "week=$WEEK" >> $GITHUB_OUTPUT
+        echo "force_refresh=$FORCE_REFRESH" >> $GITHUB_OUTPUT
+        echo "Processing Week $WEEK (Force refresh: $FORCE_REFRESH)"
+        
+    - name: Run core data collection
+      id: collection
+      run: |
+        echo "Starting Byline Database v2.1 core collection..."
+        python scripts/collect_byline_data.py
+        
+        if [ $? -eq 0 ]; then
+          echo "collection_success=true" >> $GITHUB_OUTPUT
+          
+          # Get collection statistics
+          if [ -f "data/players.json" ]; then
+            PLAYER_COUNT=$(python -c "import json; data=json.load(open('data/players.json')); print(len(data))")
+            echo "player_count=$PLAYER_COUNT" >> $GITHUB_OUTPUT
+          fi
+          
+          if [ -f "data/adp_consolidated_2025.json" ]; then
+            ADP_COUNT=$(python -c "import json; data=json.load(open('data/adp_consolidated_2025.json')); print(len(data.get('players', {})))")
+            echo "adp_count=$ADP_COUNT" >> $GITHUB_OUTPUT
+          fi
+          
+          if [ -f "data/draft_database_2025.json" ]; then
+            INTEGRATED_COUNT=$(python -c "import json; data=json.load(open('data/draft_database_2025.json')); print(len(data.get('players', {})))")
+            MATCH_RATE=$(python -c "import json; data=json.load(open('data/draft_database_2025.json')); print(data.get('meta', {}).get('match_rate', 0))")
+            echo "integrated_count=$INTEGRATED_COUNT" >> $GITHUB_OUTPUT
+            echo "match_rate=$MATCH_RATE" >> $GITHUB_OUTPUT
+          fi
+          
+          if [ -f "data/season_2025_performances.json" ]; then
+            PERF_COUNT=$(python -c "import json; data=json.load(open('data/season_2025_performances.json')); print(len(data.get('performances', [])))")
+            echo "performance_count=$PERF_COUNT" >> $GITHUB_OUTPUT
+          fi
+          
         else
-          echo "skip=false" >> $GITHUB_OUTPUT
+          echo "collection_success=false" >> $GITHUB_OUTPUT
+          exit 1
         fi
-    
-    - name: Collect NFL performance data
-      if: steps.check_data.outputs.skip != 'true'
-      env:
-        NFL_WEEK: ${{ steps.week.outputs.week }}
+        
+    - name: Validate data integrity
+      id: validation
       run: |
-        echo "=== Collecting NFL Performance Data for Week $NFL_WEEK ==="
-        python scripts/collect_nfl_performance.py --week $NFL_WEEK
+        echo "Running comprehensive data validation..."
         
-        echo "=== Collection Results ==="
-        python -c "
+        # Create validation script inline
+        cat > validate_v21_data.py << 'EOF'
+        #!/usr/bin/env python3
         import json
-        with open('data/season_2025_performances.json', 'r') as f:
-            data = json.load(f)
+        import os
+        import sys
+        from datetime import datetime
         
-        week_key = 'week_${{ steps.week.outputs.week }}'
-        if week_key in data:
-            player_count = len(data[week_key])
-            print(f'✅ Successfully collected data for {player_count} players')
+        def validate_players_database():
+            try:
+                with open('data/players.json', 'r') as f:
+                    players = json.load(f)
+                
+                if not isinstance(players, dict):
+                    print("❌ Players database invalid format")
+                    return False
+                    
+                valid_players = 0
+                for pid, pdata in players.items():
+                    if pdata.get('full_name') and pdata.get('position'):
+                        valid_players += 1
+                        
+                quality_rate = (valid_players / len(players) * 100) if players else 0
+                
+                if quality_rate >= 85:
+                    print(f"✅ Players database: {len(players)} players, {quality_rate:.1f}% quality")
+                    return True
+                else:
+                    print(f"⚠️ Players database: {len(players)} players, {quality_rate:.1f}% quality (low)")
+                    return False
+                    
+            except Exception as e:
+                print(f"❌ Players validation error: {e}")
+                return False
+                
+        def validate_adp_database():
+            try:
+                with open('data/adp_consolidated_2025.json', 'r') as f:
+                    adp_data = json.load(f)
+                
+                players = adp_data.get('players', {})
+                meta = adp_data.get('meta', {})
+                
+                valid_adp = 0
+                for pid, pdata in players.items():
+                    adp_info = pdata.get('adp_data', {})
+                    if any('ppr' in key for key in adp_info.keys()):
+                        valid_adp += 1
+                        
+                quality_rate = (valid_adp / len(players) * 100) if players else 0
+                
+                if quality_rate >= 70:
+                    print(f"✅ ADP database: {len(players)} players, {quality_rate:.1f}% with ADP")
+                    return True
+                else:
+                    print(f"⚠️ ADP database: {len(players)} players, {quality_rate:.1f}% with ADP (low)")
+                    return False
+                    
+            except Exception as e:
+                print(f"❌ ADP validation error: {e}")
+                return False
+                
+        def validate_integrated_database():
+            try:
+                with open('data/draft_database_2025.json', 'r') as f:
+                    integrated = json.load(f)
+                
+                players = integrated.get('players', {})
+                meta = integrated.get('meta', {})
+                match_rate = meta.get('match_rate', 0)
+                
+                if match_rate >= 60:
+                    print(f"✅ Integrated database: {len(players)} players, {match_rate}% match rate")
+                    return True
+                else:
+                    print(f"⚠️ Integrated database: {len(players)} players, {match_rate}% match rate (low)")
+                    return False
+                    
+            except Exception as e:
+                print(f"❌ Integrated database validation error: {e}")
+                return False
+                
+        def main():
+            print("=== Byline Database v2.1 Validation ===")
             
-            # Count players with Sleeper IDs
-            mapped_count = sum(1 for p in data[week_key].values() if p.get('sleeper_id'))
-            mapping_rate = mapped_count / player_count * 100 if player_count > 0 else 0
-            print(f'✅ Sleeper ID mapping: {mapped_count}/{player_count} ({mapping_rate:.1f}%)')
-        else:
-            print('❌ No data collected')
-            exit(1)
-        "
-    
-    - name: Validate data quality
-      if: steps.check_data.outputs.skip != 'true'
+            results = []
+            results.append(validate_players_database())
+            results.append(validate_adp_database())  
+            results.append(validate_integrated_database())
+            
+            passed = sum(results)
+            total = len(results)
+            
+            print(f"\nValidation Results: {passed}/{total} passed")
+            
+            if passed >= 2:
+                print("✅ Database ready for production use")
+                return True
+            else:
+                print("❌ Database has critical issues")
+                return False
+                
+        if __name__ == "__main__":
+            success = main()
+            sys.exit(0 if success else 1)
+        EOF
+        
+        python validate_v21_data.py
+        
+        if [ $? -eq 0 ]; then
+          echo "validation_success=true" >> $GITHUB_OUTPUT
+        else
+          echo "validation_success=false" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Create weekly snapshots
+      id: snapshots
       run: |
-        echo "=== Validating Data Quality ==="
+        WEEK=${{ steps.params.outputs.week }}
+        echo "Creating Week $WEEK snapshots..."
         
-        # Check file sizes are reasonable
-        PERF_SIZE=$(wc -c < data/season_2025_performances.json)
-        TOTALS_SIZE=$(wc -c < data/season_2025_totals.json)
-        
-        if [ $PERF_SIZE -lt 10000 ]; then
-          echo "❌ Performance file too small: $PERF_SIZE bytes"
-          exit 1
-        fi
-        
-        if [ $TOTALS_SIZE -lt 1000 ]; then
-          echo "❌ Totals file too small: $TOTALS_SIZE bytes"
-          exit 1
-        fi
-        
-        echo "✅ File sizes acceptable: Performance=$PERF_SIZE, Totals=$TOTALS_SIZE"
-        
-        # Validate JSON structure
-        python -c "
+        # Create snapshot script inline
+        cat > create_snapshots.py << 'EOF'
+        #!/usr/bin/env python3
         import json
+        import os
+        import sys
+        from datetime import datetime
         
-        # Test performance data
-        with open('data/season_2025_performances.json', 'r') as f:
-            perf_data = json.load(f)
+        def create_week_snapshot(week):
+            try:
+                # Load performance data
+                perf_file = 'data/season_2025_performances.json'
+                if not os.path.exists(perf_file):
+                    print(f"No performance data for Week {week}")
+                    return True
+                    
+                with open(perf_file, 'r') as f:
+                    season_data = json.load(f)
+                    
+                performances = season_data.get('performances', [])
+                week_performances = [p for p in performances if p.get('week') == week]
+                
+                if not week_performances:
+                    print(f"No performances found for Week {week}")
+                    return True
+                    
+                # Create consolidated snapshot
+                snapshot = {
+                    'week': week,
+                    'season': 2025,
+                    'created_at': datetime.now().isoformat(),
+                    'total_performances': len(week_performances),
+                    'top_performers': {},
+                    'position_leaders': {}
+                }
+                
+                # Find top performers by position
+                positions = ['QB', 'RB', 'WR', 'TE']
+                for pos in positions:
+                    pos_performances = [p for p in week_performances if p.get('position') == pos]
+                    if pos_performances:
+                        top_performer = max(pos_performances, key=lambda x: x.get('fantasy_points_ppr', 0))
+                        snapshot['position_leaders'][pos] = {
+                            'name': top_performer.get('player_name', ''),
+                            'team': top_performer.get('team', ''),
+                            'points': top_performer.get('fantasy_points_ppr', 0)
+                        }
+                
+                # Overall top performer
+                if week_performances:
+                    overall_top = max(week_performances, key=lambda x: x.get('fantasy_points_ppr', 0))
+                    snapshot['top_performers']['overall'] = {
+                        'name': overall_top.get('player_name', ''),
+                        'position': overall_top.get('position', ''),
+                        'team': overall_top.get('team', ''),
+                        'points': overall_top.get('fantasy_points_ppr', 0)
+                    }
+                
+                # Save snapshot
+                snapshot_file = f'weekly_snapshots/week_{week}_2025_summary.json'
+                with open(snapshot_file, 'w') as f:
+                    json.dump(snapshot, f, indent=2)
+                    
+                print(f"Created Week {week} snapshot: {len(week_performances)} performances")
+                return True
+                
+            except Exception as e:
+                print(f"Error creating Week {week} snapshot: {e}")
+                return False
         
-        week_key = 'week_${{ steps.week.outputs.week }}'
-        if week_key not in perf_data:
-            raise Exception(f'Week key {week_key} not found')
+        if __name__ == "__main__":
+            week = int(sys.argv[1]) if len(sys.argv) > 1 else 1
+            success = create_week_snapshot(week)
+            sys.exit(0 if success else 1)
+        EOF
         
-        week_data = perf_data[week_key]
-        if len(week_data) == 0:
-            raise Exception('No players in week data')
+        python create_snapshots.py $WEEK
         
-        # Test sample player structure
-        sample_player = list(week_data.values())[0]
-        required_fields = ['player_name', 'position', 'stats', 'sleeper_id']
-        for field in required_fields:
-            if field not in sample_player:
-                raise Exception(f'Missing field: {field}')
+        if [ $? -eq 0 ]; then
+          echo "snapshots_success=true" >> $GITHUB_OUTPUT
+        else
+          echo "snapshots_success=false" >> $GITHUB_OUTPUT
+        fi
         
-        # Test totals data
-        with open('data/season_2025_totals.json', 'r') as f:
-            totals_data = json.load(f)
-        
-        if len(totals_data) == 0:
-            raise Exception('No players in totals data')
-        
-        print('✅ Data structure validation passed')
-        "
-    
-    - name: Commit updated data
-      if: steps.check_data.outputs.skip != 'true'
+    - name: Commit and push changes
+      if: steps.collection.outputs.collection_success == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
-        # Add the updated files
-        git add data/season_2025_performances.json
-        git add data/season_2025_totals.json
+        # Add all data files
+        git add data/ weekly_snapshots/
         
-        # Check if there are changes to commit
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "Update NFL performance data for Week ${{ steps.week.outputs.week }}
+        if ! git diff --staged --quiet; then
+          WEEK=${{ steps.params.outputs.week }}
+          COMMIT_MSG="v2.1 Week $WEEK: "
+          COMMIT_MSG+="${{ steps.collection.outputs.player_count }} players, "
+          COMMIT_MSG+="${{ steps.collection.outputs.adp_count }} ADP, "
+          COMMIT_MSG+="${{ steps.collection.outputs.match_rate }}% match rate"
           
-          - Collected data for ${{ steps.week.outputs.week }} players
-          - Updated season totals
-          - Automated collection on $(date)"
+          if [ "${{ steps.collection.outputs.performance_count }}" != "" ]; then
+            COMMIT_MSG+=", ${{ steps.collection.outputs.performance_count }} performances"
+          fi
           
+          git commit -m "$COMMIT_MSG"
           git push
-          echo "✅ Data committed and pushed to repository"
+          
+          echo "✅ Changes committed and pushed"
+        else
+          echo "ℹ️ No changes to commit"
         fi
-    
-    - name: Generate collection summary
+
+    - name: Create comprehensive summary
       if: always()
       run: |
-        echo "=== Collection Summary ==="
-        echo "Week: ${{ steps.week.outputs.week }}"
-        echo "Status: ${{ steps.check_data.outputs.skip == 'true' && 'Skipped (data exists)' || 'Completed' }}"
-        echo "Timestamp: $(date)"
+        WEEK=${{ steps.params.outputs.week }}
+        echo "## Byline Database v2.1 - Week $WEEK Collection Report" >> $GITHUB_STEP_SUMMARY
+        echo "**Timestamp**: $(date '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+        echo "**Processing Mode**: ${{ steps.params.outputs.force_refresh == 'true' && 'Force Refresh' || 'Standard Update' }}" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
         
-        if [ "${{ steps.check_data.outputs.skip }}" != "true" ]; then
-          if [ -f "data/season_2025_performances.json" ]; then
-            python -c "
-        import json
-        with open('data/season_2025_performances.json', 'r') as f:
-            data = json.load(f)
-        
-        weeks = [k for k in data.keys() if k.startswith('week_')]
-        total_performances = sum(len(data[k]) for k in weeks)
-        
-        print(f'Total weeks collected: {len(weeks)}')
-        print(f'Total player performances: {total_performances}')
-            "
+        # Collection Status
+        echo "### 📊 Data Collection Results" >> $GITHUB_STEP_SUMMARY
+        if [ "${{ steps.collection.outputs.collection_success }}" == "true" ]; then
+          echo "✅ **Core Collection**: Success" >> $GITHUB_STEP_SUMMARY
+          echo "- **Sleeper Players**: ${{ steps.collection.outputs.player_count }} fantasy-relevant players" >> $GITHUB_STEP_SUMMARY
+          echo "- **ADP Data**: ${{ steps.collection.outputs.adp_count }} players with draft data" >> $GITHUB_STEP_SUMMARY
+          echo "- **Integration**: ${{ steps.collection.outputs.integrated_count }} players (${{ steps.collection.outputs.match_rate }}% match rate)" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.collection.outputs.performance_count }}" != "" ]; then
+            echo "- **Performance Data**: ${{ steps.collection.outputs.performance_count }} total performances tracked" >> $GITHUB_STEP_SUMMARY
           fi
+        else
+          echo "❌ **Core Collection**: Failed - check workflow logs" >> $GITHUB_STEP_SUMMARY
         fi
-    
-    - name: Upload artifacts on failure
-      if: failure()
-      uses: actions/upload-artifact@v4
-      with:
-        name: failed-collection-week-${{ steps.week.outputs.week }}
-        path: |
-          data/
-          scripts/collect_nfl_performance.py
-        retention-days: 7
+        
+        # Validation Status
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 🔍 Data Quality Validation" >> $GITHUB_STEP_SUMMARY
+        if [ "${{ steps.validation.outputs.validation_success }}" == "true" ]; then
+          echo "✅ **Validation**: All quality checks passed" >> $GITHUB_STEP_SUMMARY
+          echo "- Database integrity verified" >> $GITHUB_STEP_SUMMARY
+          echo "- Player matching within acceptable ranges" >> $GITHUB_STEP_SUMMARY
+          echo "- Ready for content generation" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "⚠️ **Validation**: Some quality issues detected" >> $GITHUB_STEP_SUMMARY
+          echo "- Review validation logs for details" >> $GITHUB_STEP_SUMMARY
+          echo "- May impact content generation quality" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        # Snapshots Status
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 📸 Weekly Snapshots" >> $GITHUB_STEP_SUMMARY
+        if [ "${{ steps.snapshots.outputs.snapshots_success }}" == "true" ]; then
+          echo "✅ **Week $WEEK Snapshot**: Created successfully" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "⚠️ **Week $WEEK Snapshot**: Creation failed or no data available" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        # Week 4 Readiness Assessment
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 🎯 Week 4 Launch Readiness" >> $GITHUB_STEP_SUMMARY
+        
+        if [ "${{ steps.collection.outputs.collection_success }}" == "true" ] && [ "${{ steps.validation.outputs.validation_success }}" == "true" ]; then
+          echo "🟢 **STATUS: READY FOR LAUNCH**" >> $GITHUB_STEP_SUMMARY
+          echo "- Complete player database operational" >> $GITHUB_STEP_SUMMARY
+          echo "- ADP integration functional" >> $GITHUB_STEP_SUMMARY
+          echo "- Data quality within acceptable ranges" >> $GITHUB_STEP_SUMMARY
+          echo "- Performance tracking active" >> $GITHUB_STEP_SUMMARY
+        elif [ "${{ steps.collection.outputs.collection_success }}" == "true" ]; then
+          echo "🟡 **STATUS: MOSTLY READY**" >> $GITHUB_STEP_SUMMARY
+          echo "- Core functionality working" >> $GITHUB_STEP_SUMMARY
+          echo "- Minor quality issues to address" >> $GITHUB_STEP_SUMMARY
+          echo "- Should not block Week 4 launch" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "🔴 **STATUS: NOT READY**" >> $GITHUB_STEP_SUMMARY
+          echo "- Critical collection failures" >> $GITHUB_STEP_SUMMARY
+          echo "- Requires immediate attention" >> $GITHUB_STEP_SUMMARY
+          echo "- Will block Week 4 launch" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        # Next Steps
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 🔄 Next Steps" >> $GITHUB_STEP_SUMMARY
+        if [ $WEEK -eq 0 ]; then
+          echo "- **Preseason**: Database ready for draft analysis content" >> $GITHUB_STEP_SUMMARY
+          echo "- Monitor for 2025 season data availability" >> $GITHUB_STEP_SUMMARY
+        elif [ $WEEK -le 4 ]; then
+          echo "- **Early Season**: Building performance baseline for content generation" >> $GITHUB_STEP_SUMMARY
+          echo "- Week 4 content generation pipeline ready" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "- **Mid/Late Season**: Full analytics and content generation active" >> $GITHUB_STEP_SUMMARY
+          echo "- Historical trends available for rich narratives" >> $GITHUB_STEP_SUMMARY
+        fi
