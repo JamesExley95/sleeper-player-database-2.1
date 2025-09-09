@@ -17087,8 +17087,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 8.579999923706055,
-          "points_ppr": 8.579999923706055
+          "points_standard": 8.58,
+          "points_ppr": 8.58,
+          "points_half_ppr": 8.58
         }
       },
       "usage": {
@@ -17097,7 +17098,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.545864"
+      "last_updated": "2025-09-09T06:19:46.887057"
     },
     "421": {
       "player_name": "M.Stafford",
@@ -17126,8 +17127,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 14.680000305175781,
-          "points_ppr": 14.680000305175781
+          "points_standard": 14.68,
+          "points_ppr": 14.68,
+          "points_half_ppr": 14.68
         }
       },
       "usage": {
@@ -17136,7 +17138,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.546226"
+      "last_updated": "2025-09-09T06:19:46.887427"
     },
     "829": {
       "player_name": "A.Dalton",
@@ -17166,7 +17168,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -17175,7 +17178,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.546580"
+      "last_updated": "2025-09-09T06:19:46.887800"
     },
     "827": {
       "player_name": "T.Taylor",
@@ -17204,8 +17207,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 6.139999866485596,
-          "points_ppr": 6.139999866485596
+          "points_standard": 6.14,
+          "points_ppr": 6.14,
+          "points_half_ppr": 6.14
         }
       },
       "usage": {
@@ -17214,7 +17218,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.546905"
+      "last_updated": "2025-09-09T06:19:46.888140"
     },
     "1166": {
       "player_name": "K.Cousins",
@@ -17243,8 +17247,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 6.199999809265137,
-          "points_ppr": 6.199999809265137
+          "points_standard": 6.2,
+          "points_ppr": 6.2,
+          "points_half_ppr": 6.2
         }
       },
       "usage": {
@@ -17253,7 +17258,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.547223"
+      "last_updated": "2025-09-09T06:19:46.888470"
     },
     "1689": {
       "player_name": "A.Thielen",
@@ -17282,8 +17287,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 4.900000095367432,
-          "points_ppr": 7.900000095367432
+          "points_standard": 4.9,
+          "points_ppr": 7.9,
+          "points_half_ppr": 6.4
         }
       },
       "usage": {
@@ -17293,7 +17299,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.547564"
+      "last_updated": "2025-09-09T06:19:46.888823"
     },
     "1339": {
       "player_name": "Z.Ertz",
@@ -17322,8 +17328,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.799999952316284,
-          "points_ppr": 5.800000190734863
+          "points_standard": 2.8,
+          "points_ppr": 5.8,
+          "points_half_ppr": 4.3
         }
       },
       "usage": {
@@ -17333,7 +17340,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.547886"
+      "last_updated": "2025-09-09T06:19:46.889153"
     },
     "1479": {
       "player_name": "K.Allen",
@@ -17362,8 +17369,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.9000000953674316,
-          "points_ppr": 6.900000095367432
+          "points_standard": 2.9,
+          "points_ppr": 6.9,
+          "points_half_ppr": 4.9
         }
       },
       "usage": {
@@ -17373,7 +17381,7 @@
         "air_yards": null,
         "raw_targets": 11
       },
-      "last_updated": "2025-09-09T06:12:11.548208"
+      "last_updated": "2025-09-09T06:19:46.889483"
     },
     "1466": {
       "player_name": "T.Kelce",
@@ -17402,8 +17410,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 3.4000000953674316,
-          "points_ppr": 6.400000095367432
+          "points_standard": 3.4,
+          "points_ppr": 6.4,
+          "points_half_ppr": 4.9
         }
       },
       "usage": {
@@ -17413,7 +17422,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.548548"
+      "last_updated": "2025-09-09T06:19:46.889858"
     },
     "1348": {
       "player_name": "D.Hopkins",
@@ -17442,8 +17451,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.800000011920929,
-          "points_ppr": 1.7999999523162842
+          "points_standard": 0.8,
+          "points_ppr": 1.8,
+          "points_half_ppr": 1.3
         }
       },
       "usage": {
@@ -17453,7 +17463,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.548862"
+      "last_updated": "2025-09-09T06:19:46.890186"
     },
     "1373": {
       "player_name": "G.Smith",
@@ -17482,8 +17492,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 17.84000015258789,
-          "points_ppr": 17.84000015258789
+          "points_standard": 17.84,
+          "points_ppr": 17.84,
+          "points_half_ppr": 17.84
         }
       },
       "usage": {
@@ -17492,7 +17503,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.549169"
+      "last_updated": "2025-09-09T06:19:46.890508"
     },
     "1535": {
       "player_name": "C.Patterson",
@@ -17521,8 +17532,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.2999999523162842,
-          "points_ppr": 1.2999999523162842
+          "points_standard": 1.3,
+          "points_ppr": 1.3,
+          "points_half_ppr": 1.3
         }
       },
       "usage": {
@@ -17531,7 +17543,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.549518"
+      "last_updated": "2025-09-09T06:19:46.890865"
     },
     "2197": {
       "player_name": "B.Cooks",
@@ -17561,7 +17573,8 @@
         },
         "fantasy": {
           "points_standard": 10.5,
-          "points_ppr": 14.5
+          "points_ppr": 14.5,
+          "points_half_ppr": 12.5
         }
       },
       "usage": {
@@ -17571,7 +17584,7 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:12:11.549839"
+      "last_updated": "2025-09-09T06:19:46.891193"
     },
     "2028": {
       "player_name": "D.Carr",
@@ -17600,8 +17613,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 21.299999237060547,
-          "points_ppr": 21.299999237060547
+          "points_standard": 21.3,
+          "points_ppr": 21.3,
+          "points_half_ppr": 21.3
         }
       },
       "usage": {
@@ -17610,7 +17624,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.550157"
+      "last_updated": "2025-09-09T06:19:46.891514"
     },
     "1800": {
       "player_name": "J.Matthews",
@@ -17640,7 +17654,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -17650,7 +17665,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.550487"
+      "last_updated": "2025-09-09T06:19:46.891869"
     },
     "2133": {
       "player_name": "D.Adams",
@@ -17679,8 +17694,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 5.900000095367432,
-          "points_ppr": 10.899999618530273
+          "points_standard": 5.9,
+          "points_ppr": 10.9,
+          "points_half_ppr": 8.4
         }
       },
       "usage": {
@@ -17690,7 +17706,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.550793"
+      "last_updated": "2025-09-09T06:19:46.892188"
     },
     "2216": {
       "player_name": "M.Evans",
@@ -17719,8 +17735,9 @@
           "touchdowns": 2
         },
         "fantasy": {
-          "points_standard": 18.100000381469727,
-          "points_ppr": 23.100000381469727
+          "points_standard": 18.1,
+          "points_ppr": 23.1,
+          "points_half_ppr": 20.6
         }
       },
       "usage": {
@@ -17730,7 +17747,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.551102"
+      "last_updated": "2025-09-09T06:19:46.892511"
     },
     "2309": {
       "player_name": "A.Cooper",
@@ -17759,8 +17776,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.600000023841858,
-          "points_ppr": 3.5999999046325684
+          "points_standard": 1.6,
+          "points_ppr": 3.6,
+          "points_half_ppr": 2.6
         }
       },
       "usage": {
@@ -17770,7 +17788,7 @@
         "air_yards": null,
         "raw_targets": 9
       },
-      "last_updated": "2025-09-09T06:12:11.551426"
+      "last_updated": "2025-09-09T06:19:46.892853"
     },
     "2325": {
       "player_name": "N.Agholor",
@@ -17799,8 +17817,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.6000000238418579,
-          "points_ppr": 1.600000023841858
+          "points_standard": 0.6,
+          "points_ppr": 1.6,
+          "points_half_ppr": 1.1
         }
       },
       "usage": {
@@ -17810,7 +17829,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.551732"
+      "last_updated": "2025-09-09T06:19:46.893172"
     },
     "2446": {
       "player_name": "M.Pruitt",
@@ -17839,8 +17858,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.8999999761581421,
-          "points_ppr": 1.899999976158142
+          "points_standard": 0.9,
+          "points_ppr": 1.9,
+          "points_half_ppr": 1.4
         }
       },
       "usage": {
@@ -17850,7 +17870,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.552043"
+      "last_updated": "2025-09-09T06:19:46.893491"
     },
     "2449": {
       "player_name": "S.Diggs",
@@ -17879,8 +17899,9 @@
           "touchdowns": 2
         },
         "fantasy": {
-          "points_standard": 15.899999618530273,
-          "points_ppr": 21.899999618530273
+          "points_standard": 15.9,
+          "points_ppr": 21.9,
+          "points_half_ppr": 18.9
         }
       },
       "usage": {
@@ -17890,7 +17911,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.552375"
+      "last_updated": "2025-09-09T06:19:46.893836"
     },
     "2749": {
       "player_name": "R.Mostert",
@@ -17919,8 +17940,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.899999976158142,
-          "points_ppr": 3.9000000953674316
+          "points_standard": 1.9,
+          "points_ppr": 3.9,
+          "points_half_ppr": 2.9
         }
       },
       "usage": {
@@ -17930,7 +17952,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.552684"
+      "last_updated": "2025-09-09T06:19:46.894160"
     },
     "2564": {
       "player_name": "D.Carter",
@@ -17959,8 +17981,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.6000000238418579,
-          "points_ppr": 1.600000023841858
+          "points_standard": 0.6,
+          "points_ppr": 1.6,
+          "points_half_ppr": 1.1
         }
       },
       "usage": {
@@ -17970,7 +17993,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.552990"
+      "last_updated": "2025-09-09T06:19:46.894488"
     },
     "2410": {
       "player_name": "J.Crowder",
@@ -18000,7 +18023,8 @@
         },
         "fantasy": {
           "points_standard": 0.5,
-          "points_ppr": 1.5
+          "points_ppr": 1.5,
+          "points_half_ppr": 1.0
         }
       },
       "usage": {
@@ -18010,7 +18034,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.553294"
+      "last_updated": "2025-09-09T06:19:46.894825"
     },
     "2374": {
       "player_name": "T.Lockett",
@@ -18039,8 +18063,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 7.699999809265137,
-          "points_ppr": 13.699999809265137
+          "points_standard": 7.7,
+          "points_ppr": 13.7,
+          "points_half_ppr": 10.7
         }
       },
       "usage": {
@@ -18050,7 +18075,7 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:12:11.553617"
+      "last_updated": "2025-09-09T06:19:46.895142"
     },
     "3202": {
       "player_name": "A.Hooper",
@@ -18079,8 +18104,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 3.0999999046325684,
-          "points_ppr": 5.099999904632568
+          "points_standard": 3.1,
+          "points_ppr": 5.1,
+          "points_half_ppr": 4.1
         }
       },
       "usage": {
@@ -18090,7 +18116,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.553920"
+      "last_updated": "2025-09-09T06:19:46.895455"
     },
     "3258": {
       "player_name": "N.Vannett",
@@ -18119,8 +18145,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.100000023841858,
-          "points_ppr": 3.0999999046325684
+          "points_standard": 1.1,
+          "points_ppr": 3.1,
+          "points_half_ppr": 2.1
         }
       },
       "usage": {
@@ -18130,7 +18157,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.554225"
+      "last_updated": "2025-09-09T06:19:46.895792"
     },
     "11576": {
       "player_name": "B.Allen",
@@ -18159,8 +18186,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.7000000476837158,
-          "points_ppr": 2.700000047683716
+          "points_standard": 1.7,
+          "points_ppr": 2.7,
+          "points_half_ppr": 2.2
         }
       },
       "usage": {
@@ -18170,7 +18198,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.635737"
+      "last_updated": "2025-09-09T06:19:46.979070"
     },
     "3634": {
       "player_name": "K.Raymond",
@@ -18199,8 +18227,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.2000000476837158,
-          "points_ppr": 1.2000000476837158
+          "points_standard": 1.2,
+          "points_ppr": 1.2,
+          "points_half_ppr": 1.2
         }
       },
       "usage": {
@@ -18209,7 +18238,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.554859"
+      "last_updated": "2025-09-09T06:19:46.896432"
     },
     "3198": {
       "player_name": "D.Henry",
@@ -18238,8 +18267,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 10.600000381469727,
-          "points_ppr": 10.600000381469727
+          "points_standard": 10.6,
+          "points_ppr": 10.6,
+          "points_half_ppr": 10.6
         }
       },
       "usage": {
@@ -18249,7 +18279,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.555167"
+      "last_updated": "2025-09-09T06:19:46.896770"
     },
     "3286": {
       "player_name": "D.Robinson",
@@ -18278,8 +18308,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 4.199999809265137,
-          "points_ppr": 8.199999809265137
+          "points_standard": 4.2,
+          "points_ppr": 8.2,
+          "points_half_ppr": 6.2
         }
       },
       "usage": {
@@ -18289,7 +18320,7 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:12:11.555490"
+      "last_updated": "2025-09-09T06:19:46.897086"
     },
     "3225": {
       "player_name": "T.Boyd",
@@ -18318,8 +18349,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.7999999523162842,
-          "points_ppr": 4.800000190734863
+          "points_standard": 1.8,
+          "points_ppr": 4.8,
+          "points_half_ppr": 3.3
         }
       },
       "usage": {
@@ -18329,7 +18361,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.555801"
+      "last_updated": "2025-09-09T06:19:46.897397"
     },
     "3321": {
       "player_name": "T.Hill",
@@ -18358,8 +18390,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 3.5999999046325684,
-          "points_ppr": 4.599999904632568
+          "points_standard": 3.6,
+          "points_ppr": 4.6,
+          "points_half_ppr": 4.1
         }
       },
       "usage": {
@@ -18369,7 +18402,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.559551"
+      "last_updated": "2025-09-09T06:19:46.901273"
     },
     "3164": {
       "player_name": "E.Elliott",
@@ -18398,8 +18431,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 10.899999618530273,
-          "points_ppr": 12.899999618530273
+          "points_standard": 10.9,
+          "points_ppr": 12.9,
+          "points_half_ppr": 11.9
         }
       },
       "usage": {
@@ -18409,7 +18443,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.556444"
+      "last_updated": "2025-09-09T06:19:46.898062"
     },
     "3294": {
       "player_name": "D.Prescott",
@@ -18438,8 +18472,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 11.460000038146973,
-          "points_ppr": 11.460000038146973
+          "points_standard": 11.46,
+          "points_ppr": 11.46,
+          "points_half_ppr": 11.46
         }
       },
       "usage": {
@@ -18448,7 +18483,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.556751"
+      "last_updated": "2025-09-09T06:19:46.898381"
     },
     "3214": {
       "player_name": "H.Henry",
@@ -18477,8 +18512,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.7999999523162842,
-          "points_ppr": 3.799999952316284
+          "points_standard": 1.8,
+          "points_ppr": 3.8,
+          "points_half_ppr": 2.8
         }
       },
       "usage": {
@@ -18488,7 +18524,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.557051"
+      "last_updated": "2025-09-09T06:19:46.898720"
     },
     "3163": {
       "player_name": "J.Goff",
@@ -18517,8 +18553,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 11.380000114440918,
-          "points_ppr": 11.380000114440918
+          "points_standard": 11.38,
+          "points_ppr": 11.38,
+          "points_half_ppr": 11.38
         }
       },
       "usage": {
@@ -18527,7 +18564,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.557376"
+      "last_updated": "2025-09-09T06:19:46.899038"
     },
     "3257": {
       "player_name": "J.Brissett",
@@ -18556,8 +18593,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 8.039999961853027,
-          "points_ppr": 8.039999961853027
+          "points_standard": 8.04,
+          "points_ppr": 8.04,
+          "points_half_ppr": 8.04
         }
       },
       "usage": {
@@ -18566,7 +18604,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.557684"
+      "last_updated": "2025-09-09T06:19:46.899351"
     },
     "4054": {
       "player_name": "M.Alie-Cox",
@@ -18596,7 +18634,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -18606,7 +18645,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.557985"
+      "last_updated": "2025-09-09T06:19:46.899682"
     },
     "4314": {
       "player_name": "J.Mundt",
@@ -18636,7 +18675,8 @@
         },
         "fantasy": {
           "points_standard": 1.5,
-          "points_ppr": 3.5
+          "points_ppr": 3.5,
+          "points_half_ppr": 2.5
         }
       },
       "usage": {
@@ -18646,7 +18686,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.558285"
+      "last_updated": "2025-09-09T06:19:46.900000"
     },
     "4082": {
       "player_name": "C.Samuel",
@@ -18676,7 +18716,8 @@
         },
         "fantasy": {
           "points_standard": 1.5,
-          "points_ppr": 3.5
+          "points_ppr": 3.5,
+          "points_half_ppr": 2.5
         }
       },
       "usage": {
@@ -18686,7 +18727,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.558619"
+      "last_updated": "2025-09-09T06:19:46.900311"
     },
     "4217": {
       "player_name": "G.Kittle",
@@ -18716,7 +18757,8 @@
         },
         "fantasy": {
           "points_standard": 4.0,
-          "points_ppr": 8.0
+          "points_ppr": 8.0,
+          "points_half_ppr": 6.0
         }
       },
       "usage": {
@@ -18726,7 +18768,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.558923"
+      "last_updated": "2025-09-09T06:19:46.900623"
     },
     "11947": {
       "player_name": "A.Jones",
@@ -18755,8 +18797,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 16.899999618530273,
-          "points_ppr": 18.899999618530273
+          "points_standard": 16.9,
+          "points_ppr": 18.9,
+          "points_half_ppr": 17.9
         }
       },
       "usage": {
@@ -18766,7 +18809,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.559224"
+      "last_updated": "2025-09-09T06:19:46.900959"
     },
     "4147": {
       "player_name": "S.Perine",
@@ -18796,7 +18839,8 @@
         },
         "fantasy": {
           "points_standard": 1.0,
-          "points_ppr": 2.0
+          "points_ppr": 2.0,
+          "points_half_ppr": 1.5
         }
       },
       "usage": {
@@ -18806,7 +18850,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.559860"
+      "last_updated": "2025-09-09T06:19:46.901588"
     },
     "4017": {
       "player_name": "D.Watson",
@@ -18835,8 +18879,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 10.65999984741211,
-          "points_ppr": 10.65999984741211
+          "points_standard": 10.66,
+          "points_ppr": 10.66,
+          "points_half_ppr": 10.66
         }
       },
       "usage": {
@@ -18845,7 +18890,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.560163"
+      "last_updated": "2025-09-09T06:19:46.901928"
     },
     "520": {
       "player_name": "J.Conner",
@@ -18874,8 +18919,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 16.299999237060547,
-          "points_ppr": 19.299999237060547
+          "points_standard": 16.3,
+          "points_ppr": 19.3,
+          "points_half_ppr": 17.8
         }
       },
       "usage": {
@@ -18885,7 +18931,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.560484"
+      "last_updated": "2025-09-09T06:19:46.902248"
     },
     "4177": {
       "player_name": "M.Hollins",
@@ -18915,7 +18961,8 @@
         },
         "fantasy": {
           "points_standard": 8.5,
-          "points_ppr": 10.5
+          "points_ppr": 10.5,
+          "points_half_ppr": 9.5
         }
       },
       "usage": {
@@ -18925,7 +18972,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.560788"
+      "last_updated": "2025-09-09T06:19:46.902561"
     },
     "4189": {
       "player_name": "E.Saubert",
@@ -18955,7 +19002,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -18965,7 +19013,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.561087"
+      "last_updated": "2025-09-09T06:19:46.902899"
     },
     "887": {
       "player_name": "D.Moore",
@@ -18995,7 +19043,8 @@
         },
         "fantasy": {
           "points_standard": 5.0,
-          "points_ppr": 10.0
+          "points_ppr": 10.0,
+          "points_half_ppr": 7.5
         }
       },
       "usage": {
@@ -19005,7 +19054,7 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:12:11.572303"
+      "last_updated": "2025-09-09T06:19:46.914602"
     },
     "4574": {
       "player_name": "C.Rush",
@@ -19034,8 +19083,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": -0.10000000149011612,
-          "points_ppr": -0.10000000149011612
+          "points_standard": -0.1,
+          "points_ppr": -0.1,
+          "points_half_ppr": -0.1
         }
       },
       "usage": {
@@ -19044,7 +19094,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.561714"
+      "last_updated": "2025-09-09T06:19:46.903526"
     },
     "4663": {
       "player_name": "A.Ekeler",
@@ -19073,8 +19123,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 6.199999809265137,
-          "points_ppr": 10.199999809265137
+          "points_standard": 6.2,
+          "points_ppr": 10.2,
+          "points_half_ppr": 8.2
         }
       },
       "usage": {
@@ -19084,7 +19135,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.562022"
+      "last_updated": "2025-09-09T06:19:46.903864"
     },
     "4718": {
       "player_name": "D.Ogunbowale",
@@ -19113,8 +19164,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.30000001192092896,
-          "points_ppr": 1.2999999523162842
+          "points_standard": 0.3,
+          "points_ppr": 1.3,
+          "points_half_ppr": 0.8
         }
       },
       "usage": {
@@ -19124,7 +19176,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.562340"
+      "last_updated": "2025-09-09T06:19:46.904180"
     },
     "4040": {
       "player_name": "J.Smith-Schuster",
@@ -19154,7 +19206,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -19164,7 +19217,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.562652"
+      "last_updated": "2025-09-09T06:19:46.904493"
     },
     "13246": {
       "player_name": "J.Smith",
@@ -19193,8 +19246,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.699999988079071,
-          "points_ppr": 1.7000000476837158
+          "points_standard": 0.7,
+          "points_ppr": 1.7,
+          "points_half_ppr": 1.2
         }
       },
       "usage": {
@@ -19204,7 +19258,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.562951"
+      "last_updated": "2025-09-09T06:19:46.904828"
     },
     "4046": {
       "player_name": "P.Mahomes",
@@ -19233,8 +19287,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 14.140000343322754,
-          "points_ppr": 15.140000343322754
+          "points_standard": 14.14,
+          "points_ppr": 15.14,
+          "points_half_ppr": 14.64
         }
       },
       "usage": {
@@ -19244,7 +19299,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.563252"
+      "last_updated": "2025-09-09T06:19:46.905152"
     },
     "4066": {
       "player_name": "E.Engram",
@@ -19274,7 +19329,8 @@
         },
         "fantasy": {
           "points_standard": 0.5,
-          "points_ppr": 1.5
+          "points_ppr": 1.5,
+          "points_half_ppr": 1.0
         }
       },
       "usage": {
@@ -19284,7 +19340,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.563574"
+      "last_updated": "2025-09-09T06:19:46.905466"
     },
     "4033": {
       "player_name": "D.Njoku",
@@ -19313,8 +19369,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 4.400000095367432,
-          "points_ppr": 8.399999618530273
+          "points_standard": 4.4,
+          "points_ppr": 8.4,
+          "points_half_ppr": 6.4
         }
       },
       "usage": {
@@ -19324,7 +19381,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.563877"
+      "last_updated": "2025-09-09T06:19:46.905806"
     },
     "4089": {
       "player_name": "G.Everett",
@@ -19353,8 +19410,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": -0.10000000149011612,
-          "points_ppr": 0.8999999761581421
+          "points_standard": -0.1,
+          "points_ppr": 0.9,
+          "points_half_ppr": 0.4
         }
       },
       "usage": {
@@ -19364,7 +19422,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.564182"
+      "last_updated": "2025-09-09T06:19:46.906127"
     },
     "4018": {
       "player_name": "J.Mixon",
@@ -19393,8 +19451,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 23.799999237060547,
-          "points_ppr": 26.799999237060547
+          "points_standard": 23.8,
+          "points_ppr": 26.8,
+          "points_half_ppr": 25.3
         }
       },
       "usage": {
@@ -19404,7 +19463,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.564556"
+      "last_updated": "2025-09-09T06:19:46.906515"
     },
     "4035": {
       "player_name": "A.Kamara",
@@ -19434,7 +19493,8 @@
         },
         "fantasy": {
           "points_standard": 17.0,
-          "points_ppr": 22.0
+          "points_ppr": 22.0,
+          "points_half_ppr": 19.5
         }
       },
       "usage": {
@@ -19444,7 +19504,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.564865"
+      "last_updated": "2025-09-09T06:19:46.906858"
     },
     "4039": {
       "player_name": "C.Kupp",
@@ -19474,7 +19534,8 @@
         },
         "fantasy": {
           "points_standard": 18.0,
-          "points_ppr": 32.0
+          "points_ppr": 32.0,
+          "points_half_ppr": 25.0
         }
       },
       "usage": {
@@ -19484,7 +19545,7 @@
         "air_yards": null,
         "raw_targets": 21
       },
-      "last_updated": "2025-09-09T06:12:11.565167"
+      "last_updated": "2025-09-09T06:19:46.907176"
     },
     "4037": {
       "player_name": "C.Godwin",
@@ -19513,8 +19574,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 14.300000190734863,
-          "points_ppr": 22.299999237060547
+          "points_standard": 14.3,
+          "points_ppr": 22.3,
+          "points_half_ppr": 18.3
         }
       },
       "usage": {
@@ -19524,7 +19586,7 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:12:11.565500"
+      "last_updated": "2025-09-09T06:19:46.907488"
     },
     "4171": {
       "player_name": "J.Reynolds",
@@ -19554,7 +19616,8 @@
         },
         "fantasy": {
           "points_standard": 4.5,
-          "points_ppr": 9.5
+          "points_ppr": 9.5,
+          "points_half_ppr": 7.0
         }
       },
       "usage": {
@@ -19564,7 +19627,7 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:12:11.565805"
+      "last_updated": "2025-09-09T06:19:46.907830"
     },
     "4042": {
       "player_name": "J.Williams",
@@ -19593,8 +19656,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 19.399999618530273,
-          "points_ppr": 24.399999618530273
+          "points_standard": 19.4,
+          "points_ppr": 24.4,
+          "points_half_ppr": 21.9
         }
       },
       "usage": {
@@ -19604,7 +19668,7 @@
         "air_yards": null,
         "raw_targets": 9
       },
-      "last_updated": "2025-09-09T06:12:11.603129"
+      "last_updated": "2025-09-09T06:19:46.946035"
     },
     "11636": {
       "player_name": "J.Wilson",
@@ -19634,7 +19698,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -19644,7 +19709,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.631069"
+      "last_updated": "2025-09-09T06:19:46.974305"
     },
     "5010": {
       "player_name": "W.Dissly",
@@ -19673,8 +19738,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.2999999523162842,
-          "points_ppr": 2.299999952316284
+          "points_standard": 1.3,
+          "points_ppr": 2.3,
+          "points_half_ppr": 1.8
         }
       },
       "usage": {
@@ -19684,7 +19750,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.566753"
+      "last_updated": "2025-09-09T06:19:46.908806"
     },
     "5248": {
       "player_name": "G.Edwards",
@@ -19713,8 +19779,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.799999952316284,
-          "points_ppr": 3.799999952316284
+          "points_standard": 2.8,
+          "points_ppr": 3.8,
+          "points_half_ppr": 3.3
         }
       },
       "usage": {
@@ -19724,7 +19791,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.567051"
+      "last_updated": "2025-09-09T06:19:46.909118"
     },
     "5209": {
       "player_name": "M.Boone",
@@ -19753,8 +19820,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.699999988079071,
-          "points_ppr": 0.699999988079071
+          "points_standard": 0.7,
+          "points_ppr": 0.7,
+          "points_half_ppr": 0.7
         }
       },
       "usage": {
@@ -19763,7 +19831,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.567367"
+      "last_updated": "2025-09-09T06:19:46.909428"
     },
     "5133": {
       "player_name": "T.Conklin",
@@ -19792,8 +19860,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.6000000238418579,
-          "points_ppr": 1.600000023841858
+          "points_standard": 0.6,
+          "points_ppr": 1.6,
+          "points_half_ppr": 1.1
         }
       },
       "usage": {
@@ -19803,7 +19872,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.567674"
+      "last_updated": "2025-09-09T06:19:46.909761"
     },
     "5086": {
       "player_name": "M.Valdes-Scantling",
@@ -19832,8 +19901,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.899999976158142,
-          "points_ppr": 2.9000000953674316
+          "points_standard": 1.9,
+          "points_ppr": 2.9,
+          "points_half_ppr": 2.4
         }
       },
       "usage": {
@@ -19843,7 +19913,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.567973"
+      "last_updated": "2025-09-09T06:19:46.910074"
     },
     "8438": {
       "player_name": "C.Sutton",
@@ -19872,8 +19942,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 3.799999952316284,
-          "points_ppr": 7.800000190734863
+          "points_standard": 3.8,
+          "points_ppr": 7.8,
+          "points_half_ppr": 5.8
         }
       },
       "usage": {
@@ -19883,7 +19954,7 @@
         "air_yards": null,
         "raw_targets": 12
       },
-      "last_updated": "2025-09-09T06:12:11.568273"
+      "last_updated": "2025-09-09T06:19:46.910384"
     },
     "5022": {
       "player_name": "D.Goedert",
@@ -19912,8 +19983,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 3.0999999046325684,
-          "points_ppr": 7.099999904632568
+          "points_standard": 3.1,
+          "points_ppr": 7.1,
+          "points_half_ppr": 5.1
         }
       },
       "usage": {
@@ -19923,7 +19995,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.568617"
+      "last_updated": "2025-09-09T06:19:46.910761"
     },
     "5032": {
       "player_name": "J.Akins",
@@ -19952,8 +20024,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.700000047683716,
-          "points_ppr": 5.699999809265137
+          "points_standard": 2.7,
+          "points_ppr": 5.7,
+          "points_half_ppr": 4.2
         }
       },
       "usage": {
@@ -19963,7 +20036,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.568922"
+      "last_updated": "2025-09-09T06:19:46.911111"
     },
     "5001": {
       "player_name": "D.Schultz",
@@ -19992,8 +20065,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.600000023841858,
-          "points_ppr": 4.599999904632568
+          "points_standard": 1.6,
+          "points_ppr": 4.6,
+          "points_half_ppr": 3.1
         }
       },
       "usage": {
@@ -20003,7 +20077,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.569222"
+      "last_updated": "2025-09-09T06:19:46.911423"
     },
     "5374": {
       "player_name": "J.Watson",
@@ -20033,7 +20107,8 @@
         },
         "fantasy": {
           "points_standard": 2.5,
-          "points_ppr": 3.5
+          "points_ppr": 3.5,
+          "points_half_ppr": 3.0
         }
       },
       "usage": {
@@ -20043,7 +20118,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.569545"
+      "last_updated": "2025-09-09T06:19:46.911756"
     },
     "5096": {
       "player_name": "R.McCloud",
@@ -20072,8 +20147,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 5.199999809265137,
-          "points_ppr": 9.199999809265137
+          "points_standard": 5.2,
+          "points_ppr": 9.2,
+          "points_half_ppr": 7.2
         }
       },
       "usage": {
@@ -20083,7 +20159,7 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:12:11.569847"
+      "last_updated": "2025-09-09T06:19:46.912082"
     },
     "5121": {
       "player_name": "B.Berrios",
@@ -20113,7 +20189,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -20123,7 +20200,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.570147"
+      "last_updated": "2025-09-09T06:19:46.912393"
     },
     "5185": {
       "player_name": "A.Lazard",
@@ -20152,8 +20229,9 @@
           "touchdowns": 2
         },
         "fantasy": {
-          "points_standard": 20.899999618530273,
-          "points_ppr": 26.899999618530273
+          "points_standard": 20.9,
+          "points_ppr": 26.9,
+          "points_half_ppr": 23.9
         }
       },
       "usage": {
@@ -20163,7 +20241,7 @@
         "air_yards": null,
         "raw_targets": 9
       },
-      "last_updated": "2025-09-09T06:12:11.570467"
+      "last_updated": "2025-09-09T06:19:46.912721"
     },
     "7439": {
       "player_name": "T.Hudson",
@@ -20192,8 +20270,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": -0.20000000298023224,
-          "points_ppr": 1.7999999523162842
+          "points_standard": -0.2,
+          "points_ppr": 1.8,
+          "points_half_ppr": 0.8
         }
       },
       "usage": {
@@ -20203,7 +20282,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.570771"
+      "last_updated": "2025-09-09T06:19:46.913033"
     },
     "5012": {
       "player_name": "M.Andrews",
@@ -20232,8 +20311,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.399999976158142,
-          "points_ppr": 3.4000000953674316
+          "points_standard": 1.4,
+          "points_ppr": 3.4,
+          "points_half_ppr": 2.4
         }
       },
       "usage": {
@@ -20243,7 +20323,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.571072"
+      "last_updated": "2025-09-09T06:19:46.913339"
     },
     "4950": {
       "player_name": "C.Kirk",
@@ -20273,7 +20353,8 @@
         },
         "fantasy": {
           "points_standard": 3.0,
-          "points_ppr": 4.0
+          "points_ppr": 4.0,
+          "points_half_ppr": 3.5
         }
       },
       "usage": {
@@ -20283,7 +20364,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.571390"
+      "last_updated": "2025-09-09T06:19:46.913646"
     },
     "11520": {
       "player_name": "L.Jackson",
@@ -20312,8 +20393,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 25.1200008392334,
-          "points_ppr": 25.1200008392334
+          "points_standard": 25.12,
+          "points_ppr": 25.12,
+          "points_half_ppr": 25.12
         }
       },
       "usage": {
@@ -20322,7 +20404,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.571697"
+      "last_updated": "2025-09-09T06:19:46.913988"
     },
     "5008": {
       "player_name": "D.Smythe",
@@ -20352,7 +20434,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -20362,7 +20445,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.572004"
+      "last_updated": "2025-09-09T06:19:46.914295"
     },
     "4993": {
       "player_name": "M.Gesicki",
@@ -20391,8 +20474,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.7999999523162842,
-          "points_ppr": 4.800000190734863
+          "points_standard": 1.8,
+          "points_ppr": 4.8,
+          "points_half_ppr": 3.3
         }
       },
       "usage": {
@@ -20402,7 +20486,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.572630"
+      "last_updated": "2025-09-09T06:19:46.914948"
     },
     "4973": {
       "player_name": "H.Hurst",
@@ -20431,8 +20515,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 3.299999952316284,
-          "points_ppr": 5.300000190734863
+          "points_standard": 3.3,
+          "points_ppr": 5.3,
+          "points_half_ppr": 4.3
         }
       },
       "usage": {
@@ -20442,7 +20527,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.572931"
+      "last_updated": "2025-09-09T06:19:46.915260"
     },
     "4981": {
       "player_name": "C.Ridley",
@@ -20472,7 +20557,8 @@
         },
         "fantasy": {
           "points_standard": 5.0,
-          "points_ppr": 8.0
+          "points_ppr": 8.0,
+          "points_half_ppr": 6.5
         }
       },
       "usage": {
@@ -20482,7 +20568,7 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:12:11.573231"
+      "last_updated": "2025-09-09T06:19:46.915587"
     },
     "4866": {
       "player_name": "S.Barkley",
@@ -20511,8 +20597,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 31.200000762939453,
-          "points_ppr": 33.20000076293945
+          "points_standard": 31.2,
+          "points_ppr": 33.2,
+          "points_half_ppr": 32.2
         }
       },
       "usage": {
@@ -20522,7 +20609,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.573567"
+      "last_updated": "2025-09-09T06:19:46.915933"
     },
     "4892": {
       "player_name": "B.Mayfield",
@@ -20551,8 +20638,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 29.65999984741211,
-          "points_ppr": 29.65999984741211
+          "points_standard": 29.66,
+          "points_ppr": 29.66,
+          "points_half_ppr": 29.66
         }
       },
       "usage": {
@@ -20561,7 +20649,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.573881"
+      "last_updated": "2025-09-09T06:19:46.916241"
     },
     "5566": {
       "player_name": "J.Allen",
@@ -20590,8 +20678,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 31.18000030517578,
-          "points_ppr": 31.18000030517578
+          "points_standard": 31.18,
+          "points_ppr": 31.18,
+          "points_half_ppr": 31.18
         }
       },
       "usage": {
@@ -20600,7 +20689,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.574182"
+      "last_updated": "2025-09-09T06:19:46.916548"
     },
     "4943": {
       "player_name": "S.Darnold",
@@ -20629,8 +20718,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 14.619999885559082,
-          "points_ppr": 14.619999885559082
+          "points_standard": 14.62,
+          "points_ppr": 14.62,
+          "points_half_ppr": 14.62
         }
       },
       "usage": {
@@ -20639,7 +20729,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.574505"
+      "last_updated": "2025-09-09T06:19:46.916881"
     },
     "5947": {
       "player_name": "J.Meyers",
@@ -20668,8 +20758,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 6.400000095367432,
-          "points_ppr": 9.399999618530273
+          "points_standard": 6.4,
+          "points_ppr": 9.4,
+          "points_half_ppr": 7.9
         }
       },
       "usage": {
@@ -20679,7 +20770,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.574809"
+      "last_updated": "2025-09-09T06:19:46.917188"
     },
     "5987": {
       "player_name": "A.Mattison",
@@ -20708,8 +20799,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 12.199999809265137,
-          "points_ppr": 16.200000762939453
+          "points_standard": 12.2,
+          "points_ppr": 16.2,
+          "points_half_ppr": 14.2
         }
       },
       "usage": {
@@ -20719,7 +20811,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.575111"
+      "last_updated": "2025-09-09T06:19:46.917497"
     },
     "5995": {
       "player_name": "J.Hill",
@@ -20748,8 +20840,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.6000000238418579,
-          "points_ppr": 1.600000023841858
+          "points_standard": 0.6,
+          "points_ppr": 1.6,
+          "points_half_ppr": 1.1
         }
       },
       "usage": {
@@ -20759,7 +20852,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.621823"
+      "last_updated": "2025-09-09T06:19:46.964895"
     },
     "5985": {
       "player_name": "F.Moreau",
@@ -20788,8 +20881,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 10.300000190734863,
-          "points_ppr": 14.300000190734863
+          "points_standard": 10.3,
+          "points_ppr": 14.3,
+          "points_half_ppr": 12.3
         }
       },
       "usage": {
@@ -20799,7 +20893,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.575735"
+      "last_updated": "2025-09-09T06:19:46.918141"
     },
     "6427": {
       "player_name": "A.Dulin",
@@ -20828,8 +20922,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 11.399999618530273,
-          "points_ppr": 12.399999618530273
+          "points_standard": 11.4,
+          "points_ppr": 12.4,
+          "points_half_ppr": 11.9
         }
       },
       "usage": {
@@ -20839,7 +20934,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.576037"
+      "last_updated": "2025-09-09T06:19:46.918447"
     },
     "6271": {
       "player_name": "O.Zaccheaus",
@@ -20869,7 +20964,8 @@
         },
         "fantasy": {
           "points_standard": 1.5,
-          "points_ppr": 2.5
+          "points_ppr": 2.5,
+          "points_half_ppr": 2.0
         }
       },
       "usage": {
@@ -20879,7 +20975,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.576418"
+      "last_updated": "2025-09-09T06:19:46.918776"
     },
     "2391": {
       "player_name": "D.Johnson",
@@ -20908,8 +21004,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.899999976158142,
-          "points_ppr": 3.9000000953674316
+          "points_standard": 1.9,
+          "points_ppr": 3.9,
+          "points_half_ppr": 2.9
         }
       },
       "usage": {
@@ -20919,7 +21016,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.576732"
+      "last_updated": "2025-09-09T06:19:46.919083"
     },
     "5849": {
       "player_name": "K.Murray",
@@ -20948,8 +21045,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 14.180000305175781,
-          "points_ppr": 14.180000305175781
+          "points_standard": 14.18,
+          "points_ppr": 14.18,
+          "points_half_ppr": 14.18
         }
       },
       "usage": {
@@ -20958,7 +21056,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.577036"
+      "last_updated": "2025-09-09T06:19:46.919387"
     },
     "6151": {
       "player_name": "M.Sanders",
@@ -20987,8 +21085,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.200000047683716,
-          "points_ppr": 2.200000047683716
+          "points_standard": 2.2,
+          "points_ppr": 2.2,
+          "points_half_ppr": 2.2
         }
       },
       "usage": {
@@ -20998,7 +21097,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.577355"
+      "last_updated": "2025-09-09T06:19:46.919713"
     },
     "5973": {
       "player_name": "J.Oliver",
@@ -21027,8 +21126,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.700000047683716,
-          "points_ppr": 4.699999809265137
+          "points_standard": 2.7,
+          "points_ppr": 4.7,
+          "points_half_ppr": 3.7
         }
       },
       "usage": {
@@ -21038,7 +21138,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.577661"
+      "last_updated": "2025-09-09T06:19:46.920020"
     },
     "6130": {
       "player_name": "D.Singletary",
@@ -21067,8 +21167,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 5.199999809265137,
-          "points_ppr": 9.199999809265137
+          "points_standard": 5.2,
+          "points_ppr": 9.2,
+          "points_half_ppr": 7.2
         }
       },
       "usage": {
@@ -21078,7 +21179,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.577965"
+      "last_updated": "2025-09-09T06:19:46.920328"
     },
     "5967": {
       "player_name": "T.Pollard",
@@ -21107,8 +21208,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 15.399999618530273,
-          "points_ppr": 18.399999618530273
+          "points_standard": 15.4,
+          "points_ppr": 18.4,
+          "points_half_ppr": 16.9
         }
       },
       "usage": {
@@ -21118,7 +21220,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.578265"
+      "last_updated": "2025-09-09T06:19:46.920635"
     },
     "6011": {
       "player_name": "G.Minshew",
@@ -21147,8 +21249,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 10.779999732971191,
-          "points_ppr": 10.779999732971191
+          "points_standard": 10.78,
+          "points_ppr": 10.78,
+          "points_half_ppr": 10.78
         }
       },
       "usage": {
@@ -21157,7 +21260,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.578594"
+      "last_updated": "2025-09-09T06:19:46.920966"
     },
     "5980": {
       "player_name": "M.Gaskin",
@@ -21186,8 +21289,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": -0.30000001192092896,
-          "points_ppr": -0.30000001192092896
+          "points_standard": -0.3,
+          "points_ppr": -0.3,
+          "points_half_ppr": -0.3
         }
       },
       "usage": {
@@ -21196,7 +21300,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.578898"
+      "last_updated": "2025-09-09T06:19:46.921277"
     },
     "6598": {
       "player_name": "T.Irwin",
@@ -21225,8 +21329,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.6000000238418579,
-          "points_ppr": 1.600000023841858
+          "points_standard": 0.6,
+          "points_ppr": 1.6,
+          "points_half_ppr": 1.1
         }
       },
       "usage": {
@@ -21236,7 +21341,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.579198"
+      "last_updated": "2025-09-09T06:19:46.921584"
     },
     "5938": {
       "player_name": "L.Humphrey",
@@ -21266,7 +21371,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -21276,7 +21382,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.579521"
+      "last_updated": "2025-09-09T06:19:46.921915"
     },
     "5970": {
       "player_name": "G.Dortch",
@@ -21305,8 +21411,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 5.099999904632568,
-          "points_ppr": 11.100000381469727
+          "points_standard": 5.1,
+          "points_ppr": 11.1,
+          "points_half_ppr": 8.1
         }
       },
       "usage": {
@@ -21316,7 +21423,7 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:12:11.579832"
+      "last_updated": "2025-09-09T06:19:46.922223"
     },
     "6149": {
       "player_name": "D.Slayton",
@@ -21345,8 +21452,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.5999999046325684,
-          "points_ppr": 5.599999904632568
+          "points_standard": 2.6,
+          "points_ppr": 5.6,
+          "points_half_ppr": 4.1
         }
       },
       "usage": {
@@ -21356,7 +21464,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.580131"
+      "last_updated": "2025-09-09T06:19:46.922530"
     },
     "11597": {
       "player_name": "T.Johnson",
@@ -21385,8 +21493,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.7999999523162842,
-          "points_ppr": 2.799999952316284
+          "points_standard": 1.8,
+          "points_ppr": 2.8,
+          "points_half_ppr": 2.3
         }
       },
       "usage": {
@@ -21396,7 +21505,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.636038"
+      "last_updated": "2025-09-09T06:19:46.979376"
     },
     "6012": {
       "player_name": "T.Homer",
@@ -21426,7 +21535,8 @@
         },
         "fantasy": {
           "points_standard": 1.0,
-          "points_ppr": 1.0
+          "points_ppr": 1.0,
+          "points_half_ppr": 1.0
         }
       },
       "usage": {
@@ -21435,7 +21545,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.580751"
+      "last_updated": "2025-09-09T06:19:46.923172"
     },
     "5846": {
       "player_name": "D.Metcalf",
@@ -21464,8 +21574,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.9000000953674316,
-          "points_ppr": 5.900000095367432
+          "points_standard": 2.9,
+          "points_ppr": 5.9,
+          "points_half_ppr": 4.4
         }
       },
       "usage": {
@@ -21475,7 +21586,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.581061"
+      "last_updated": "2025-09-09T06:19:46.923480"
     },
     "5857": {
       "player_name": "N.Fant",
@@ -21504,8 +21615,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.100000023841858,
-          "points_ppr": 3.0999999046325684
+          "points_standard": 1.1,
+          "points_ppr": 3.1,
+          "points_half_ppr": 2.1
         }
       },
       "usage": {
@@ -21515,7 +21627,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.581379"
+      "last_updated": "2025-09-09T06:19:46.923807"
     },
     "5927": {
       "player_name": "T.McLaurin",
@@ -21544,8 +21656,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.7000000476837158,
-          "points_ppr": 3.700000047683716
+          "points_standard": 1.7,
+          "points_ppr": 3.7,
+          "points_half_ppr": 2.7
         }
       },
       "usage": {
@@ -21555,7 +21668,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.581684"
+      "last_updated": "2025-09-09T06:19:46.924116"
     },
     "4673": {
       "player_name": "A.Brown",
@@ -21584,8 +21697,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 17.899999618530273,
-          "points_ppr": 22.899999618530273
+          "points_standard": 17.9,
+          "points_ppr": 22.9,
+          "points_half_ppr": 20.4
         }
       },
       "usage": {
@@ -21595,7 +21709,7 @@
         "air_yards": null,
         "raw_targets": 10
       },
-      "last_updated": "2025-09-09T06:12:11.581988"
+      "last_updated": "2025-09-09T06:19:46.924420"
     },
     "5892": {
       "player_name": "D.Montgomery",
@@ -21624,8 +21738,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 15.300000190734863,
-          "points_ppr": 16.299999237060547
+          "points_standard": 15.3,
+          "points_ppr": 16.3,
+          "points_half_ppr": 15.8
         }
       },
       "usage": {
@@ -21635,7 +21750,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.582290"
+      "last_updated": "2025-09-09T06:19:46.924744"
     },
     "5906": {
       "player_name": "D.Knox",
@@ -21664,8 +21779,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.299999952316284,
-          "points_ppr": 3.299999952316284
+          "points_standard": 2.3,
+          "points_ppr": 3.3,
+          "points_half_ppr": 2.8
         }
       },
       "usage": {
@@ -21675,7 +21791,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.582614"
+      "last_updated": "2025-09-09T06:19:46.925056"
     },
     "5850": {
       "player_name": "J.Jacobs",
@@ -21704,8 +21820,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 10.399999618530273,
-          "points_ppr": 12.399999618530273
+          "points_standard": 10.4,
+          "points_ppr": 12.4,
+          "points_half_ppr": 11.4
         }
       },
       "usage": {
@@ -21715,7 +21832,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.582915"
+      "last_updated": "2025-09-09T06:19:46.925361"
     },
     "5870": {
       "player_name": "D.Jones",
@@ -21744,8 +21861,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 4.940000057220459,
-          "points_ppr": 4.940000057220459
+          "points_standard": 4.94,
+          "points_ppr": 4.94,
+          "points_half_ppr": 4.94
         }
       },
       "usage": {
@@ -21754,7 +21872,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.583216"
+      "last_updated": "2025-09-09T06:19:46.925687"
     },
     "5872": {
       "player_name": "D.Samuel",
@@ -21783,8 +21901,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 13.699999809265137,
-          "points_ppr": 18.700000762939453
+          "points_standard": 13.7,
+          "points_ppr": 18.7,
+          "points_half_ppr": 16.2
         }
       },
       "usage": {
@@ -21794,7 +21913,7 @@
         "air_yards": null,
         "raw_targets": 9
       },
-      "last_updated": "2025-09-09T06:12:11.583535"
+      "last_updated": "2025-09-09T06:19:46.925999"
     },
     "260": {
       "player_name": "J.Johnson",
@@ -21823,8 +21942,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 8.600000381469727,
-          "points_ppr": 10.600000381469727
+          "points_standard": 8.6,
+          "points_ppr": 10.6,
+          "points_half_ppr": 9.6
         }
       },
       "usage": {
@@ -21834,7 +21954,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.583843"
+      "last_updated": "2025-09-09T06:19:46.926307"
     },
     "7021": {
       "player_name": "R.Dowdle",
@@ -21863,8 +21983,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 3.200000047683716,
-          "points_ppr": 4.199999809265137
+          "points_standard": 3.2,
+          "points_ppr": 4.2,
+          "points_half_ppr": 3.7
         }
       },
       "usage": {
@@ -21874,7 +21995,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.584142"
+      "last_updated": "2025-09-09T06:19:46.926615"
     },
     "6806": {
       "player_name": "J.Dobbins",
@@ -21903,8 +22024,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 19.899999618530273,
-          "points_ppr": 22.899999618530273
+          "points_standard": 19.9,
+          "points_ppr": 22.9,
+          "points_half_ppr": 21.4
         }
       },
       "usage": {
@@ -21914,7 +22036,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.584460"
+      "last_updated": "2025-09-09T06:19:46.926944"
     },
     "2487": {
       "player_name": "G.Davis",
@@ -21943,8 +22065,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 6.199999809265137,
-          "points_ppr": 9.199999809265137
+          "points_standard": 6.2,
+          "points_ppr": 9.2,
+          "points_half_ppr": 7.7
         }
       },
       "usage": {
@@ -21954,7 +22077,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.584761"
+      "last_updated": "2025-09-09T06:19:46.927249"
     },
     "6768": {
       "player_name": "T.Tagovailoa",
@@ -21983,8 +22106,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 18.6200008392334,
-          "points_ppr": 18.6200008392334
+          "points_standard": 18.62,
+          "points_ppr": 18.62,
+          "points_half_ppr": 18.62
         }
       },
       "usage": {
@@ -21993,7 +22117,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.585063"
+      "last_updated": "2025-09-09T06:19:46.927565"
     },
     "6973": {
       "player_name": "J.Taylor",
@@ -22022,8 +22146,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 10.800000190734863,
-          "points_ppr": 10.800000190734863
+          "points_standard": 10.8,
+          "points_ppr": 10.8,
+          "points_half_ppr": 10.8
         }
       },
       "usage": {
@@ -22032,7 +22157,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.585380"
+      "last_updated": "2025-09-09T06:19:46.927919"
     },
     "6865": {
       "player_name": "C.Parkinson",
@@ -22061,8 +22186,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 4.699999809265137,
-          "points_ppr": 8.699999809265137
+          "points_standard": 4.7,
+          "points_ppr": 8.7,
+          "points_half_ppr": 6.7
         }
       },
       "usage": {
@@ -22072,7 +22198,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.585686"
+      "last_updated": "2025-09-09T06:19:46.928227"
     },
     "6845": {
       "player_name": "Z.Moss",
@@ -22101,8 +22227,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 12.100000381469727,
-          "points_ppr": 14.100000381469727
+          "points_standard": 12.1,
+          "points_ppr": 14.1,
+          "points_half_ppr": 13.1
         }
       },
       "usage": {
@@ -22112,7 +22239,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.585985"
+      "last_updated": "2025-09-09T06:19:46.928531"
     },
     "6819": {
       "player_name": "M.Pittman",
@@ -22141,8 +22268,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 3.0999999046325684,
-          "points_ppr": 7.099999904632568
+          "points_standard": 3.1,
+          "points_ppr": 7.1,
+          "points_half_ppr": 5.1
         }
       },
       "usage": {
@@ -22152,7 +22280,7 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:12:11.586286"
+      "last_updated": "2025-09-09T06:19:46.928862"
     },
     "7049": {
       "player_name": "J.Jennings",
@@ -22181,8 +22309,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 6.400000095367432,
-          "points_ppr": 11.399999618530273
+          "points_standard": 6.4,
+          "points_ppr": 11.4,
+          "points_half_ppr": 8.9
         }
       },
       "usage": {
@@ -22192,7 +22321,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.586612"
+      "last_updated": "2025-09-09T06:19:46.929173"
     },
     "6803": {
       "player_name": "B.Aiyuk",
@@ -22221,8 +22350,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.799999952316284,
-          "points_ppr": 4.800000190734863
+          "points_standard": 2.8,
+          "points_ppr": 4.8,
+          "points_half_ppr": 3.8
         }
       },
       "usage": {
@@ -22232,7 +22362,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.586914"
+      "last_updated": "2025-09-09T06:19:46.929484"
     },
     "6804": {
       "player_name": "J.Love",
@@ -22261,8 +22391,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 16.399999618530273,
-          "points_ppr": 16.399999618530273
+          "points_standard": 16.4,
+          "points_ppr": 16.4,
+          "points_half_ppr": 16.4
         }
       },
       "usage": {
@@ -22271,7 +22402,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.587213"
+      "last_updated": "2025-09-09T06:19:46.929816"
     },
     "6814": {
       "player_name": "L.Shenault",
@@ -22300,8 +22431,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.10000000149011612,
-          "points_ppr": 1.100000023841858
+          "points_standard": 0.1,
+          "points_ppr": 1.1,
+          "points_half_ppr": 0.6
         }
       },
       "usage": {
@@ -22311,7 +22443,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.587533"
+      "last_updated": "2025-09-09T06:19:46.930125"
     },
     "6790": {
       "player_name": "D.Swift",
@@ -22341,7 +22473,8 @@
         },
         "fantasy": {
           "points_standard": 5.0,
-          "points_ppr": 5.0
+          "points_ppr": 5.0,
+          "points_half_ppr": 5.0
         }
       },
       "usage": {
@@ -22351,7 +22484,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.587833"
+      "last_updated": "2025-09-09T06:19:46.930437"
     },
     "6826": {
       "player_name": "C.Kmet",
@@ -22380,8 +22513,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.4000000059604645,
-          "points_ppr": 1.399999976158142
+          "points_standard": 0.4,
+          "points_ppr": 1.4,
+          "points_half_ppr": 0.9
         }
       },
       "usage": {
@@ -22391,7 +22525,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.588133"
+      "last_updated": "2025-09-09T06:19:46.930765"
     },
     "7090": {
       "player_name": "D.Mooney",
@@ -22421,7 +22555,8 @@
         },
         "fantasy": {
           "points_standard": 1.5,
-          "points_ppr": 2.5
+          "points_ppr": 2.5,
+          "points_half_ppr": 2.0
         }
       },
       "usage": {
@@ -22431,7 +22566,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.588452"
+      "last_updated": "2025-09-09T06:19:46.931072"
     },
     "7599": {
       "player_name": "J.Jefferson",
@@ -22460,8 +22595,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 11.899999618530273,
-          "points_ppr": 15.899999618530273
+          "points_standard": 11.9,
+          "points_ppr": 15.9,
+          "points_half_ppr": 13.9
         }
       },
       "usage": {
@@ -22471,7 +22607,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.588754"
+      "last_updated": "2025-09-09T06:19:46.931391"
     },
     "6945": {
       "player_name": "A.Gibson",
@@ -22500,8 +22636,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.7999999523162842,
-          "points_ppr": 1.7999999523162842
+          "points_standard": 1.8,
+          "points_ppr": 1.8,
+          "points_half_ppr": 1.8
         }
       },
       "usage": {
@@ -22510,7 +22647,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.589054"
+      "last_updated": "2025-09-09T06:19:46.931735"
     },
     "6847": {
       "player_name": "D.Duvernay",
@@ -22539,8 +22676,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.30000001192092896,
-          "points_ppr": 0.30000001192092896
+          "points_standard": 0.3,
+          "points_ppr": 0.3,
+          "points_half_ppr": 0.3
         }
       },
       "usage": {
@@ -22549,7 +22687,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.589396"
+      "last_updated": "2025-09-09T06:19:46.932064"
     },
     "7066": {
       "player_name": "K.Osborn",
@@ -22578,8 +22716,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.0999999046325684,
-          "points_ppr": 5.099999904632568
+          "points_standard": 2.1,
+          "points_ppr": 5.1,
+          "points_half_ppr": 3.6
         }
       },
       "usage": {
@@ -22589,7 +22728,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.589711"
+      "last_updated": "2025-09-09T06:19:46.932380"
     },
     "6797": {
       "player_name": "J.Herbert",
@@ -22618,8 +22757,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 10.359999656677246,
-          "points_ppr": 10.359999656677246
+          "points_standard": 10.36,
+          "points_ppr": 10.36,
+          "points_half_ppr": 10.36
         }
       },
       "usage": {
@@ -22628,7 +22768,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.590012"
+      "last_updated": "2025-09-09T06:19:46.932708"
     },
     "6786": {
       "player_name": "C.Lamb",
@@ -22657,8 +22797,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 8.600000381469727,
-          "points_ppr": 13.600000381469727
+          "points_standard": 8.6,
+          "points_ppr": 13.6,
+          "points_half_ppr": 11.1
         }
       },
       "usage": {
@@ -22668,7 +22809,7 @@
         "air_yards": null,
         "raw_targets": 10
       },
-      "last_updated": "2025-09-09T06:12:11.590311"
+      "last_updated": "2025-09-09T06:19:46.933027"
     },
     "6904": {
       "player_name": "J.Hurts",
@@ -22697,8 +22838,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 16.420000076293945,
-          "points_ppr": 16.420000076293945
+          "points_standard": 16.42,
+          "points_ppr": 16.42,
+          "points_half_ppr": 16.42
         }
       },
       "usage": {
@@ -22707,7 +22849,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.590695"
+      "last_updated": "2025-09-09T06:19:46.933342"
     },
     "6783": {
       "player_name": "J.Jeudy",
@@ -22737,7 +22879,8 @@
         },
         "fantasy": {
           "points_standard": 8.5,
-          "points_ppr": 11.5
+          "points_ppr": 11.5,
+          "points_half_ppr": 10.0
         }
       },
       "usage": {
@@ -22747,7 +22890,7 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:12:11.591012"
+      "last_updated": "2025-09-09T06:19:46.933717"
     },
     "6853": {
       "player_name": "V.Jefferson",
@@ -22776,8 +22919,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.10000000149011612,
-          "points_ppr": 1.100000023841858
+          "points_standard": 0.1,
+          "points_ppr": 1.1,
+          "points_half_ppr": 0.6
         }
       },
       "usage": {
@@ -22787,7 +22931,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.591318"
+      "last_updated": "2025-09-09T06:19:46.934047"
     },
     "6869": {
       "player_name": "A.Trautman",
@@ -22817,7 +22961,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -22827,7 +22972,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.591644"
+      "last_updated": "2025-09-09T06:19:46.934355"
     },
     "6931": {
       "player_name": "D.Dallas",
@@ -22857,7 +23002,8 @@
         },
         "fantasy": {
           "points_standard": 6.0,
-          "points_ppr": 6.0
+          "points_ppr": 6.0,
+          "points_half_ppr": 6.0
         }
       },
       "usage": {
@@ -22866,7 +23012,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.591950"
+      "last_updated": "2025-09-09T06:19:46.934681"
     },
     "7075": {
       "player_name": "C.Woerner",
@@ -22895,8 +23041,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.4000000059604645,
-          "points_ppr": 1.399999976158142
+          "points_standard": 0.4,
+          "points_ppr": 1.4,
+          "points_half_ppr": 0.9
         }
       },
       "usage": {
@@ -22906,7 +23053,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.592573"
+      "last_updated": "2025-09-09T06:19:46.935300"
     },
     "6770": {
       "player_name": "J.Burrow",
@@ -22935,8 +23082,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 8.0600004196167,
-          "points_ppr": 8.0600004196167
+          "points_standard": 8.06,
+          "points_ppr": 8.06,
+          "points_half_ppr": 8.06
         }
       },
       "usage": {
@@ -22945,7 +23093,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.592876"
+      "last_updated": "2025-09-09T06:19:46.935604"
     },
     "7989": {
       "player_name": "D.Turner",
@@ -22974,8 +23122,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.8999999761581421,
-          "points_ppr": 1.899999976158142
+          "points_standard": 0.9,
+          "points_ppr": 1.9,
+          "points_half_ppr": 1.4
         }
       },
       "usage": {
@@ -22985,7 +23134,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.593178"
+      "last_updated": "2025-09-09T06:19:46.935933"
     },
     "7571": {
       "player_name": "R.Bateman",
@@ -23014,8 +23163,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 5.300000190734863,
-          "points_ppr": 7.300000190734863
+          "points_standard": 5.3,
+          "points_ppr": 7.3,
+          "points_half_ppr": 6.3
         }
       },
       "usage": {
@@ -23025,7 +23175,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.593501"
+      "last_updated": "2025-09-09T06:19:46.936238"
     },
     "7569": {
       "player_name": "N.Collins",
@@ -23054,8 +23204,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 11.699999809265137,
-          "points_ppr": 17.700000762939453
+          "points_standard": 11.7,
+          "points_ppr": 17.7,
+          "points_half_ppr": 14.7
         }
       },
       "usage": {
@@ -23065,7 +23216,7 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:12:11.593802"
+      "last_updated": "2025-09-09T06:19:46.936544"
     },
     "7594": {
       "player_name": "C.Hubbard",
@@ -23094,8 +23245,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.399999976158142,
-          "points_ppr": 1.399999976158142
+          "points_standard": 1.4,
+          "points_ppr": 1.4,
+          "points_half_ppr": 1.4
         }
       },
       "usage": {
@@ -23104,7 +23256,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.594103"
+      "last_updated": "2025-09-09T06:19:46.936875"
     },
     "7568": {
       "player_name": "B.Jordan",
@@ -23133,8 +23285,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.30000001192092896,
-          "points_ppr": 1.2999999523162842
+          "points_standard": 0.3,
+          "points_ppr": 1.3,
+          "points_half_ppr": 0.8
         }
       },
       "usage": {
@@ -23144,7 +23297,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.594424"
+      "last_updated": "2025-09-09T06:19:46.937179"
     },
     "7526": {
       "player_name": "J.Waddle",
@@ -23173,8 +23326,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 11.199999809265137,
-          "points_ppr": 16.200000762939453
+          "points_standard": 11.2,
+          "points_ppr": 16.2,
+          "points_half_ppr": 13.7
         }
       },
       "usage": {
@@ -23184,7 +23338,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.594729"
+      "last_updated": "2025-09-09T06:19:46.937487"
     },
     "11539": {
       "player_name": "J.Bates",
@@ -23214,7 +23368,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -23224,7 +23379,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.595045"
+      "last_updated": "2025-09-09T06:19:46.937852"
     },
     "7828": {
       "player_name": "N.Gray",
@@ -23253,8 +23408,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 3.700000047683716,
-          "points_ppr": 6.699999809265137
+          "points_standard": 3.7,
+          "points_ppr": 6.7,
+          "points_half_ppr": 5.2
         }
       },
       "usage": {
@@ -23264,7 +23420,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.595364"
+      "last_updated": "2025-09-09T06:19:46.938164"
     },
     "7891": {
       "player_name": "B.Wright",
@@ -23293,8 +23449,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.20000000298023224,
-          "points_ppr": 1.2000000476837158
+          "points_standard": 0.2,
+          "points_ppr": 1.2,
+          "points_half_ppr": 0.7
         }
       },
       "usage": {
@@ -23304,7 +23461,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.595670"
+      "last_updated": "2025-09-09T06:19:46.938471"
     },
     "7611": {
       "player_name": "R.Stevenson",
@@ -23333,8 +23490,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 18.600000381469727,
-          "points_ppr": 21.600000381469727
+          "points_standard": 18.6,
+          "points_ppr": 21.6,
+          "points_half_ppr": 20.1
         }
       },
       "usage": {
@@ -23344,7 +23502,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.595973"
+      "last_updated": "2025-09-09T06:19:46.938801"
     },
     "7602": {
       "player_name": "K.Granson",
@@ -23374,7 +23532,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -23384,7 +23543,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.596273"
+      "last_updated": "2025-09-09T06:19:46.939107"
     },
     "7528": {
       "player_name": "N.Harris",
@@ -23413,8 +23572,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 7.900000095367432,
-          "points_ppr": 8.899999618530273
+          "points_standard": 7.9,
+          "points_ppr": 8.9,
+          "points_half_ppr": 8.4
         }
       },
       "usage": {
@@ -23424,7 +23584,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.596607"
+      "last_updated": "2025-09-09T06:19:46.939413"
     },
     "7600": {
       "player_name": "P.Freiermuth",
@@ -23453,8 +23613,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.700000047683716,
-          "points_ppr": 6.699999809265137
+          "points_standard": 2.7,
+          "points_ppr": 6.7,
+          "points_half_ppr": 4.7
         }
       },
       "usage": {
@@ -23464,7 +23625,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.596910"
+      "last_updated": "2025-09-09T06:19:46.939741"
     },
     "7564": {
       "player_name": "J.Chase",
@@ -23493,8 +23654,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 6.199999809265137,
-          "points_ppr": 12.199999809265137
+          "points_standard": 6.2,
+          "points_ppr": 12.2,
+          "points_half_ppr": 9.2
         }
       },
       "usage": {
@@ -23504,7 +23666,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.597216"
+      "last_updated": "2025-09-09T06:19:46.940051"
     },
     "7608": {
       "player_name": "K.Herbert",
@@ -23533,8 +23695,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.4000000059604645,
-          "points_ppr": 0.4000000059604645
+          "points_standard": 0.4,
+          "points_ppr": 0.4,
+          "points_half_ppr": 0.4
         }
       },
       "usage": {
@@ -23543,7 +23706,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.597536"
+      "last_updated": "2025-09-09T06:19:46.940356"
     },
     "2342": {
       "player_name": "D.Smith",
@@ -23572,8 +23735,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 8.399999618530273,
-          "points_ppr": 15.399999618530273
+          "points_standard": 8.4,
+          "points_ppr": 15.4,
+          "points_half_ppr": 11.9
         }
       },
       "usage": {
@@ -23583,7 +23747,7 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:12:11.597838"
+      "last_updated": "2025-09-09T06:19:46.940679"
     },
     "7567": {
       "player_name": "K.Gainwell",
@@ -23612,8 +23776,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.2000000476837158,
-          "points_ppr": 2.200000047683716
+          "points_standard": 1.2,
+          "points_ppr": 2.2,
+          "points_half_ppr": 1.7
         }
       },
       "usage": {
@@ -23623,7 +23788,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.598141"
+      "last_updated": "2025-09-09T06:19:46.940989"
     },
     "7605": {
       "player_name": "K.Trask",
@@ -23652,8 +23817,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": -0.20000000298023224,
-          "points_ppr": -0.20000000298023224
+          "points_standard": -0.2,
+          "points_ppr": -0.2,
+          "points_half_ppr": -0.2
         }
       },
       "usage": {
@@ -23662,7 +23828,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.598463"
+      "last_updated": "2025-09-09T06:19:46.941294"
     },
     "7591": {
       "player_name": "J.Fields",
@@ -23691,8 +23857,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 11.9399995803833,
-          "points_ppr": 11.9399995803833
+          "points_standard": 11.94,
+          "points_ppr": 11.94,
+          "points_half_ppr": 11.94
         }
       },
       "usage": {
@@ -23701,7 +23868,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.598765"
+      "last_updated": "2025-09-09T06:19:46.941597"
     },
     "7547": {
       "player_name": "A.St. Brown",
@@ -23730,8 +23897,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.2999999523162842,
-          "points_ppr": 4.300000190734863
+          "points_standard": 1.3,
+          "points_ppr": 4.3,
+          "points_half_ppr": 2.8
         }
       },
       "usage": {
@@ -23741,7 +23909,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.599067"
+      "last_updated": "2025-09-09T06:19:46.941928"
     },
     "7553": {
       "player_name": "K.Pitts",
@@ -23770,8 +23938,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 8.600000381469727,
-          "points_ppr": 11.600000381469727
+          "points_standard": 8.6,
+          "points_ppr": 11.6,
+          "points_half_ppr": 10.1
         }
       },
       "usage": {
@@ -23781,7 +23950,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.599388"
+      "last_updated": "2025-09-09T06:19:46.942234"
     },
     "7523": {
       "player_name": "T.Lawrence",
@@ -23810,8 +23979,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 11.279999732971191,
-          "points_ppr": 11.279999732971191
+          "points_standard": 11.28,
+          "points_ppr": 11.28,
+          "points_half_ppr": 11.28
         }
       },
       "usage": {
@@ -23820,7 +23990,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.599694"
+      "last_updated": "2025-09-09T06:19:46.942537"
     },
     "12531": {
       "player_name": "T.Etienne",
@@ -23849,8 +24019,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 9.899999618530273,
-          "points_ppr": 11.899999618530273
+          "points_standard": 9.9,
+          "points_ppr": 11.9,
+          "points_half_ppr": 10.9
         }
       },
       "usage": {
@@ -23860,7 +24031,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.599996"
+      "last_updated": "2025-09-09T06:19:46.942864"
     },
     "7596": {
       "player_name": "E.Moore",
@@ -23889,8 +24060,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.8999999761581421,
-          "points_ppr": 3.9000000953674316
+          "points_standard": 0.9,
+          "points_ppr": 3.9,
+          "points_half_ppr": 2.4
         }
       },
       "usage": {
@@ -23900,7 +24072,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.600301"
+      "last_updated": "2025-09-09T06:19:46.943182"
     },
     "50": {
       "player_name": "J.Palmer",
@@ -23930,7 +24102,8 @@
         },
         "fantasy": {
           "points_standard": 1.5,
-          "points_ppr": 3.5
+          "points_ppr": 3.5,
+          "points_half_ppr": 2.5
         }
       },
       "usage": {
@@ -23940,7 +24113,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.600625"
+      "last_updated": "2025-09-09T06:19:46.943498"
     },
     "8177": {
       "player_name": "G.Calcaterra",
@@ -23969,8 +24142,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.100000023841858,
-          "points_ppr": 2.0999999046325684
+          "points_standard": 1.1,
+          "points_ppr": 2.1,
+          "points_half_ppr": 1.6
         }
       },
       "usage": {
@@ -23980,7 +24154,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.601229"
+      "last_updated": "2025-09-09T06:19:46.944141"
     },
     "682": {
       "player_name": "D.Young",
@@ -24010,7 +24184,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -24020,7 +24195,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.601570"
+      "last_updated": "2025-09-09T06:19:46.944449"
     },
     "8205": {
       "player_name": "I.Pacheco",
@@ -24049,8 +24224,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 13.800000190734863,
-          "points_ppr": 15.800000190734863
+          "points_standard": 13.8,
+          "points_ppr": 15.8,
+          "points_half_ppr": 14.8
         }
       },
       "usage": {
@@ -24060,7 +24236,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.601877"
+      "last_updated": "2025-09-09T06:19:46.944779"
     },
     "12118": {
       "player_name": "J.Warren",
@@ -24090,7 +24266,8 @@
         },
         "fantasy": {
           "points_standard": 2.0,
-          "points_ppr": 4.0
+          "points_ppr": 4.0,
+          "points_half_ppr": 3.0
         }
       },
       "usage": {
@@ -24100,7 +24277,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.602188"
+      "last_updated": "2025-09-09T06:19:46.945087"
     },
     "8112": {
       "player_name": "D.London",
@@ -24130,7 +24307,8 @@
         },
         "fantasy": {
           "points_standard": 1.5,
-          "points_ppr": 3.5
+          "points_ppr": 3.5,
+          "points_half_ppr": 2.5
         }
       },
       "usage": {
@@ -24140,7 +24318,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.602526"
+      "last_updated": "2025-09-09T06:19:46.945393"
     },
     "8144": {
       "player_name": "C.Olave",
@@ -24169,8 +24347,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.100000023841858,
-          "points_ppr": 3.0999999046325684
+          "points_standard": 1.1,
+          "points_ppr": 3.1,
+          "points_half_ppr": 2.1
         }
       },
       "usage": {
@@ -24180,7 +24359,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.602828"
+      "last_updated": "2025-09-09T06:19:46.945723"
     },
     "8137": {
       "player_name": "G.Pickens",
@@ -24210,7 +24389,8 @@
         },
         "fantasy": {
           "points_standard": 7.5,
-          "points_ppr": 13.5
+          "points_ppr": 13.5,
+          "points_half_ppr": 10.5
         }
       },
       "usage": {
@@ -24220,7 +24400,7 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:12:11.603452"
+      "last_updated": "2025-09-09T06:19:46.946340"
     },
     "8138": {
       "player_name": "J.Cook",
@@ -24249,8 +24429,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 10.300000190734863,
-          "points_ppr": 13.300000190734863
+          "points_standard": 10.3,
+          "points_ppr": 13.3,
+          "points_half_ppr": 11.8
         }
       },
       "usage": {
@@ -24260,7 +24441,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.603757"
+      "last_updated": "2025-09-09T06:19:46.946645"
     },
     "8172": {
       "player_name": "G.Dulcich",
@@ -24289,8 +24470,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.2000000476837158,
-          "points_ppr": 3.200000047683716
+          "points_standard": 1.2,
+          "points_ppr": 3.2,
+          "points_half_ppr": 2.2
         }
       },
       "usage": {
@@ -24300,7 +24482,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.604075"
+      "last_updated": "2025-09-09T06:19:46.946975"
     },
     "8136": {
       "player_name": "R.White",
@@ -24329,8 +24511,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 10.600000381469727,
-          "points_ppr": 16.600000381469727
+          "points_standard": 10.6,
+          "points_ppr": 16.6,
+          "points_half_ppr": 13.6
         }
       },
       "usage": {
@@ -24340,7 +24523,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.604419"
+      "last_updated": "2025-09-09T06:19:46.947280"
     },
     "8129": {
       "player_name": "D.Pierce",
@@ -24369,8 +24552,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.600000023841858,
-          "points_ppr": 1.600000023841858
+          "points_standard": 1.6,
+          "points_ppr": 1.6,
+          "points_half_ppr": 1.6
         }
       },
       "usage": {
@@ -24379,7 +24563,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.604726"
+      "last_updated": "2025-09-09T06:19:46.947583"
     },
     "8134": {
       "player_name": "K.Shakir",
@@ -24408,8 +24592,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 10.199999809265137,
-          "points_ppr": 13.199999809265137
+          "points_standard": 10.2,
+          "points_ppr": 13.2,
+          "points_half_ppr": 11.7
         }
       },
       "usage": {
@@ -24419,7 +24604,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.605028"
+      "last_updated": "2025-09-09T06:19:46.947934"
     },
     "8132": {
       "player_name": "T.Allgeier",
@@ -24448,8 +24633,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.0999999046325684,
-          "points_ppr": 2.0999999046325684
+          "points_standard": 2.1,
+          "points_ppr": 2.1,
+          "points_half_ppr": 2.1
         }
       },
       "usage": {
@@ -24458,7 +24644,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.605355"
+      "last_updated": "2025-09-09T06:19:46.948242"
     },
     "8143": {
       "player_name": "J.Ford",
@@ -24487,8 +24673,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 12.899999618530273,
-          "points_ppr": 18.899999618530273
+          "points_standard": 12.9,
+          "points_ppr": 18.9,
+          "points_half_ppr": 15.9
         }
       },
       "usage": {
@@ -24498,7 +24685,7 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:12:11.605664"
+      "last_updated": "2025-09-09T06:19:46.948546"
     },
     "8230": {
       "player_name": "T.Chandler",
@@ -24527,8 +24714,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 4.199999809265137,
-          "points_ppr": 7.199999809265137
+          "points_standard": 4.2,
+          "points_ppr": 7.2,
+          "points_half_ppr": 5.7
         }
       },
       "usage": {
@@ -24538,7 +24726,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.605964"
+      "last_updated": "2025-09-09T06:19:46.948874"
     },
     "8180": {
       "player_name": "J.Nailor",
@@ -24567,8 +24755,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 8.100000381469727,
-          "points_ppr": 9.100000381469727
+          "points_standard": 8.1,
+          "points_ppr": 9.1,
+          "points_half_ppr": 8.6
         }
       },
       "usage": {
@@ -24578,7 +24767,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.606264"
+      "last_updated": "2025-09-09T06:19:46.949179"
     },
     "8408": {
       "player_name": "J.Mason",
@@ -24607,8 +24796,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 21.200000762939453,
-          "points_ppr": 22.200000762939453
+          "points_standard": 21.2,
+          "points_ppr": 22.2,
+          "points_half_ppr": 21.7
         }
       },
       "usage": {
@@ -24618,7 +24808,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.606587"
+      "last_updated": "2025-09-09T06:19:46.949484"
     },
     "8676": {
       "player_name": "R.Shaheed",
@@ -24647,8 +24837,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 13.300000190734863,
-          "points_ppr": 16.299999237060547
+          "points_standard": 13.3,
+          "points_ppr": 16.3,
+          "points_half_ppr": 14.8
         }
       },
       "usage": {
@@ -24658,7 +24849,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.606888"
+      "last_updated": "2025-09-09T06:19:46.949810"
     },
     "7897": {
       "player_name": "R.Rivers",
@@ -24687,8 +24878,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.600000023841858,
-          "points_ppr": 1.600000023841858
+          "points_standard": 1.6,
+          "points_ppr": 1.6,
+          "points_half_ppr": 1.6
         }
       },
       "usage": {
@@ -24697,7 +24889,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.607190"
+      "last_updated": "2025-09-09T06:19:46.950118"
     },
     "8142": {
       "player_name": "A.Pierce",
@@ -24727,7 +24919,8 @@
         },
         "fantasy": {
           "points_standard": 18.5,
-          "points_ppr": 21.5
+          "points_ppr": 21.5,
+          "points_half_ppr": 20.0
         }
       },
       "usage": {
@@ -24737,7 +24930,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.607527"
+      "last_updated": "2025-09-09T06:19:46.950426"
     },
     "8117": {
       "player_name": "J.Tolbert",
@@ -24766,8 +24959,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.2000000476837158,
-          "points_ppr": 2.200000047683716
+          "points_standard": 1.2,
+          "points_ppr": 2.2,
+          "points_half_ppr": 1.7
         }
       },
       "usage": {
@@ -24777,7 +24971,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.607833"
+      "last_updated": "2025-09-09T06:19:46.950756"
     },
     "8146": {
       "player_name": "G.Wilson",
@@ -24807,7 +25001,8 @@
         },
         "fantasy": {
           "points_standard": 6.0,
-          "points_ppr": 12.0
+          "points_ppr": 12.0,
+          "points_half_ppr": 9.0
         }
       },
       "usage": {
@@ -24817,7 +25012,7 @@
         "air_yards": null,
         "raw_targets": 11
       },
-      "last_updated": "2025-09-09T06:12:11.608136"
+      "last_updated": "2025-09-09T06:19:46.951065"
     },
     "8119": {
       "player_name": "J.Dotson",
@@ -24847,7 +25042,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -24857,7 +25053,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.608455"
+      "last_updated": "2025-09-09T06:19:46.951373"
     },
     "8135": {
       "player_name": "T.Burks",
@@ -24886,8 +25082,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.30000001192092896,
-          "points_ppr": 1.2999999523162842
+          "points_standard": 0.3,
+          "points_ppr": 1.3,
+          "points_half_ppr": 0.8
         }
       },
       "usage": {
@@ -24897,7 +25094,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.608760"
+      "last_updated": "2025-09-09T06:19:46.951697"
     },
     "8130": {
       "player_name": "T.McBride",
@@ -24927,7 +25124,8 @@
         },
         "fantasy": {
           "points_standard": 3.0,
-          "points_ppr": 8.0
+          "points_ppr": 8.0,
+          "points_half_ppr": 5.5
         }
       },
       "usage": {
@@ -24937,7 +25135,7 @@
         "air_yards": null,
         "raw_targets": 9
       },
-      "last_updated": "2025-09-09T06:12:11.609062"
+      "last_updated": "2025-09-09T06:19:46.952007"
     },
     "8223": {
       "player_name": "V.Jones",
@@ -24966,8 +25164,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.899999976158142,
-          "points_ppr": 2.9000000953674316
+          "points_standard": 1.9,
+          "points_ppr": 2.9,
+          "points_half_ppr": 2.4
         }
       },
       "usage": {
@@ -24977,7 +25176,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.609383"
+      "last_updated": "2025-09-09T06:19:46.952311"
     },
     "8154": {
       "player_name": "B.Robinson",
@@ -25006,8 +25205,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 11.100000381469727,
-          "points_ppr": 16.100000381469727
+          "points_standard": 11.1,
+          "points_ppr": 16.1,
+          "points_half_ppr": 13.6
         }
       },
       "usage": {
@@ -25017,7 +25217,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.616178"
+      "last_updated": "2025-09-09T06:19:46.959233"
     },
     "8917": {
       "player_name": "K.Turpin",
@@ -25047,7 +25247,8 @@
         },
         "fantasy": {
           "points_standard": 6.0,
-          "points_ppr": 6.0
+          "points_ppr": 6.0,
+          "points_half_ppr": 6.0
         }
       },
       "usage": {
@@ -25057,7 +25258,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.609992"
+      "last_updated": "2025-09-09T06:19:46.952944"
     },
     "8210": {
       "player_name": "C.Okonkwo",
@@ -25087,7 +25288,8 @@
         },
         "fantasy": {
           "points_standard": 7.5,
-          "points_ppr": 9.5
+          "points_ppr": 9.5,
+          "points_half_ppr": 8.5
         }
       },
       "usage": {
@@ -25097,7 +25299,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.610292"
+      "last_updated": "2025-09-09T06:19:46.953254"
     },
     "8121": {
       "player_name": "R.Doubs",
@@ -25127,7 +25329,8 @@
         },
         "fantasy": {
           "points_standard": 5.0,
-          "points_ppr": 9.0
+          "points_ppr": 9.0,
+          "points_half_ppr": 7.0
         }
       },
       "usage": {
@@ -25137,7 +25340,7 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:12:11.610615"
+      "last_updated": "2025-09-09T06:19:46.953559"
     },
     "8183": {
       "player_name": "B.Purdy",
@@ -25166,8 +25369,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 10.34000015258789,
-          "points_ppr": 10.34000015258789
+          "points_standard": 10.34,
+          "points_ppr": 10.34,
+          "points_half_ppr": 10.34
         }
       },
       "usage": {
@@ -25176,7 +25380,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.610916"
+      "last_updated": "2025-09-09T06:19:46.953888"
     },
     "8125": {
       "player_name": "C.Austin",
@@ -25205,8 +25409,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.699999988079071,
-          "points_ppr": 1.7000000476837158
+          "points_standard": 0.7,
+          "points_ppr": 1.7,
+          "points_half_ppr": 1.2
         }
       },
       "usage": {
@@ -25216,7 +25421,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.611217"
+      "last_updated": "2025-09-09T06:19:46.954196"
     },
     "8131": {
       "player_name": "I.Likely",
@@ -25245,8 +25450,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 17.100000381469727,
-          "points_ppr": 26.100000381469727
+          "points_standard": 17.1,
+          "points_ppr": 26.1,
+          "points_half_ppr": 21.6
         }
       },
       "usage": {
@@ -25256,7 +25462,7 @@
         "air_yards": null,
         "raw_targets": 12
       },
-      "last_updated": "2025-09-09T06:12:11.611538"
+      "last_updated": "2025-09-09T06:19:46.954499"
     },
     "12971": {
       "player_name": "K.Williams",
@@ -25285,8 +25491,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 11.399999618530273,
-          "points_ppr": 14.399999618530273
+          "points_standard": 11.4,
+          "points_ppr": 14.4,
+          "points_half_ppr": 12.9
         }
       },
       "usage": {
@@ -25296,7 +25503,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.611846"
+      "last_updated": "2025-09-09T06:19:46.954826"
     },
     "8173": {
       "player_name": "Z.White",
@@ -25325,8 +25532,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.5999999046325684,
-          "points_ppr": 4.599999904632568
+          "points_standard": 2.6,
+          "points_ppr": 4.6,
+          "points_half_ppr": 3.6
         }
       },
       "usage": {
@@ -25336,7 +25544,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.612153"
+      "last_updated": "2025-09-09T06:19:46.955132"
     },
     "3453": {
       "player_name": "J.Ferguson",
@@ -25366,7 +25574,8 @@
         },
         "fantasy": {
           "points_standard": 1.5,
-          "points_ppr": 4.5
+          "points_ppr": 4.5,
+          "points_half_ppr": 3.0
         }
       },
       "usage": {
@@ -25376,7 +25585,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.612485"
+      "last_updated": "2025-09-09T06:19:46.955436"
     },
     "8116": {
       "player_name": "P.Strong",
@@ -25406,7 +25615,8 @@
         },
         "fantasy": {
           "points_standard": 3.0,
-          "points_ppr": 5.0
+          "points_ppr": 5.0,
+          "points_half_ppr": 4.0
         }
       },
       "usage": {
@@ -25416,7 +25626,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.612786"
+      "last_updated": "2025-09-09T06:19:46.955759"
     },
     "8188": {
       "player_name": "T.Thornton",
@@ -25445,8 +25655,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.700000047683716,
-          "points_ppr": 4.699999809265137
+          "points_standard": 2.7,
+          "points_ppr": 4.7,
+          "points_half_ppr": 3.7
         }
       },
       "usage": {
@@ -25456,7 +25667,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.613090"
+      "last_updated": "2025-09-09T06:19:46.956067"
     },
     "8225": {
       "player_name": "D.Bellinger",
@@ -25485,8 +25696,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.30000001192092896,
-          "points_ppr": 1.2999999523162842
+          "points_standard": 0.3,
+          "points_ppr": 1.3,
+          "points_half_ppr": 0.8
         }
       },
       "usage": {
@@ -25496,7 +25708,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.613414"
+      "last_updated": "2025-09-09T06:19:46.956374"
     },
     "8126": {
       "player_name": "W.Robinson",
@@ -25525,8 +25737,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 5.800000190734863,
-          "points_ppr": 11.800000190734863
+          "points_standard": 5.8,
+          "points_ppr": 11.8,
+          "points_half_ppr": 8.8
         }
       },
       "usage": {
@@ -25536,7 +25749,7 @@
         "air_yards": null,
         "raw_targets": 12
       },
-      "last_updated": "2025-09-09T06:12:11.613720"
+      "last_updated": "2025-09-09T06:19:46.956702"
     },
     "8155": {
       "player_name": "B.Hall",
@@ -25565,8 +25778,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 13.300000190734863,
-          "points_ppr": 18.299999237060547
+          "points_standard": 13.3,
+          "points_ppr": 18.3,
+          "points_half_ppr": 15.8
         }
       },
       "usage": {
@@ -25576,7 +25790,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.614020"
+      "last_updated": "2025-09-09T06:19:46.957008"
     },
     "8167": {
       "player_name": "C.Watson",
@@ -25605,8 +25819,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 7.300000190734863,
-          "points_ppr": 10.300000190734863
+          "points_standard": 7.3,
+          "points_ppr": 10.3,
+          "points_half_ppr": 8.8
         }
       },
       "usage": {
@@ -25616,7 +25831,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.614323"
+      "last_updated": "2025-09-09T06:19:46.957313"
     },
     "8161": {
       "player_name": "M.Willis",
@@ -25646,7 +25861,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -25655,7 +25871,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.614648"
+      "last_updated": "2025-09-09T06:19:46.957616"
     },
     "8111": {
       "player_name": "C.Otton",
@@ -25685,7 +25901,8 @@
         },
         "fantasy": {
           "points_standard": 0.5,
-          "points_ppr": 1.5
+          "points_ppr": 1.5,
+          "points_half_ppr": 1.0
         }
       },
       "usage": {
@@ -25695,7 +25912,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.614950"
+      "last_updated": "2025-09-09T06:19:46.957948"
     },
     "4634": {
       "player_name": "K.Walker",
@@ -25724,8 +25941,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 16.899999618530273,
-          "points_ppr": 18.899999618530273
+          "points_standard": 16.9,
+          "points_ppr": 18.9,
+          "points_half_ppr": 17.9
         }
       },
       "usage": {
@@ -25735,7 +25953,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.615251"
+      "last_updated": "2025-09-09T06:19:46.958255"
     },
     "9486": {
       "player_name": "D.Wicks",
@@ -25765,7 +25983,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -25775,7 +25994,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.615573"
+      "last_updated": "2025-09-09T06:19:46.958560"
     },
     "10223": {
       "player_name": "E.Gray",
@@ -25805,7 +26024,8 @@
         },
         "fantasy": {
           "points_standard": 1.5,
-          "points_ppr": 2.5
+          "points_ppr": 2.5,
+          "points_half_ppr": 2.0
         }
       },
       "usage": {
@@ -25815,7 +26035,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.615876"
+      "last_updated": "2025-09-09T06:19:46.958909"
     },
     "9488": {
       "player_name": "J.Smith-Njigba",
@@ -25844,8 +26064,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.899999976158142,
-          "points_ppr": 3.9000000953674316
+          "points_standard": 1.9,
+          "points_ppr": 3.9,
+          "points_half_ppr": 2.9
         }
       },
       "usage": {
@@ -25855,7 +26076,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.616502"
+      "last_updated": "2025-09-09T06:19:46.959541"
     },
     "9754": {
       "player_name": "Q.Johnston",
@@ -25884,8 +26105,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 3.799999952316284,
-          "points_ppr": 6.800000190734863
+          "points_standard": 3.8,
+          "points_ppr": 6.8,
+          "points_half_ppr": 5.3
         }
       },
       "usage": {
@@ -25895,7 +26117,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.616804"
+      "last_updated": "2025-09-09T06:19:46.959868"
     },
     "9225": {
       "player_name": "T.Bigsby",
@@ -25924,8 +26146,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 7.300000190734863,
-          "points_ppr": 7.300000190734863
+          "points_standard": 7.3,
+          "points_ppr": 7.3,
+          "points_half_ppr": 7.3
         }
       },
       "usage": {
@@ -25934,7 +26157,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.617106"
+      "last_updated": "2025-09-09T06:19:46.960175"
     },
     "9479": {
       "player_name": "D.Washington",
@@ -25964,7 +26187,8 @@
         },
         "fantasy": {
           "points_standard": 0.5,
-          "points_ppr": 1.5
+          "points_ppr": 1.5,
+          "points_half_ppr": 1.0
         }
       },
       "usage": {
@@ -25974,7 +26198,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.617431"
+      "last_updated": "2025-09-09T06:19:46.960483"
     },
     "10232": {
       "player_name": "M.Wilson",
@@ -26004,7 +26228,8 @@
         },
         "fantasy": {
           "points_standard": 6.5,
-          "points_ppr": 7.5
+          "points_ppr": 7.5,
+          "points_half_ppr": 7.0
         }
       },
       "usage": {
@@ -26014,7 +26239,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.617735"
+      "last_updated": "2025-09-09T06:19:46.960807"
     },
     "10213": {
       "player_name": "T.Tucker",
@@ -26043,8 +26268,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.200000047683716,
-          "points_ppr": 4.199999809265137
+          "points_standard": 2.2,
+          "points_ppr": 4.2,
+          "points_half_ppr": 3.2
         }
       },
       "usage": {
@@ -26054,7 +26280,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.618037"
+      "last_updated": "2025-09-09T06:19:46.961112"
     },
     "6380": {
       "player_name": "D.Davis",
@@ -26083,8 +26309,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.8999999761581421,
-          "points_ppr": 0.8999999761581421
+          "points_standard": 0.9,
+          "points_ppr": 0.9,
+          "points_half_ppr": 0.9
         }
       },
       "usage": {
@@ -26093,7 +26320,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.618354"
+      "last_updated": "2025-09-09T06:19:46.961417"
     },
     "10228": {
       "player_name": "C.Jones",
@@ -26123,7 +26350,8 @@
         },
         "fantasy": {
           "points_standard": 0.5,
-          "points_ppr": 1.5
+          "points_ppr": 1.5,
+          "points_half_ppr": 1.0
         }
       },
       "usage": {
@@ -26133,7 +26361,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.618664"
+      "last_updated": "2025-09-09T06:19:46.961744"
     },
     "2185": {
       "player_name": "C.Brown",
@@ -26162,8 +26390,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.299999952316284,
-          "points_ppr": 5.300000190734863
+          "points_standard": 2.3,
+          "points_ppr": 5.3,
+          "points_half_ppr": 3.8
         }
       },
       "usage": {
@@ -26173,7 +26402,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.618967"
+      "last_updated": "2025-09-09T06:19:46.962054"
     },
     "9487": {
       "player_name": "P.Washington",
@@ -26202,8 +26431,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.30000001192092896,
-          "points_ppr": 1.2999999523162842
+          "points_standard": 0.3,
+          "points_ppr": 1.3,
+          "points_half_ppr": 0.8
         }
       },
       "usage": {
@@ -26213,7 +26443,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.619270"
+      "last_updated": "2025-09-09T06:19:46.962364"
     },
     "10218": {
       "player_name": "X.Hutchinson",
@@ -26242,8 +26472,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.30000001192092896,
-          "points_ppr": 1.2999999523162842
+          "points_standard": 0.3,
+          "points_ppr": 1.3,
+          "points_half_ppr": 0.8
         }
       },
       "usage": {
@@ -26253,7 +26484,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.619594"
+      "last_updated": "2025-09-09T06:19:46.962694"
     },
     "10226": {
       "player_name": "A.Iosivas",
@@ -26282,8 +26513,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.5999999046325684,
-          "points_ppr": 5.599999904632568
+          "points_standard": 2.6,
+          "points_ppr": 5.6,
+          "points_half_ppr": 4.1
         }
       },
       "usage": {
@@ -26293,7 +26525,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.619955"
+      "last_updated": "2025-09-09T06:19:46.963006"
     },
     "9501": {
       "player_name": "D.Douglas",
@@ -26322,8 +26554,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.2000000476837158,
-          "points_ppr": 3.200000047683716
+          "points_standard": 1.2,
+          "points_ppr": 3.2,
+          "points_half_ppr": 2.2
         }
       },
       "usage": {
@@ -26333,7 +26566,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.620259"
+      "last_updated": "2025-09-09T06:19:46.963312"
     },
     "9505": {
       "player_name": "D.Vaughn",
@@ -26362,8 +26595,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.4000000059604645,
-          "points_ppr": 0.4000000059604645
+          "points_standard": 0.4,
+          "points_ppr": 0.4,
+          "points_half_ppr": 0.4
         }
       },
       "usage": {
@@ -26372,7 +26606,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.620584"
+      "last_updated": "2025-09-09T06:19:46.963617"
     },
     "12532": {
       "player_name": "J.Brooks",
@@ -26401,8 +26635,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.7999999523162842,
-          "points_ppr": 2.799999952316284
+          "points_standard": 1.8,
+          "points_ppr": 2.8,
+          "points_half_ppr": 2.3
         }
       },
       "usage": {
@@ -26412,7 +26647,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.620896"
+      "last_updated": "2025-09-09T06:19:46.963945"
     },
     "11378": {
       "player_name": "J.Mims",
@@ -26441,8 +26676,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.100000023841858,
-          "points_ppr": 1.100000023841858
+          "points_standard": 1.1,
+          "points_ppr": 1.1,
+          "points_half_ppr": 1.1
         }
       },
       "usage": {
@@ -26451,7 +26687,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.621199"
+      "last_updated": "2025-09-09T06:19:46.964254"
     },
     "11199": {
       "player_name": "E.Demercado",
@@ -26480,8 +26716,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.5999999046325684,
-          "points_ppr": 4.599999904632568
+          "points_standard": 2.6,
+          "points_ppr": 4.6,
+          "points_half_ppr": 3.6
         }
       },
       "usage": {
@@ -26491,7 +26728,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.621522"
+      "last_updated": "2025-09-09T06:19:46.964562"
     },
     "11439": {
       "player_name": "J.McLaughlin",
@@ -26520,8 +26757,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.800000011920929,
-          "points_ppr": 5.800000190734863
+          "points_standard": 0.8,
+          "points_ppr": 5.8,
+          "points_half_ppr": 3.3
         }
       },
       "usage": {
@@ -26531,7 +26769,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.622135"
+      "last_updated": "2025-09-09T06:19:46.965207"
     },
     "13100": {
       "player_name": "E.Wilson",
@@ -26560,8 +26798,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 4.800000190734863,
-          "points_ppr": 6.800000190734863
+          "points_standard": 4.8,
+          "points_ppr": 6.8,
+          "points_half_ppr": 5.8
         }
       },
       "usage": {
@@ -26571,7 +26810,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.622456"
+      "last_updated": "2025-09-09T06:19:46.965515"
     },
     "10236": {
       "player_name": "D.Kincaid",
@@ -26600,8 +26839,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.100000023841858,
-          "points_ppr": 2.0999999046325684
+          "points_standard": 1.1,
+          "points_ppr": 2.1,
+          "points_half_ppr": 1.6
         }
       },
       "usage": {
@@ -26611,7 +26851,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.622759"
+      "last_updated": "2025-09-09T06:19:46.965844"
     },
     "9497": {
       "player_name": "J.Hyatt",
@@ -26641,7 +26881,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -26651,7 +26892,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.623072"
+      "last_updated": "2025-09-09T06:19:46.966150"
     },
     "9494": {
       "player_name": "M.Mims",
@@ -26681,7 +26922,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -26691,7 +26933,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.623407"
+      "last_updated": "2025-09-09T06:19:46.966459"
     },
     "9502": {
       "player_name": "T.Dell",
@@ -26720,8 +26962,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 5.900000095367432,
-          "points_ppr": 8.899999618530273
+          "points_standard": 5.9,
+          "points_ppr": 8.9,
+          "points_half_ppr": 7.4
         }
       },
       "usage": {
@@ -26731,7 +26974,7 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:12:11.623710"
+      "last_updated": "2025-09-09T06:19:46.966787"
     },
     "10444": {
       "player_name": "C.Tillman",
@@ -26760,8 +27003,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.30000001192092896,
-          "points_ppr": 1.2999999523162842
+          "points_standard": 0.3,
+          "points_ppr": 1.3,
+          "points_half_ppr": 0.8
         }
       },
       "usage": {
@@ -26771,7 +27015,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.624013"
+      "last_updated": "2025-09-09T06:19:46.967096"
     },
     "9756": {
       "player_name": "J.Addison",
@@ -26801,7 +27045,8 @@
         },
         "fantasy": {
           "points_standard": 3.5,
-          "points_ppr": 6.5
+          "points_ppr": 6.5,
+          "points_half_ppr": 5.0
         }
       },
       "usage": {
@@ -26811,7 +27056,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.624314"
+      "last_updated": "2025-09-09T06:19:46.967400"
     },
     "9484": {
       "player_name": "T.Kraft",
@@ -26840,8 +27085,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 3.700000047683716,
-          "points_ppr": 5.699999809265137
+          "points_standard": 3.7,
+          "points_ppr": 5.7,
+          "points_half_ppr": 4.7
         }
       },
       "usage": {
@@ -26851,7 +27097,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.624637"
+      "last_updated": "2025-09-09T06:19:46.967724"
     },
     "10215": {
       "player_name": "J.Haener",
@@ -26881,7 +27127,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -26890,7 +27137,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.624938"
+      "last_updated": "2025-09-09T06:19:46.968037"
     },
     "9508": {
       "player_name": "T.Spears",
@@ -26919,8 +27166,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 3.200000047683716,
-          "points_ppr": 7.199999809265137
+          "points_standard": 3.2,
+          "points_ppr": 7.2,
+          "points_half_ppr": 5.2
         }
       },
       "usage": {
@@ -26930,7 +27178,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.625239"
+      "last_updated": "2025-09-09T06:19:46.968343"
     },
     "9226": {
       "player_name": "D.Achane",
@@ -26960,7 +27208,8 @@
         },
         "fantasy": {
           "points_standard": 16.0,
-          "points_ppr": 23.0
+          "points_ppr": 23.0,
+          "points_half_ppr": 19.5
         }
       },
       "usage": {
@@ -26970,7 +27219,7 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:12:11.625561"
+      "last_updated": "2025-09-09T06:19:46.968648"
     },
     "10231": {
       "player_name": "E.Higgins",
@@ -26999,8 +27248,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.2000000476837158,
-          "points_ppr": 3.200000047683716
+          "points_standard": 1.2,
+          "points_ppr": 3.2,
+          "points_half_ppr": 2.2
         }
       },
       "usage": {
@@ -27010,7 +27260,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.625863"
+      "last_updated": "2025-09-09T06:19:46.968976"
     },
     "11802": {
       "player_name": "T.Palmer",
@@ -27039,8 +27289,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.899999976158142,
-          "points_ppr": 2.9000000953674316
+          "points_standard": 1.9,
+          "points_ppr": 2.9,
+          "points_half_ppr": 2.4
         }
       },
       "usage": {
@@ -27050,7 +27301,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.626180"
+      "last_updated": "2025-09-09T06:19:46.969303"
     },
     "10225": {
       "player_name": "J.Mingo",
@@ -27079,8 +27330,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.299999952316284,
-          "points_ppr": 4.300000190734863
+          "points_standard": 2.3,
+          "points_ppr": 4.3,
+          "points_half_ppr": 3.3
         }
       },
       "usage": {
@@ -27090,7 +27342,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.626501"
+      "last_updated": "2025-09-09T06:19:46.969610"
     },
     "9997": {
       "player_name": "Z.Flowers",
@@ -27119,8 +27371,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 5.099999904632568,
-          "points_ppr": 11.100000381469727
+          "points_standard": 5.1,
+          "points_ppr": 11.1,
+          "points_half_ppr": 8.1
         }
       },
       "usage": {
@@ -27130,7 +27383,7 @@
         "air_yards": null,
         "raw_targets": 10
       },
-      "last_updated": "2025-09-09T06:12:11.626801"
+      "last_updated": "2025-09-09T06:19:46.969937"
     },
     "10859": {
       "player_name": "S.LaPorta",
@@ -27160,7 +27413,8 @@
         },
         "fantasy": {
           "points_standard": 4.5,
-          "points_ppr": 8.5
+          "points_ppr": 8.5,
+          "points_half_ppr": 6.5
         }
       },
       "usage": {
@@ -27170,7 +27424,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.627098"
+      "last_updated": "2025-09-09T06:19:46.970244"
     },
     "9482": {
       "player_name": "M.Mayer",
@@ -27199,8 +27453,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.30000001192092896,
-          "points_ppr": 2.299999952316284
+          "points_standard": 0.3,
+          "points_ppr": 2.3,
+          "points_half_ppr": 1.3
         }
       },
       "usage": {
@@ -27210,7 +27465,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.627415"
+      "last_updated": "2025-09-09T06:19:46.970548"
     },
     "16": {
       "player_name": "R.Rice",
@@ -27239,8 +27494,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 10.300000190734863,
-          "points_ppr": 17.299999237060547
+          "points_standard": 10.3,
+          "points_ppr": 17.3,
+          "points_half_ppr": 13.8
         }
       },
       "usage": {
@@ -27250,7 +27506,7 @@
         "air_yards": null,
         "raw_targets": 9
       },
-      "last_updated": "2025-09-09T06:12:11.627715"
+      "last_updated": "2025-09-09T06:19:46.970874"
     },
     "1105": {
       "player_name": "D.Allen",
@@ -27280,7 +27536,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -27290,7 +27547,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.628013"
+      "last_updated": "2025-09-09T06:19:46.971179"
     },
     "9493": {
       "player_name": "P.Nacua",
@@ -27319,8 +27576,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 4.199999809265137,
-          "points_ppr": 8.199999809265137
+          "points_standard": 4.2,
+          "points_ppr": 8.2,
+          "points_half_ppr": 6.2
         }
       },
       "usage": {
@@ -27330,7 +27588,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.628310"
+      "last_updated": "2025-09-09T06:19:46.971483"
     },
     "9221": {
       "player_name": "J.Gibbs",
@@ -27359,8 +27617,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 13.399999618530273,
-          "points_ppr": 17.399999618530273
+          "points_standard": 13.4,
+          "points_ppr": 17.4,
+          "points_half_ppr": 15.4
         }
       },
       "usage": {
@@ -27370,7 +27629,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.628631"
+      "last_updated": "2025-09-09T06:19:46.971811"
     },
     "9481": {
       "player_name": "L.Musgrave",
@@ -27400,7 +27659,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -27410,7 +27670,7 @@
         "air_yards": null,
         "raw_targets": 2
       },
-      "last_updated": "2025-09-09T06:12:11.628932"
+      "last_updated": "2025-09-09T06:19:46.972120"
     },
     "10222": {
       "player_name": "J.Reed",
@@ -27439,8 +27699,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 29.100000381469727,
-          "points_ppr": 33.099998474121094
+          "points_standard": 29.1,
+          "points_ppr": 33.1,
+          "points_half_ppr": 31.1
         }
       },
       "usage": {
@@ -27450,7 +27711,7 @@
         "air_yards": null,
         "raw_targets": 6
       },
-      "last_updated": "2025-09-09T06:12:11.629230"
+      "last_updated": "2025-09-09T06:19:46.972427"
     },
     "9228": {
       "player_name": "B.Young",
@@ -27479,8 +27740,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 9.640000343322754,
-          "points_ppr": 9.640000343322754
+          "points_standard": 9.64,
+          "points_ppr": 9.64,
+          "points_half_ppr": 9.64
         }
       },
       "usage": {
@@ -27489,7 +27751,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.629550"
+      "last_updated": "2025-09-09T06:19:46.972756"
     },
     "9999": {
       "player_name": "W.Levis",
@@ -27518,8 +27780,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 6.679999828338623,
-          "points_ppr": 6.679999828338623
+          "points_standard": 6.68,
+          "points_ppr": 6.68,
+          "points_half_ppr": 6.68
         }
       },
       "usage": {
@@ -27528,7 +27791,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.629849"
+      "last_updated": "2025-09-09T06:19:46.973062"
     },
     "9758": {
       "player_name": "C.Stroud",
@@ -27557,8 +27820,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 18.65999984741211,
-          "points_ppr": 18.65999984741211
+          "points_standard": 18.66,
+          "points_ppr": 18.66,
+          "points_half_ppr": 18.66
         }
       },
       "usage": {
@@ -27567,7 +27831,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.630146"
+      "last_updated": "2025-09-09T06:19:46.973365"
     },
     "6373": {
       "player_name": "A.Richardson",
@@ -27596,8 +27860,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 26.079999923706055,
-          "points_ppr": 26.079999923706055
+          "points_standard": 26.08,
+          "points_ppr": 26.08,
+          "points_half_ppr": 26.08
         }
       },
       "usage": {
@@ -27606,7 +27871,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.630467"
+      "last_updated": "2025-09-09T06:19:46.973689"
     },
     "9753": {
       "player_name": "Z.Charbonnet",
@@ -27635,8 +27900,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 10.100000381469727,
-          "points_ppr": 12.100000381469727
+          "points_standard": 10.1,
+          "points_ppr": 12.1,
+          "points_half_ppr": 11.1
         }
       },
       "usage": {
@@ -27646,7 +27912,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.630771"
+      "last_updated": "2025-09-09T06:19:46.974002"
     },
     "11582": {
       "player_name": "C.Steele",
@@ -27675,8 +27941,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.30000001192092896,
-          "points_ppr": 0.30000001192092896
+          "points_standard": 0.3,
+          "points_ppr": 0.3,
+          "points_half_ppr": 0.3
         }
       },
       "usage": {
@@ -27685,7 +27952,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.631390"
+      "last_updated": "2025-09-09T06:19:46.974634"
     },
     "11632": {
       "player_name": "M.Nabers",
@@ -27714,8 +27981,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 6.599999904632568,
-          "points_ppr": 11.600000381469727
+          "points_standard": 6.6,
+          "points_ppr": 11.6,
+          "points_half_ppr": 9.1
         }
       },
       "usage": {
@@ -27725,7 +27993,7 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:12:11.631694"
+      "last_updated": "2025-09-09T06:19:46.975008"
     },
     "11604": {
       "player_name": "B.Bowers",
@@ -27754,8 +28022,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 5.800000190734863,
-          "points_ppr": 11.800000190734863
+          "points_standard": 5.8,
+          "points_ppr": 11.8,
+          "points_half_ppr": 8.8
         }
       },
       "usage": {
@@ -27765,7 +28034,7 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:12:11.632000"
+      "last_updated": "2025-09-09T06:19:46.975319"
     },
     "11626": {
       "player_name": "X.Legette",
@@ -27795,7 +28064,8 @@
         },
         "fantasy": {
           "points_standard": 3.5,
-          "points_ppr": 7.5
+          "points_ppr": 7.5,
+          "points_half_ppr": 5.5
         }
       },
       "usage": {
@@ -27805,7 +28075,7 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:12:11.632301"
+      "last_updated": "2025-09-09T06:19:46.975625"
     },
     "11650": {
       "player_name": "L.McCaffrey",
@@ -27834,8 +28104,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.7999999523162842,
-          "points_ppr": 4.800000190734863
+          "points_standard": 1.8,
+          "points_ppr": 4.8,
+          "points_half_ppr": 3.3
         }
       },
       "usage": {
@@ -27845,7 +28116,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.632647"
+      "last_updated": "2025-09-09T06:19:46.975959"
     },
     "5119": {
       "player_name": "J.Sanders",
@@ -27874,8 +28145,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.4000000059604645,
-          "points_ppr": 1.399999976158142
+          "points_standard": 0.4,
+          "points_ppr": 1.4,
+          "points_half_ppr": 0.9
         }
       },
       "usage": {
@@ -27885,7 +28157,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.632948"
+      "last_updated": "2025-09-09T06:19:46.976268"
     },
     "11584": {
       "player_name": "B.Irving",
@@ -27914,8 +28186,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 7.599999904632568,
-          "points_ppr": 9.600000381469727
+          "points_standard": 7.6,
+          "points_ppr": 9.6,
+          "points_half_ppr": 8.6
         }
       },
       "usage": {
@@ -27925,7 +28198,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.633247"
+      "last_updated": "2025-09-09T06:19:46.976572"
     },
     "11579": {
       "player_name": "A.Estime",
@@ -27954,8 +28227,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.399999976158142,
-          "points_ppr": 1.399999976158142
+          "points_standard": 1.4,
+          "points_ppr": 1.4,
+          "points_half_ppr": 1.4
         }
       },
       "usage": {
@@ -27964,7 +28238,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.633569"
+      "last_updated": "2025-09-09T06:19:46.976897"
     },
     "11655": {
       "player_name": "T.Tracy",
@@ -27993,8 +28267,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.699999988079071,
-          "points_ppr": 1.7000000476837158
+          "points_standard": 0.7,
+          "points_ppr": 1.7,
+          "points_half_ppr": 1.2
         }
       },
       "usage": {
@@ -28004,7 +28279,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.633870"
+      "last_updated": "2025-09-09T06:19:46.977198"
     },
     "11748": {
       "player_name": "B.Means",
@@ -28034,7 +28309,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -28044,7 +28320,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.634168"
+      "last_updated": "2025-09-09T06:19:46.977501"
     },
     "11834": {
       "player_name": "D.Vele",
@@ -28073,8 +28349,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 3.9000000953674316,
-          "points_ppr": 11.899999618530273
+          "points_standard": 3.9,
+          "points_ppr": 11.9,
+          "points_half_ppr": 7.9
         }
       },
       "usage": {
@@ -28084,7 +28361,7 @@
         "air_yards": null,
         "raw_targets": 8
       },
-      "last_updated": "2025-09-09T06:12:11.634505"
+      "last_updated": "2025-09-09T06:19:46.977831"
     },
     "5962": {
       "player_name": "K.Johnson",
@@ -28114,7 +28391,8 @@
         },
         "fantasy": {
           "points_standard": 0.0,
-          "points_ppr": 0.0
+          "points_ppr": 0.0,
+          "points_half_ppr": 0.0
         }
       },
       "usage": {
@@ -28123,7 +28401,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.634810"
+      "last_updated": "2025-09-09T06:19:46.978136"
     },
     "11895": {
       "player_name": "M.Tipton",
@@ -28152,8 +28430,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.6000000238418579,
-          "points_ppr": 1.600000023841858
+          "points_standard": 0.6,
+          "points_ppr": 1.6,
+          "points_half_ppr": 1.1
         }
       },
       "usage": {
@@ -28163,7 +28442,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.635112"
+      "last_updated": "2025-09-09T06:19:46.978438"
     },
     "11563": {
       "player_name": "B.Nix",
@@ -28192,8 +28471,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 11.020000457763672,
-          "points_ppr": 11.020000457763672
+          "points_standard": 11.02,
+          "points_ppr": 11.02,
+          "points_half_ppr": 11.02
         }
       },
       "usage": {
@@ -28202,7 +28482,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.635435"
+      "last_updated": "2025-09-09T06:19:46.978762"
     },
     "11628": {
       "player_name": "M.Harrison",
@@ -28231,8 +28511,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.4000000059604645,
-          "points_ppr": 1.399999976158142
+          "points_standard": 0.4,
+          "points_ppr": 1.4,
+          "points_half_ppr": 0.9
         }
       },
       "usage": {
@@ -28242,7 +28523,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.636365"
+      "last_updated": "2025-09-09T06:19:46.979705"
     },
     "11618": {
       "player_name": "J.McMillan",
@@ -28271,8 +28552,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 9.199999809265137,
-          "points_ppr": 10.199999809265137
+          "points_standard": 9.2,
+          "points_ppr": 10.2,
+          "points_half_ppr": 9.7
         }
       },
       "usage": {
@@ -28282,7 +28564,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.636672"
+      "last_updated": "2025-09-09T06:19:46.980018"
     },
     "4828": {
       "player_name": "R.Davis",
@@ -28311,8 +28593,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 2.700000047683716,
-          "points_ppr": 3.700000047683716
+          "points_standard": 2.7,
+          "points_ppr": 3.7,
+          "points_half_ppr": 3.2
         }
       },
       "usage": {
@@ -28322,7 +28605,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.636973"
+      "last_updated": "2025-09-09T06:19:46.980323"
     },
     "11625": {
       "player_name": "A.Mitchell",
@@ -28351,8 +28634,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.20000000298023224,
-          "points_ppr": 1.2000000476837158
+          "points_standard": 0.2,
+          "points_ppr": 1.2,
+          "points_half_ppr": 0.7
         }
       },
       "usage": {
@@ -28362,7 +28646,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.637275"
+      "last_updated": "2025-09-09T06:19:46.980630"
     },
     "11631": {
       "player_name": "B.Thomas",
@@ -28391,8 +28675,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 10.699999809265137,
-          "points_ppr": 14.699999809265137
+          "points_standard": 10.7,
+          "points_ppr": 14.7,
+          "points_half_ppr": 12.7
         }
       },
       "usage": {
@@ -28402,7 +28687,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.637594"
+      "last_updated": "2025-09-09T06:19:46.980976"
     },
     "11624": {
       "player_name": "X.Worthy",
@@ -28431,8 +28716,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 18.799999237060547,
-          "points_ppr": 20.799999237060547
+          "points_standard": 18.8,
+          "points_ppr": 20.8,
+          "points_half_ppr": 19.8
         }
       },
       "usage": {
@@ -28442,7 +28728,7 @@
         "air_yards": null,
         "raw_targets": 3
       },
-      "last_updated": "2025-09-09T06:12:11.637894"
+      "last_updated": "2025-09-09T06:19:46.981283"
     },
     "11637": {
       "player_name": "K.Coleman",
@@ -28471,8 +28757,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 5.099999904632568,
-          "points_ppr": 9.100000381469727
+          "points_standard": 5.1,
+          "points_ppr": 9.1,
+          "points_half_ppr": 7.1
         }
       },
       "usage": {
@@ -28482,7 +28769,7 @@
         "air_yards": null,
         "raw_targets": 5
       },
-      "last_updated": "2025-09-09T06:12:11.638192"
+      "last_updated": "2025-09-09T06:19:46.981587"
     },
     "11619": {
       "player_name": "J.Polk",
@@ -28511,8 +28798,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 0.6000000238418579,
-          "points_ppr": 1.600000023841858
+          "points_standard": 0.6,
+          "points_ppr": 1.6,
+          "points_half_ppr": 1.1
         }
       },
       "usage": {
@@ -28522,7 +28810,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.638511"
+      "last_updated": "2025-09-09T06:19:46.981914"
     },
     "11566": {
       "player_name": "J.Daniels",
@@ -28551,8 +28839,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 28.15999984741211,
-          "points_ppr": 28.15999984741211
+          "points_standard": 28.16,
+          "points_ppr": 28.16,
+          "points_half_ppr": 28.16
         }
       },
       "usage": {
@@ -28561,7 +28850,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.638821"
+      "last_updated": "2025-09-09T06:19:46.982221"
     },
     "11635": {
       "player_name": "L.McConkey",
@@ -28590,8 +28879,9 @@
           "touchdowns": 1
         },
         "fantasy": {
-          "points_standard": 9.899999618530273,
-          "points_ppr": 14.899999618530273
+          "points_standard": 9.9,
+          "points_ppr": 14.9,
+          "points_half_ppr": 12.4
         }
       },
       "usage": {
@@ -28601,7 +28891,7 @@
         "air_yards": null,
         "raw_targets": 7
       },
-      "last_updated": "2025-09-09T06:12:11.639118"
+      "last_updated": "2025-09-09T06:19:46.982523"
     },
     "4128": {
       "player_name": "C.Williams",
@@ -28630,8 +28920,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 7.21999979019165,
-          "points_ppr": 7.21999979019165
+          "points_standard": 7.22,
+          "points_ppr": 7.22,
+          "points_half_ppr": 7.22
         }
       },
       "usage": {
@@ -28640,7 +28931,7 @@
         "red_zone_targets": null,
         "air_yards": null
       },
-      "last_updated": "2025-09-09T06:12:11.639436"
+      "last_updated": "2025-09-09T06:19:46.982850"
     },
     "11620": {
       "player_name": "R.Odunze",
@@ -28669,8 +28960,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.100000023841858,
-          "points_ppr": 2.0999999046325684
+          "points_standard": 1.1,
+          "points_ppr": 2.1,
+          "points_half_ppr": 1.6
         }
       },
       "usage": {
@@ -28680,7 +28972,7 @@
         "air_yards": null,
         "raw_targets": 4
       },
-      "last_updated": "2025-09-09T06:12:11.639737"
+      "last_updated": "2025-09-09T06:19:46.983157"
     },
     "6395": {
       "player_name": "T.Benson",
@@ -28709,8 +29001,9 @@
           "touchdowns": 0
         },
         "fantasy": {
-          "points_standard": 1.7999999523162842,
-          "points_ppr": 2.799999952316284
+          "points_standard": 1.8,
+          "points_ppr": 2.8,
+          "points_half_ppr": 2.3
         }
       },
       "usage": {
@@ -28720,7 +29013,7 @@
         "air_yards": null,
         "raw_targets": 1
       },
-      "last_updated": "2025-09-09T06:12:11.640035"
+      "last_updated": "2025-09-09T06:19:46.983463"
     }
   }
 }
