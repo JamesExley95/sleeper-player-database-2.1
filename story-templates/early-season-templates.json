@@ -24,7 +24,7 @@
         "sam": "Running the numbers on our FAAB allocation strategies reveals significant efficiency disparities across the league. {{AGGRESSIVE_SPENDER}} has deployed ${{SPEND_AMOUNT}} in total spending, while {{CONSERVATIVE_MANAGER}} maintains ${{REMAINING_BUDGET}} in reserves. The data shows {{SUCCESS_EXAMPLE}} achieved optimal ROI with {{BEST_PICKUP}} generating {{PICKUP_POINTS}} points from a ${{BID_AMOUNT}} investment. Conversely, {{FAILED_BID}}'s ${{WASTE_AMOUNT}} expenditure on {{WORST_PICKUP}} yielded only {{LOW_POINTS}} points - a suboptimal points-per-dollar ratio. Early-season FAAB velocity correlates with successful roster optimization, suggesting optimal budget deployment windows exist within the first four weeks of play.",
         "eddie": "Behold, the great FAAB battleground where champions separate themselves from mere mortals through the art of strategic spending! {{AGGRESSIVE_SPENDER}} has boldly committed ${{SPEND_AMOUNT}} to their quest for glory, wielding their budget like a warrior's sword in the heat of battle! Meanwhile, {{CONSERVATIVE_MANAGER}} hoards their ${{REMAINING_BUDGET}} treasury, waiting for the perfect moment to strike like a patient dragon guarding gold. Witness {{SUCCESS_EXAMPLE}} - they summoned {{BEST_PICKUP}} for a mere ${{BID_AMOUNT}}, earning {{PICKUP_POINTS}} points of pure fantasy magic this week! But beware the cautionary tale of {{FAILED_BID}}, who squandered ${{WASTE_AMOUNT}} on {{WORST_PICKUP}} for a pitiful {{LOW_POINTS}} points! The FAAB wars have only just begun, and destiny awaits those brave enough to spend wisely!"
       }
-    },
+    }
     "bench_regret_blues": {
       "id": "bench_regret_blues",
       "title": "Bench Regret Blues: The Ghosts of Points Left Behind",
