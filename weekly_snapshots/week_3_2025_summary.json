@@ -1,0 +1,36 @@
+{
+  "week": 3,
+  "season": 2025,
+  "created_at": "2025-09-23T06:27:20.550819",
+  "total_performances": 316,
+  "top_performers": {
+    "overall": {
+      "name": "J.Jennings",
+      "position": "WR",
+      "team": "",
+      "points": 46.5
+    }
+  },
+  "position_leaders": {
+    "QB": {
+      "name": "J.Allen",
+      "team": "",
+      "points": 30.920000076293945
+    },
+    "RB": {
+      "name": "S.Barkley",
+      "team": "",
+      "points": 33.599998474121094
+    },
+    "WR": {
+      "name": "J.Jennings",
+      "team": "",
+      "points": 46.5
+    },
+    "TE": {
+      "name": "D.Goedert",
+      "team": "",
+      "points": 27.0
+    }
+  }
+}
