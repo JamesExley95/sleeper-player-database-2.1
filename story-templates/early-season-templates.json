@@ -29,28 +29,33 @@
         }
     },
     "bench_regret_blues": {
-        "id": "bench_regret_blues",
-        "title": "Bench Regret Blues: The Ghosts of Points Left Behind",
-        "seasonPhase": [
-            "early",
-            "mid",
-            "late"
-        ],
-        "relevanceCriteria": {
-            "minBenchPoints": 25,
-            "function": "const benchAnalysis = metadata?.benchAnalysis || []; const teamTotals = {}; benchAnalysis.forEach(ba => { if (!teamTotals[ba.roster_id]) teamTotals[ba.roster_id] = 0; teamTotals[ba.roster_id] += (ba.points_difference || 0); }); return Math.max(...Object.values(teamTotals), 0) >= 25;"
-        },
-        "dataExtraction": {
-            "function": "const teams = leagueData; const weekPerformance = metadata?.weekPerformance || {}; const benchAnalysis = metadata?.benchAnalysis || []; const benchByTeam = {}; benchAnalysis.forEach(ba => { if (!benchByTeam[ba.roster_id]) benchByTeam[ba.roster_id] = []; benchByTeam[ba.roster_id].push(ba); }); const teamAnalysis = teams.map(t => { const teamBench = benchByTeam[t.roster_id] || []; const totalMissed = teamBench.reduce((sum, b) => sum + (b.points_difference || 0), 0); const biggestMiss = teamBench.sort((a,b) => (b.points_difference || 0) - (a.points_difference || 0))[0]; return { name: t.team_name || t.display_name || 'Unknown Team', totalMissed: totalMissed, upgradeCount: teamBench.length, biggestMiss: biggestMiss }; }).sort((a,b) => b.totalMissed - a.totalMissed); const worstTeam = teamAnalysis[0] || {}; const biggestMiss = worstTeam.biggestMiss || {}; return { WORST_MANAGER: worstTeam.name, TOTAL_BENCH_POINTS: worstTeam.totalMissed.toFixed(1), UPGRADE_COUNT: worstTeam.upgradeCount, BENCH_STAR: biggestMiss.bench_player_name || 'Bench Player', BENCH_POINTS: (biggestMiss.bench_points || 0).toFixed(1), DUD_PLAYER: biggestMiss.starter_player_name || 'Starter', DUD_POINTS: (biggestMiss.starter_points || 0).toFixed(1), POINT_SWING: (biggestMiss.points_difference || 0).toFixed(1), GOOD_PLAYER: biggestMiss.bench_player_name || 'Bench Player', GOOD_POINTS: (biggestMiss.bench_points || 0).toFixed(1), BAD_PLAYER: biggestMiss.starter_player_name || 'Starter', BAD_POINTS: (biggestMiss.starter_points || 0).toFixed(1), SPECIFIC_EXAMPLE: worstTeam.name, SPECIFIC_MISS: biggestMiss.bench_player_name ? `Starting ${biggestMiss.starter_player_name} over ${biggestMiss.bench_player_name}` : 'lineup mistake' };"
-        },
-        "voicePrompts": {
-            "rachel": "Reality check: Some of you are sitting on goldmines and starting fool's gold. {{WORST_MANAGER}} has left a staggering {{TOTAL_BENCH_POINTS}} points rotting on the bench this season. The numbers don't lie - they started {{DUD_PLAYER}} for {{DUD_POINTS}} points while {{BENCH_STAR}} put up {{BENCH_POINTS}} from the sidelines. Let's be brutally honest, that's a {{POINT_SWING}} point swing that could flip games. {{SPECIFIC_EXAMPLE}} perfectly illustrates this - {{SPECIFIC_MISS}}. These lineup decisions aren't just costing points, they're costing wins. With {{UPGRADE_COUNT}} missed opportunities already, this is becoming a pattern of self-sabotage.",
-            "jake": "From a strategic standpoint, lineup optimization remains a critical weakness across our league. {{WORST_MANAGER}} has accumulated {{TOTAL_BENCH_POINTS}} unused points through suboptimal roster decisions. The game plan seems flawed when {{BENCH_STAR}} delivers {{BENCH_POINTS}} points on the bench while {{DUD_PLAYER}} starts with {{DUD_POINTS}}. Tactically speaking, this represents a {{POINT_SWING}} point opportunity cost that directly impacts win probability. Moving forward, these {{UPGRADE_COUNT}} missed swaps demonstrate the importance of deeper roster analysis and matchup evaluation.",
-            "tony": "Oh snap! We've got some serious bench blunders happening and {{WORST_MANAGER}} is leading the regret parade with {{TOTAL_BENCH_POINTS}} points left on the bench! Can you believe this? {{BENCH_STAR}} is putting up {{BENCH_POINTS}} points in street clothes while {{DUD_PLAYER}} is out there dropping a measly {{DUD_POINTS}}! Drama alert: that's a {{POINT_SWING}} point swing just sitting there laughing at you! {{SPECIFIC_MISS}} has got to be eating them alive - benching a stud for a dud costs games, people! With {{UPGRADE_COUNT}} chances to get it right already blown, this is getting painful to watch!",
-            "sam": "Analyzing lineup efficiency metrics reveals significant optimization gaps across our league dataset. {{WORST_MANAGER}} currently exhibits suboptimal roster management, resulting in {{TOTAL_BENCH_POINTS}} unutilized points. The variance between {{BENCH_STAR}}'s {{BENCH_POINTS}} point output and {{DUD_PLAYER}}'s {{DUD_POINTS}} represents a {{POINT_SWING}} point differential per game. Statistical modeling shows {{UPGRADE_COUNT}} instances where alternative lineup construction would have improved outcomes, suggesting systematic decision-making errors rather than random variance in player selection algorithms.",
-            "eddie": "Gather 'round for the tragic tale of squandered potential, where {{WORST_MANAGER}} has become the unfortunate hero of our bench catastrophe saga! Behold, {{TOTAL_BENCH_POINTS}} points of pure fantasy glory sitting idle on the sidelines, crying out to join the battle but forever denied their chance at greatness! Watch as {{BENCH_STAR}} delivered a magnificent {{BENCH_POINTS}} point performance from the shadows while {{DUD_PLAYER}} stumbled through combat with a mere {{DUD_POINTS}} points! This {{POINT_SWING}} point chasm tells the epic story of what could have been - a roster revolution that might have changed the very course of fantasy history!"
-        }
+    "id": "bench_regret_blues",
+    "title": "Bench Regret Blues: The Ghosts of Points Left Behind",
+    "seasonPhase": ["early", "mid", "late"],
+    
+    "relevanceCriteria": {
+        "minBenchPoints": 15,
+        "description": "Story is relevant if at least one team left 15+ points on bench",
+        "function": "const benchStories = metadata?.benchRegretStories || []; return benchStories.length > 0 && parseFloat(benchStories[0]?.total_missed || 0) >= 15;"
     },
+    
+    "dataExtraction": {
+        "description": "Extract bench regret data from pre-processed benchRegretStories",
+        "function": "const benchStories = metadata?.benchRegretStories || []; if (benchStories.length === 0) { return { WORST_MANAGER: 'No Data', TOTAL_BENCH_POINTS: '0.0', UPGRADE_COUNT: '0', BENCH_STAR: 'Bench Player', BENCH_POINTS: '0.0', DUD_PLAYER: 'Starter', DUD_POINTS: '0.0', POINT_SWING: '0.0', WOULD_HAVE_WON: 'would not have changed the result', ACTUAL_RESULT: 'lost', ACTUAL_MARGIN: '0.0', LEAGUE_TOTAL: '0.0', TEAMS_WITH_REGRET: '0' }; } const worstTeam = benchStories[0]; const biggestMiss = worstTeam.biggest_miss || {}; const leagueTotal = benchStories.reduce((sum, s) => sum + parseFloat(s.total_missed || 0), 0); const teamsWithRegret = benchStories.filter(s => parseFloat(s.total_missed || 0) > 5).length; const wouldHaveWonText = worstTeam.would_have_won ? 'WOULD have won with optimal lineup' : 'would NOT have won even with optimal lineup'; return { WORST_MANAGER: worstTeam.team || 'Unknown Team', TOTAL_BENCH_POINTS: worstTeam.total_missed || '0.0', UPGRADE_COUNT: worstTeam.opportunities?.toString() || '0', BENCH_STAR: biggestMiss.bench_player_name || 'Bench Player', BENCH_POINTS: biggestMiss.bench_points?.toFixed(1) || '0.0', DUD_PLAYER: biggestMiss.starter_player_name || 'Starter', DUD_POINTS: biggestMiss.starter_points?.toFixed(1) || '0.0', POINT_SWING: biggestMiss.points_difference?.toFixed(1) || '0.0', WOULD_HAVE_WON: wouldHaveWonText, ACTUAL_RESULT: worstTeam.actual_result || 'lost', ACTUAL_MARGIN: worstTeam.actual_margin || '0.0', LEAGUE_TOTAL: leagueTotal.toFixed(1), TEAMS_WITH_REGRET: teamsWithRegret.toString(), MANAGER_NAME: worstTeam.manager || 'Manager' };"
+    },
+    
+    "voicePrompts": {
+        "rachel": "Reality check: {{WORST_MANAGER}} just left {{TOTAL_BENCH_POINTS}} points rotting on the bench this week. Let's be brutally honest - starting {{DUD_PLAYER}} ({{DUD_POINTS}} pts) over {{BENCH_STAR}} ({{BENCH_POINTS}} pts) is a {{POINT_SWING}}-point mistake that's inexcusable. The truth hurts, but this lineup disaster means they {{WOULD_HAVE_WON}}. With {{TEAMS_WITH_REGRET}} teams across the league leaving {{LEAGUE_TOTAL}} combined points on benches, this isn't just {{MANAGER_NAME}}'s problem - it's a league-wide epidemic of poor decision-making.",
+        
+        "jake": "From a strategic standpoint, lineup optimization remains critical. {{WORST_MANAGER}} accumulated {{TOTAL_BENCH_POINTS}} unused points through suboptimal roster decisions. Here's what matters: starting {{DUD_PLAYER}} ({{DUD_POINTS}} pts) over {{BENCH_STAR}} ({{BENCH_POINTS}} pts) represents a {{POINT_SWING}}-point opportunity cost. Tactically speaking, they {{WOULD_HAVE_WON}}. Let's break this down - {{UPGRADE_COUNT}} missed swaps demonstrate the importance of deeper matchup evaluation. Moving forward, these decisions directly impact win probability.",
+        
+        "tony": "Come on now, {{WORST_MANAGER}}! You really gonna leave {{TOTAL_BENCH_POINTS}} points sitting on your bench watching the game? You love to see it - {{BENCH_STAR}} putting up {{BENCH_POINTS}} points in street clothes while {{DUD_PLAYER}} drops a measly {{DUD_POINTS}}! The audacity! That's a {{POINT_SWING}}-point swing that means you {{WOULD_HAVE_WON}}. Drama alert: {{TEAMS_WITH_REGRET}} teams left a combined {{LEAGUE_TOTAL}} points on benches this week. This is getting painful to watch!",
+        
+        "sam": "The numbers don't lie: {{WORST_MANAGER}} exhibits suboptimal lineup efficiency with {{TOTAL_BENCH_POINTS}} unutilized points. Here's what the data shows - the variance between {{BENCH_STAR}}'s {{BENCH_POINTS}}-point output and {{DUD_PLAYER}}'s {{DUD_POINTS}} represents a {{POINT_SWING}}-point differential. Statistically speaking, optimal lineup construction indicates they {{WOULD_HAVE_WON}}. League-wide metrics reveal {{TEAMS_WITH_REGRET}} teams with {{LEAGUE_TOTAL}} combined missed points, suggesting systematic decision-making errors rather than random variance.",
+        
+        "eddie": "Ladies and gentlemen, witness the tragic tale of {{WORST_MANAGER}}, who left {{TOTAL_BENCH_POINTS}} points of pure fantasy glory imprisoned on the bench! What a story - {{BENCH_STAR}} delivered a magnificent {{BENCH_POINTS}}-point performance from the shadows while {{DUD_PLAYER}} stumbled with {{DUD_POINTS}} points! This is epic - this {{POINT_SWING}}-point chasm means they {{WOULD_HAVE_WON}}! Across our kingdom, {{TEAMS_WITH_REGRET}} managers squandered {{LEAGUE_TOTAL}} combined points. This is the stuff of legends and nightmares!"
+    }
+},
     "positional_panic": {
         "id": "positional_panic",
         "title": "Positional Panic: The Scarcity Squeeze Crushing Dreams",
