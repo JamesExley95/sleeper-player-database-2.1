@@ -83,7 +83,6 @@
             "exampleIntro": "Ladies and gentlemen, witness the great bench catastrophe of Week 3—a league-wide tragedy of epic proportions! {{TEAMS_WITH_REGRET}} managers imprisoned {{LEAGUE_TOTAL}} combined points on their benches, points that could have rewritten the very scrolls of our standings! Behold the most devastating tales of woe!",
             "exampleOutro": "What a story this week has woven! These ghosts of points left behind will haunt these managers through the long playoff march ahead, whispering of what could have been. With championship glory on the line, every forsaken point becomes a dagger in the heart of dreams. Until next week's epic unfolds!"
         }
-    }
     },
     "positional_panic": {
         "id": "positional_panic",
