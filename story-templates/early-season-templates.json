@@ -1,10 +1,11 @@
 {
     "templateRegistry": {
-        "version": "2.1",
+        "version": "2.2",
         "lastUpdated": "2025-10-12",
         "totalTemplates": 4,
         "seasonPhase": "early",
-        "executionEngine": "javascript"
+        "executionEngine": "javascript",
+        "notes": "Version 2.2 - Universal structure per story, voice-specific examples only"
     },
     "bench_regret_blues": {
         "id": "bench_regret_blues",
@@ -17,41 +18,38 @@
         "storyStructure": {
             "format": "intro_body_outro",
             "paragraphCount": "4-5 total",
-            "sections": {
-                "intro": "League-wide bench problem overview with total stats",
-                "body": "3-4 manager-specific paragraphs with individual mistakes",
-                "outro": "Voice-specific closing based on journalist personality"
+            "universalStructure": "INTRO (2-3 sentences): State the league-wide bench problem. MUST include: {{TEAMS_WITH_REGRET}} teams left {{LEAGUE_TOTAL}} combined points on benches, {{GAMES_AFFECTED}} games could have had different outcomes.\n\nMANAGER 1 (3-4 sentences): Focus on {{WORST_MANAGER}} ({{MANAGER_NAME}}). Detail their biggest mistake: started {{DUD_PLAYER}} ({{DUD_POINTS}} pts) over {{BENCH_STAR}} ({{BENCH_POINTS}} pts). State the {{POINT_SWING}} point swing. Mention they {{WOULD_HAVE_WON}} and lost by {{ACTUAL_MARGIN}} points.\n\nMANAGER 2 (2-3 sentences): Cover {{SECOND_WORST_TEAM}} ({{SECOND_WORST_MANAGER}}) with {{SECOND_WORST_POINTS}} bench points. Their mistake: {{SECOND_WORST_MISTAKE}}. Impact: {{SECOND_WORST_WOULD_HAVE_WON}}.\n\nMANAGER 3 (2-3 sentences): Mention {{THIRD_WORST_TEAM}} ({{THIRD_WORST_MANAGER}}) with {{THIRD_WORST_POINTS}} bench points. Their error: {{THIRD_WORST_MISTAKE}}. Show this is a league-wide pattern.\n\nOUTRO (2-3 sentences): Connect to season implications and playoff impact. Forward-looking statement about what these mistakes mean going forward.",
+            "dataRequirements": {
+                "intro_must_include": ["TEAMS_WITH_REGRET", "LEAGUE_TOTAL", "GAMES_AFFECTED"],
+                "manager1_must_include": ["WORST_MANAGER", "MANAGER_NAME", "DUD_PLAYER", "DUD_POINTS", "BENCH_STAR", "BENCH_POINTS", "POINT_SWING", "WOULD_HAVE_WON", "ACTUAL_MARGIN"],
+                "manager2_must_include": ["SECOND_WORST_TEAM", "SECOND_WORST_MANAGER", "SECOND_WORST_POINTS", "SECOND_WORST_MISTAKE", "SECOND_WORST_WOULD_HAVE_WON"],
+                "manager3_must_include": ["THIRD_WORST_TEAM", "THIRD_WORST_MANAGER", "THIRD_WORST_POINTS", "THIRD_WORST_MISTAKE"]
             }
         },
         "voicePrompts": {
             "rachel": {
                 "style": "Harsh reality checks with no sugar-coating",
-                "structure": "INTRO (2-3 sentences): Reality check on league-wide bench disaster. State total points and teams affected. Mention this could change standings.\n\nMANAGER 1 (3-4 sentences): Call out the worst offender for leaving points on bench. Be brutally specific about their worst mistake with exact player names and points. Point out the point swing. State whether they would have won with optimal lineup and their actual margin.\n\nMANAGER 2 (2-3 sentences): Mention second worst team with their bench points and specific mistake. Quick impact statement.\n\nMANAGER 3 (2-3 sentences): Call out third worst team with bench points and their mistake. Pattern commentary about league-wide incompetence.\n\nOUTRO (2-3 sentences): Harsh truth about what these mistakes mean for playoff hopes. These aren't bad luck—they're bad management that will cost teams their seasons. Face the facts.",
-                "exampleIntro": "Reality check: We've got a league-wide bench management catastrophe that's costing teams wins. Multiple managers left combined points rotting on benches this week—points that could have flipped games and completely rewritten the standings. Let's be brutally honest about the worst offenders.",
+                "exampleIntro": "Reality check: We've got a league-wide bench management catastrophe that's costing teams wins. Nine managers left 156.8 combined points rotting on benches this week—points that could have flipped 2 games and completely rewritten the standings. Let's be brutally honest about the worst offenders.",
                 "exampleOutro": "The truth hurts: these lineup mistakes aren't isolated incidents, they're patterns of poor decision-making that will define your season. With playoff races tightening, every wasted point becomes a nail in your coffin. These ghosts of points left behind won't just haunt you—they'll eliminate you."
             },
             "jake": {
                 "style": "Strategic analysis with coaching mentality",
-                "structure": "INTRO (2-3 sentences): From a strategic standpoint, assess the league-wide lineup optimization problem. Multiple teams left points unused. Explain how this impacts competitive balance.\n\nMANAGER 1 (3-4 sentences): Analyze the worst offender's mistake. Break down their decision with specific player names and points. Explain the point opportunity cost. Context on whether they would have won and actual margin.\n\nMANAGER 2 (2-3 sentences): Review second worst team's suboptimal lineup with points missed. Their tactical error with specifics. Strategic implications.\n\nMANAGER 3 (2-3 sentences): Examine third worst team's roster management. Their mistake. What this teaches about preparation.\n\nOUTRO (2-3 sentences): Strategic takeaway about what successful lineup management requires. These decisions compound throughout the season and separate championship teams from also-rans. Here's what matters going forward.",
-                "exampleIntro": "From a strategic standpoint, we're seeing a critical league-wide weakness in lineup optimization. Multiple teams left combined points on benches this week—roster decisions that directly impact win probability and playoff positioning. Let's break down the most costly mistakes.",
+                "exampleIntro": "From a strategic standpoint, we're seeing a critical league-wide weakness in lineup optimization. Nine teams left 156.8 combined points on benches this week—roster decisions that directly impact win probability and could have changed 2 game outcomes. Let's break down the most costly mistakes.",
                 "exampleOutro": "Here's what matters: lineup optimization isn't luck, it's preparation and film study. With playoff races tightening, these roster decisions will separate the teams that prepared from those that guessed. Moving forward, every start/sit decision carries championship implications."
             },
             "tony": {
                 "style": "Entertaining drama with playful callouts",
-                "structure": "INTRO (2-3 sentences): Drama alert! Build excitement about league-wide bench disaster. Multiple teams left points watching from the sidelines. Tease the biggest offenders.\n\nMANAGER 1 (3-4 sentences): Call out the worst offender with energy! Roast their decision with specific player names and points. The audacity of that point mistake! Impact on their game result.\n\nMANAGER 2 (2-3 sentences): You love to see it—second worst team joining the bench regret party! Their mistake with specifics. Wild!\n\nMANAGER 3 (2-3 sentences): Oh snap! Third worst team also messed up. Their mistake. This is getting painful to watch!\n\nOUTRO (2-3 sentences): Entertainment-focused closing about how this drama will unfold. These mistakes are the stories we'll remember all season. Keep talking that trash!",
-                "exampleIntro": "Oh snap! We've got a full-blown bench catastrophe sweeping through the league and it's absolutely wild! Multiple teams left combined points sitting on their benches this week—points that could have flipped games and changed everything! Drama alert: let's expose the worst offenders!",
+                "exampleIntro": "Oh snap! We've got a full-blown bench catastrophe sweeping through the league and it's absolutely wild! Nine teams left 156.8 combined points sitting on their benches this week—points that could have flipped 2 games and changed everything! Drama alert: let's expose the worst offenders!",
                 "exampleOutro": "Come on now, y'all really need to figure out these lineups before playoffs! These bench blunders are the stuff of league legend—the stories we'll roast people about for years. With playoff spots on the line, every point matters. Keep talking that trash!"
             },
             "sam": {
                 "style": "Data-driven statistical analysis",
-                "structure": "INTRO (2-3 sentences): The numbers don't lie—analyze league-wide lineup efficiency metrics. Multiple teams with unutilized points. Statistical significance for standings.\n\nMANAGER 1 (3-4 sentences): Data analysis on worst offender with specific unutilized points. Variance between bench star's output and starter's points with exact numbers represents point differential. Statistical modeling on game impact. Actual margin.\n\nMANAGER 2 (2-3 sentences): Second team demonstrates suboptimal decision-making with missed points. Key inefficiency with specifics. Quantifiable impact.\n\nMANAGER 3 (2-3 sentences): Third team's lineup metrics show optimization gap. Their error. Data patterns.\n\nOUTRO (2-3 sentences): Statistical conclusion about lineup efficiency correlation with success. These aren't random variances—they're systematic decision-making errors. Let the numbers be your guide.",
-                "exampleIntro": "The numbers don't lie: league-wide lineup efficiency analysis reveals significant optimization failures. Multiple teams left combined points unutilized—a statistical anomaly that correlates directly with decreased win probability. Here's what the data shows about the worst performers.",
+                "exampleIntro": "The numbers don't lie: league-wide lineup efficiency analysis reveals significant optimization failures. Nine teams left 156.8 combined points unutilized—a statistical anomaly that correlates directly with decreased win probability and cost 2 teams victories. Here's what the data shows about the worst performers.",
                 "exampleOutro": "Statistically speaking, optimal lineup construction correlates with a 23% increase in win probability over the season. With playoff implications mounting, these systematic decision-making errors will compound into measurable championship probability losses. Let the numbers be your guide."
             },
             "eddie": {
                 "style": "Epic dramatic storytelling with theatrical flair",
-                "structure": "INTRO (2-3 sentences): Ladies and gentlemen! Epic opening about league-wide bench tragedy. Multiple managers imprisoned points! Set the dramatic stage.\n\nMANAGER 1 (3-4 sentences): Witness the worst offender's tragic tale! Points of glory locked away! The devastating choice to start one player while another wielded points from the shadows—a point chasm! Game impact and margin!\n\nMANAGER 2 (2-3 sentences): What a story—second team also fell victim to the bench curse! Points forsaken! Their fateful error!\n\nMANAGER 3 (2-3 sentences): This is epic—third team joins our tragic saga with wasted points! Their mistake! The bench gods show no mercy!\n\nOUTRO (2-3 sentences): Grand finale about how this epic tragedy will reshape destinies. These ghosts will haunt the rest of the season. Until next week's epic unfolds!",
-                "exampleIntro": "Ladies and gentlemen, witness the great bench catastrophe—a league-wide tragedy of epic proportions! Multiple managers imprisoned combined points on their benches, points that could have rewritten the very scrolls of our standings! Behold the most devastating tales of woe!",
+                "exampleIntro": "Ladies and gentlemen, witness the great bench catastrophe of Week 3—a league-wide tragedy of epic proportions! Nine managers imprisoned 156.8 combined points on their benches, points that could have rewritten 2 game outcomes and changed the very scrolls of our standings! Behold the most devastating tales of woe!",
                 "exampleOutro": "What a story this week has woven! These ghosts of points left behind will haunt these managers through the long playoff march ahead, whispering of what could have been. With championship glory on the line, every forsaken point becomes a dagger in the heart of dreams. Until next week's epic unfolds!"
             }
         }
@@ -64,26 +62,41 @@
             "minSpendVariance": 20,
             "description": "Story is relevant when spending variance exceeds minimum threshold"
         },
+        "storyStructure": {
+            "format": "intro_body_outro",
+            "paragraphCount": "3-4 total",
+            "universalStructure": "INTRO (2-3 sentences): Establish FAAB spending patterns in the league. Contrast {{AGGRESSIVE_SPENDER}} spending ${{SPEND_AMOUNT}} vs {{CONSERVATIVE_MANAGER}} hoarding ${{REMAINING_BUDGET}}.\n\nSUCCESS STORY (2-3 sentences): Highlight {{SUCCESS_EXAMPLE}} acquiring {{BEST_PICKUP}} for ${{BID_AMOUNT}} who delivered {{PICKUP_POINTS}} points. Show the value.\n\nFAILURE STORY (2-3 sentences): Detail {{FAILED_BID}} wasting ${{WASTE_AMOUNT}} on {{WORST_PICKUP}} for only {{LOW_POINTS}} points. Contrast with success.\n\nOUTRO (2-3 sentences): Connect to season-long budget strategy. Implications for remaining FAAB and playoff preparation.",
+            "dataRequirements": {
+                "intro_must_include": ["AGGRESSIVE_SPENDER", "SPEND_AMOUNT", "CONSERVATIVE_MANAGER", "REMAINING_BUDGET"],
+                "success_must_include": ["SUCCESS_EXAMPLE", "BEST_PICKUP", "BID_AMOUNT", "PICKUP_POINTS"],
+                "failure_must_include": ["FAILED_BID", "WORST_PICKUP", "WASTE_AMOUNT", "LOW_POINTS"]
+            }
+        },
         "voicePrompts": {
             "rachel": {
                 "style": "Harsh reality checks with no sugar-coating",
-                "structure": "Start with reality check on FAAB spending patterns. Call out aggressive spender and conservative manager by name with exact dollar amounts. Detail best and worst pickups with specific player names and point totals. End with brutal assessment of spending strategies and playoff implications."
+                "exampleIntro": "Reality check: Let's talk about the FAAB gamblers burning through budgets like it's Monopoly money. BigSpender has already blown $85 while Saver is hoarding $175 like a penny-pinching miser.",
+                "exampleOutro": "Let's be brutally honest—early spending either sets you up as a waiver wizard or leaves you scraping for table scraps come playoff time. This efficiency gap is already separating contenders from pretenders."
             },
             "jake": {
                 "style": "Strategic analysis with coaching mentality",
-                "structure": "Open with strategic assessment of FAAB philosophies. Analyze aggressive vs conservative approaches with specific dollar amounts. Evaluate ROI on pickups with player names and points. Close with strategic implications for rest of season."
+                "exampleIntro": "From a strategic standpoint, we're seeing two distinct FAAB philosophies emerge. AggressiveManager has committed $85 to early acquisitions, banking on immediate impact. Meanwhile ConservativeManager is playing the long game with $175 in reserve.",
+                "exampleOutro": "The question becomes: will early aggression pay dividends or leave managers cash-poor when injuries strike? Here's what matters—smart spending now positions you for success later."
             },
             "tony": {
                 "style": "Entertaining drama with playful callouts",
-                "structure": "Drama alert opening about FAAB wars! Call out big spenders and penny pinchers with specific amounts. Celebrate smart pickups and roast failed bids with player names and points. Entertainment-focused closing about budget drama."
+                "exampleIntro": "Oh snap! The FAAB wars are heating up and we've got some serious big spenders! BigSpender is throwing $85 around like they're buying championship rings, while Saver sits on $175 like Scrooge McDuck!",
+                "exampleOutro": "Drama alert: someone's budget strategy is about to make or break their season! Come on now, spend smart people!"
             },
             "sam": {
                 "style": "Data-driven statistical analysis",
-                "structure": "Lead with statistical analysis of FAAB allocation strategies. Quantify spending patterns with exact figures. Calculate ROI metrics on pickups with player performance data. Statistical conclusions about optimal budget deployment."
+                "exampleIntro": "Running the numbers on FAAB allocation strategies reveals significant efficiency disparities. AggressiveManager has deployed $85 in total spending, while ConservativeManager maintains $175 in reserves.",
+                "exampleOutro": "Early-season FAAB velocity correlates with successful roster optimization, suggesting optimal budget deployment windows exist within the first four weeks of play."
             },
             "eddie": {
                 "style": "Epic dramatic storytelling with theatrical flair",
-                "structure": "Epic opening about the FAAB battleground! Frame spenders as warriors with their budget amounts. Celebrate successful summonings and lament squandered resources with dramatic flair. Theatrical closing about destiny and wise spending."
+                "exampleIntro": "Behold, the great FAAB battleground where champions separate themselves through the art of strategic spending! BigSpender has boldly committed $85 to their quest for glory, while Saver hoards their $175 treasury like a patient dragon guarding gold!",
+                "exampleOutro": "The FAAB wars have only just begun, and destiny awaits those brave enough to spend wisely! Until next week's epic unfolds!"
             }
         }
     },
@@ -95,26 +108,41 @@
             "scarcityThreshold": 1.2,
             "description": "Story is relevant when position scarcity ratio falls below threshold"
         },
+        "storyStructure": {
+            "format": "intro_body_outro",
+            "paragraphCount": "3-4 total",
+            "universalStructure": "INTRO (2-3 sentences): Establish {{SCARCE_POSITION}} crisis. State only {{ELITE_COUNT}} elite options above {{ELITE_THRESHOLD}} points for league of teams, while {{TEAMS_COUNT}} teams struggle with {{SUB_PERFORMERS}} averaging {{LOW_AVERAGE}} points.\n\nSTRUGGLING TEAM (2-3 sentences): Focus on {{DESPERATE_TEAM}} getting crushed weekly because {{WEAK_PLAYER}} averaging {{LOW_POINTS}} points can't compete with {{ELITE_PLAYER}}'s {{ELITE_POINTS}} points. Quantify the {{POINT_GAP}} point weekly disadvantage.\n\nSCARCITY IMPACT (2-3 sentences): Explain waiver wire is barren—only {{AVAILABLE_OPTIONS}} viable options for {{TEAM_NEEDS}} teams needing help. Scarcity ratio of {{SCARCITY_RATIO}} shows supply-demand crisis.\n\nOUTRO (2-3 sentences): Connect to trade market and playoff implications. This positional scarcity will determine playoff fates.",
+            "dataRequirements": {
+                "intro_must_include": ["SCARCE_POSITION", "ELITE_COUNT", "ELITE_THRESHOLD", "TEAMS_COUNT", "SUB_PERFORMERS", "LOW_AVERAGE"],
+                "struggle_must_include": ["DESPERATE_TEAM", "WEAK_PLAYER", "LOW_POINTS", "ELITE_PLAYER", "ELITE_POINTS", "POINT_GAP"],
+                "scarcity_must_include": ["AVAILABLE_OPTIONS", "TEAM_NEEDS", "SCARCITY_RATIO"]
+            }
+        },
         "voicePrompts": {
             "rachel": {
                 "style": "Harsh reality checks with no sugar-coating",
-                "structure": "Reality check on position crisis. State elite count vs teams needing help with specific position. Call out struggling team and weak player by name with points. Compare to elite player and owner with points. Harsh assessment of waiver wire and playoff implications."
+                "exampleIntro": "Reality check: We've got a legitimate tight end crisis and some of you are about to get crushed by scarcity. The numbers don't lie—there are only 3 elite options averaging over 12 points while 6 teams desperately start sub-performers averaging 4.2 points.",
+                "exampleOutro": "Let's be brutally honest—the waiver wire isn't saving anyone. With 1 viable option for 6 teams needing help, this scarcity is about to determine playoff fates. Face the facts."
             },
             "jake": {
                 "style": "Strategic analysis with coaching mentality",
-                "structure": "Strategic assessment of position scarcity. Explain supply-demand imbalance with numbers. Analyze weekly disadvantage for struggling teams with specific players and points. Strategic implications for trades and positional premium value."
+                "exampleIntro": "From a strategic standpoint, we're experiencing severe tight end scarcity that's reshaping league dynamics. The game plan for struggling teams becomes increasingly difficult when only 3 players provide consistent production above 12 points.",
+                "exampleOutro": "The positional premium has reached critical levels, making this the most valuable trade commodity moving forward. With supply-demand ratios this skewed, acquisition costs will only increase."
             },
             "tony": {
                 "style": "Entertaining drama with playful callouts",
-                "structure": "Drama alert about position disaster! Call out struggling team getting demolished. Compare weak player to elite player with points. Entertainment about waiver wasteland. Playoff implications with drama."
+                "exampleIntro": "Drama alert! We've got a full-blown tight end disaster and StruggleTeam is getting absolutely demolished! Can you believe this? They're starting WeakPlayer who's averaging 3.5 points while EliteTeam is laughing with ElitePlayer putting up 15!",
+                "exampleOutro": "Oh snap! The waiver wire is a wasteland—there's literally nobody worth starting! This scarcity is about to determine who makes playoffs and who goes home crying!"
             },
             "sam": {
                 "style": "Data-driven statistical analysis",
-                "structure": "Statistical analysis of position scarcity. Quantify elite count vs league needs. Calculate weekly point deficits with specific players. Supply-demand ratios and trade value inflation metrics."
+                "exampleIntro": "Position scarcity analysis reveals critical supply-demand imbalances affecting league competitiveness. Tight end depth shows only 3 players maintaining consistent production above 12 points per game, while 6 teams operate below replacement level averaging 4.2 points.",
+                "exampleOutro": "Waiver wire depth metrics show 1 viable alternative for 6 teams requiring upgrades, creating a 0.17 supply-to-demand ratio that significantly inflates trade values."
             },
             "eddie": {
                 "style": "Epic dramatic storytelling with theatrical flair",
-                "structure": "Epic opening about positional famine! Frame elite players as legendary warriors. Tell tragic tale of struggling team with weak player. Compare to mighty elite player with dramatic point gap. Epic closing about haves vs have-nots."
+                "exampleIntro": "Behold, the great positional famine that threatens to reshape our fantasy realm! In the kingdom of tight end, only 3 legendary warriors stand tall above the 12 point threshold, while 6 unfortunate souls struggle with champions barely worthy of 4.2 points in battle!",
+                "exampleOutro": "This point chasm tells the epic story of haves versus have-nots in our fantasy saga! Until next week's chapter unfolds!"
             }
         }
     },
@@ -126,35 +154,53 @@
             "minSuccessfulPickups": 3,
             "description": "Story is relevant when league has minimum successful waiver transactions"
         },
+        "storyStructure": {
+            "format": "intro_body_outro",
+            "paragraphCount": "3-4 total",
+            "universalStructure": "INTRO (2-3 sentences): Establish waiver wire as skill differentiator. Contrast {{SHREWD_MANAGER}}'s smart moves vs {{WASTEFUL_MANAGER}}'s poor decisions.\n\nHERO PICKUP (2-3 sentences): Detail {{SHREWD_MANAGER}} investing ${{BID_AMOUNT}} on {{HERO_PICKUP}} who's now averaging {{HERO_POINTS}} points. Show the value and foresight.\n\nREGRET DROP (2-3 sentences): Highlight {{WASTEFUL_MANAGER}} dropping {{REGRET_DROP}} who's now producing {{REGRET_POINTS}} points elsewhere. Quantify the {{POINT_SWING}} point swing from this mistake.\n\nOUTRO (2-3 sentences): State {{SUCCESS_COUNT}} successful pickups vs {{FAILURE_COUNT}} failures. Connect to season-long roster management and playoff implications.",
+            "dataRequirements": {
+                "intro_must_include": ["SHREWD_MANAGER", "WASTEFUL_MANAGER"],
+                "hero_must_include": ["SHREWD_MANAGER", "BID_AMOUNT", "HERO_PICKUP", "HERO_POINTS"],
+                "regret_must_include": ["WASTEFUL_MANAGER", "REGRET_DROP", "REGRET_POINTS", "POINT_SWING"],
+                "outro_must_include": ["SUCCESS_COUNT", "FAILURE_COUNT"]
+            }
+        },
         "voicePrompts": {
             "rachel": {
                 "style": "Harsh reality checks with no sugar-coating",
-                "structure": "Reality check on waiver wire separating smart from clueless. Name shrewd manager and their successful pickup with bid and points. Call out wasteful manager and regret drop with points. Harsh assessment of decision-making and success vs failure counts."
+                "exampleIntro": "Reality check: The waiver wire is separating the smart from the clueless, and ShrewdManager just played everyone else like a fiddle. The numbers don't lie—their $25 bid has already returned 18.5 points, while WastefulManager dropped a player now averaging 24.2 points for someone else.",
+                "exampleOutro": "Let's be brutally honest, that's a 42.7 point swing from terrible decision-making. With 5 brilliant pickups and 3 face-plant drops, the waiver wire IQ test results are in."
             },
             "jake": {
                 "style": "Strategic analysis with coaching mentality",
-                "structure": "Strategic analysis of waiver wire as skill differentiator. Detail shrewd manager's value identification with specific pickup and ROI. Analyze wasteful manager's strategic error with regret drop. How waiver decisions compound over season."
+                "exampleIntro": "From a strategic standpoint, waiver wire management is proving to be a critical skill differentiator. ShrewdManager identified value early, investing $25 for a player now averaging 18.5 points per game. The game plan shows foresight—recognizing opportunity before competition emerged.",
+                "exampleOutro": "This point swing between shrewd pickups and premature drops illustrates how waiver decisions compound throughout the season. Here's what matters—roster management discipline."
             },
             "tony": {
                 "style": "Entertaining drama with playful callouts",
-                "structure": "Drama alert about waiver wire wars! Celebrate shrewd manager playing 4D chess with successful pickup and points. Roast wasteful manager giving away talent with regret drop and points. Entertainment about hall of fame vs hall of shame."
+                "exampleIntro": "Oh snap! The waiver wire wars are producing some serious heroes and zeros! ShrewdManager is out here playing 4D chess, dropping $25 on HeroPlayer who's been absolutely crushing it with 18.5 points! Meanwhile WastefulManager just gave away RegretDrop who's putting up 24.2 points for their opponent!",
+                "exampleOutro": "Can you believe this? That's a 42.7 point swing from pure waiver genius versus total brain fade! Drama alert—the waiver wire hall of fame and hall of shame are both filling up fast!"
             },
             "sam": {
                 "style": "Data-driven statistical analysis",
-                "structure": "Statistical analysis of waiver transaction efficiency. Quantify shrewd manager's optimal resource allocation with pickup ROI. Calculate wasteful manager's negative asset management with regret drop data. Aggregate point differential and success metrics."
+                "exampleIntro": "Waiver wire transaction efficiency metrics reveal significant performance disparities across our league sample. ShrewdManager achieved optimal resource allocation with HeroPlayer generating 18.5 points per game post-acquisition at a cost basis of $25.",
+                "exampleOutro": "The aggregate point differential represents significant weekly scoring potential variance. Statistical modeling indicates teams with 5 successful transactions maintain competitive advantages over those with 3 suboptimal moves."
             },
             "eddie": {
                 "style": "Epic dramatic storytelling with theatrical flair",
-                "structure": "Epic saga of waiver wire warriors! Celebrate shrewd manager as legendary hero with successful summoning. Lament wasteful manager's tragic banishment of talent. Dramatic point swing between triumph and disaster. Theatrical closing about foresight vs folly."
+                "exampleIntro": "Behold the magnificent saga of waiver wire warriors, where ShrewdManager rises as the legendary hero of our tale! With wisdom beyond measure, they cast their golden $25 spell to summon HeroPlayer, who now bestows 18.5 points of pure fantasy magic each week!",
+                "exampleOutro": "But every epic requires its tragic chapter—WastefulManager's hasty decision to banish RegretDrop has backfired spectacularly! The 42.7 point chasm between triumph and disaster tells the eternal story of foresight versus folly!"
             }
         }
     },
     "executionNotes": {
         "dataStructure": "Templates expect extracted story variables from data_extraction step",
-        "errorHandling": "All voice prompts include fallback examples for missing data",
+        "structurePhilosophy": "Universal structure per story ensures consistent data inclusion across all voices. Voice prompts provide style and examples only.",
+        "errorHandling": "All voice prompts include realistic examples with actual numbers for reference",
         "voiceMapping": "rachel|jake|tony|sam|eddie map to user's narrativeVoice selection",
         "safety": "Templates are consumed by news_story_setup without code execution",
-        "compatibility": "All templates use variable placeholders compatible with replaceVariables function"
+        "compatibility": "All templates use variable placeholders compatible with replaceVariables function",
+        "scalability": "To add new voices, only add style and examples—structure remains consistent"
     },
     "templateExecution": {
         "relevanceCheck": {
@@ -166,8 +212,8 @@
             "returnType": "object with story-specific variables"
         },
         "contentGeneration": {
-            "description": "Template structure and examples used in news_story_setup prompt generation",
-            "returnType": "AI prompt with voice-specific instructions and examples"
+            "description": "Universal structure and voice examples combined in news_story_setup prompt generation",
+            "returnType": "AI prompt with consistent structure and voice-specific personality"
         }
     }
 }
