@@ -1,9 +1,8 @@
 {
     "templateRegistry": {
         "version": "2.2",
-        "lastUpdated": "2025-10-12",
-        "totalTemplates": 4,
-        "seasonPhase": "early",
+        "lastUpdated": "2025-10-20",
+        "totalTemplates": 5,
         "executionEngine": "javascript",
         "notes": "Version 2.2 - Universal structure per story, voice-specific examples only"
     },
