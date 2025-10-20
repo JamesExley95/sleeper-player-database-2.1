@@ -54,6 +54,51 @@
             }
         }
     },
+    "schedule_luck": {
+    "id": "schedule_luck",
+    "title": "Schedule Luck: The Hidden Hand Behind Your Record",
+    "seasonPhase": ["early", "mid"],
+    "relevanceCriteria": {
+      "minLuckDifferential": 0.5,
+      "description": "Story is relevant when teams have luck differential of 0.5+ wins"
+    },
+    "storyStructure": {
+      "format": "intro_body_outro",
+      "paragraphCount": "3-4 total",
+      "universalStructure": "INTRO (2-3 sentences): Establish schedule luck as the invisible force shaping records. State that records don't tell the whole story—{{LUCKIEST_TEAM}} is {{LUCK_WINS}} wins luckier than expected, while {{UNLUCKY_TEAM}} is {{UNLUCKY_DEFICIT}} wins behind where they should be.\n\nLUCKY TEAM (2-3 sentences): Focus on {{LUCKIEST_TEAM}} ({{LUCKIEST_MANAGER}}) sitting at {{LUCKY_RECORD}} with {{ACTUAL_WINS}} wins. Statistical analysis shows they \"should\" have {{EXPECTED_WINS}} wins based on points scored and opponent strength. They've caught {{LUCK_WINS}} lucky breaks.\n\nUNLUCKY TEAM (2-3 sentences): Contrast with {{UNLUCKY_TEAM}} ({{UNLUCKY_MANAGER}}) at {{UNLUCKY_RECORD}} with {{UNLUCKY_ACTUAL}} wins. The math says they deserved {{UNLUCKY_EXPECTED}} wins, making them {{UNLUCKY_DEFICIT}} wins short. Facing top scorers while posting solid numbers.\n\nOUTRO (2-3 sentences): Connect to playoff race and mean reversion. Luck evens out over time—the unlucky will catch breaks, the lucky will face tougher matchups. Season still has time for records to reflect true team strength."
+    },
+    "dataRequirements": {
+      "intro_must_include": ["LUCKIEST_TEAM", "LUCK_WINS", "UNLUCKY_TEAM", "UNLUCKY_DEFICIT"],
+      "lucky_must_include": ["LUCKIEST_TEAM", "LUCKIEST_MANAGER", "LUCKY_RECORD", "ACTUAL_WINS", "EXPECTED_WINS", "LUCK_WINS"],
+      "unlucky_must_include": ["UNLUCKY_TEAM", "UNLUCKY_MANAGER", "UNLUCKY_RECORD", "UNLUCKY_ACTUAL", "UNLUCKY_EXPECTED", "UNLUCKY_DEFICIT"]
+    },
+    "voicePrompts": {
+      "rachel": {
+        "style": "Harsh reality checks with no sugar-coating",
+        "exampleIntro": "Reality check: Half of you think your record reflects your skill. Wrong. LuckyTeam is sitting pretty at 5-1 with 1.2 wins they didn't earn, while UnluckyTeam is 2-4 despite deserving 3.8 wins. Schedule luck is making frauds look like contenders.",
+        "exampleOutro": "Let's be brutally honest—these inflated records won't survive the back half of the season. Mean reversion is coming, and when it does, the pretenders will be exposed. The math always wins."
+      },
+      "jake": {
+        "style": "Strategic analysis with coaching mentality",
+        "exampleIntro": "From a strategic standpoint, we need to separate true team strength from schedule variance. LuckyTeam's 5-1 record masks underlying weaknesses—they've caught 1.2 fortunate matchups. Meanwhile UnluckyTeam at 2-4 has faced elite competition weekly, losing 1.8 wins to bad timing.",
+        "exampleOutro": "Here's what matters: regression to the mean favors teams with strong point totals and unlucky schedules. The playoff race will reward consistent scoring as matchup luck balances out over the remaining weeks."
+      },
+      "tony": {
+        "style": "Entertaining drama with playful callouts",
+        "exampleIntro": "Oh snap! Can we talk about how some of y'all are living off pure luck? LuckyTeam is 5-1 but the math says they should be 3.8-2.2! Meanwhile UnluckyTeam is getting absolutely robbed at 2-4 when they deserve 3.8 wins! Schedule luck is WILD!",
+        "exampleOutro": "Drama alert: the fantasy gods giveth and taketh away! These lucky bounces won't last forever—mean reversion is coming for everyone. Some teams are about to get humbled, and others are due for a hot streak!"
+      },
+      "sam": {
+        "style": "Data-driven statistical analysis",
+        "exampleIntro": "Schedule luck analysis reveals significant variance between actual and expected win totals. LuckyTeam demonstrates +1.2 win variance above statistical expectation, while UnluckyTeam shows -1.8 win deficit despite competitive scoring metrics.",
+        "exampleOutro": "Regression modeling suggests mean reversion will normalize these variances over remaining matchups. Teams with negative luck differential and strong points-for metrics represent positive expected value for playoff positioning."
+      },
+      "eddie": {
+        "style": "Epic dramatic storytelling with theatrical flair",
+        "exampleIntro": "Behold, the invisible hand of fate that guides our fantasy realm! LuckyTeam walks blessed among mortals at 5-1, gifted with 1.2 fortunate winds they did not summon! Yet UnluckyTeam suffers at 2-4, denied 1.8 rightful victories by the cruel mistress of scheduling!",
+        "exampleOutro": "But fear not! The great cosmic scales of fantasy justice seek balance! As the season's tale unfolds, fortune's wheel shall turn—the blessed will face trials, and the cursed shall rise! Until destiny is fulfilled!"
+      }
+    },
     "faab_fortune_tellers": {
         "id": "faab_fortune_tellers",
         "title": "FAAB Fortune Tellers: The Bold Bidders Who Risk It All",
