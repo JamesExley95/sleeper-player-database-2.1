@@ -1,0 +1,36 @@
+{
+  "week": 15,
+  "season": 2025,
+  "created_at": "2025-12-16T06:31:25.650217",
+  "total_performances": 316,
+  "top_performers": {
+    "overall": {
+      "name": "D.Adams",
+      "position": "WR",
+      "team": "",
+      "points": 42.79999923706055
+    }
+  },
+  "position_leaders": {
+    "QB": {
+      "name": "J.Allen",
+      "team": "",
+      "points": 41.279998779296875
+    },
+    "RB": {
+      "name": "J.Conner",
+      "team": "",
+      "points": 30.799999237060547
+    },
+    "WR": {
+      "name": "D.Adams",
+      "team": "",
+      "points": 42.79999923706055
+    },
+    "TE": {
+      "name": "J.Smith",
+      "team": "",
+      "points": 19.799999237060547
+    }
+  }
+}
