@@ -1,0 +1,36 @@
+{
+  "week": 16,
+  "season": 2025,
+  "created_at": "2025-12-23T06:31:48.755132",
+  "total_performances": 312,
+  "top_performers": {
+    "overall": {
+      "name": "J.Taylor",
+      "position": "RB",
+      "team": "",
+      "points": 39.79999923706055
+    }
+  },
+  "position_leaders": {
+    "QB": {
+      "name": "J.Daniels",
+      "team": "",
+      "points": 34.41999816894531
+    },
+    "RB": {
+      "name": "J.Taylor",
+      "team": "",
+      "points": 39.79999923706055
+    },
+    "WR": {
+      "name": "J.Jefferson",
+      "team": "",
+      "points": 36.400001525878906
+    },
+    "TE": {
+      "name": "B.Bowers",
+      "team": "",
+      "points": 20.899999618530273
+    }
+  }
+}
