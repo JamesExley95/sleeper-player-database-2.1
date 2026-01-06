@@ -1,0 +1,36 @@
+{
+  "week": 18,
+  "season": 2025,
+  "created_at": "2026-01-06T06:32:36.306414",
+  "total_performances": 316,
+  "top_performers": {
+    "overall": {
+      "name": "J.Gibbs",
+      "position": "RB",
+      "team": "",
+      "points": 46.0
+    }
+  },
+  "position_leaders": {
+    "QB": {
+      "name": "B.Young",
+      "team": "",
+      "points": 36.439998626708984
+    },
+    "RB": {
+      "name": "J.Gibbs",
+      "team": "",
+      "points": 46.0
+    },
+    "WR": {
+      "name": "D.London",
+      "team": "",
+      "points": 40.70000076293945
+    },
+    "TE": {
+      "name": "P.Freiermuth",
+      "team": "",
+      "points": 22.5
+    }
+  }
+}
